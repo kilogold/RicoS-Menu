@@ -21,4 +21,4 @@ menu.json   # catalogVersion, publishedAt, categories, items, …
 
 ## CI
 
-`.github/workflows/menu-catalog-ci.yml` validates version bumps using the shared verifier from the RicoS app repo.
+`.github/workflows/menu-catalog-ci.yml` runs `scripts/verify-menu-catalog-version.mjs` (schema + `catalogVersion` / `publishedAt` rules).
