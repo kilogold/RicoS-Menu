@@ -1,0 +1,45 @@
+name: Menu catalog version
+
+on:
+  push:
+    branches: [main, preview]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout RicoS-Menu
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          path: menu-repo
+
+      - name: Checkout RicoS (sparse, for @ricos/shared)
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ github.repository_owner }}/RicoS
+          sparse-checkout: |
+            packages/shared
+            scripts/verify-menu-catalog-version.mjs
+            package.json
+            bun.lock
+          path: ricos
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "1.2.0"
+
+      - run: bun install --frozen-lockfile
+        working-directory: ricos
+
+      - name: Fetch pre-push commit
+        if: github.event.before != '0000000000000000000000000000000000000000'
+        run: git fetch --no-tags --depth=1 origin ${{ github.event.before }}
+        working-directory: menu-repo
+
+      - name: Verify menu catalog version bump
+        env:
+          MENU_CATALOG_BASE_REF: ${{ github.event.before }}
+          MENU_CATALOG_GIT_DIR: ${{ github.workspace }}/menu-repo
+          MENU_PATH: menu.json
+        run: bun --cwd ricos scripts/verify-menu-catalog-version.mjs

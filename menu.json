@@ -1,0 +1,1581 @@
+{
+  "catalogVersion": 21,
+  "publishedAt": "2026-06-01T07:01:52.128Z",
+  "restaurant": {
+    "en": "RicoS",
+    "es": "RicoS"
+  },
+  "menuName": {
+    "en": "All Day Breakfast",
+    "es": "Desayuno Todo el Dia"
+  },
+  "categories": [
+    {
+      "id": "cat_breakfast_griddles",
+      "title": {
+        "en": "Pancakes, Waffles & French Toast",
+        "es": "Pancakes, Waffles y Tostadas Francesas"
+      },
+      "notes": [
+        {
+          "en": "Prepared with house-made batter.",
+          "es": "Preparado con masa propia."
+        },
+        {
+          "en": "Does not include eggs",
+          "es": "No incluye huevos"
+        }
+      ],
+      "items": [
+        {
+          "id": "item_granola_crunch",
+          "name": {
+            "en": "Granola Crunch",
+            "es": "Granola Crunch"
+          },
+          "description": {
+            "en": "Pancakes or waffles filled with crunchy granola and fruit compote.",
+            "es": "Pancakes o waffles rellenos de granola crujiente con compota de frutas."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_two_pancakes",
+                  "label": {
+                    "en": "(2) Pancakes",
+                    "es": "(2) Pancakes"
+                  }
+                },
+                {
+                  "id": "opt_base_one_waffle",
+                  "label": {
+                    "en": "(1) Waffle",
+                    "es": "(1) Waffle"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_blueberry_sunshine",
+          "name": {
+            "en": "Blueberry Sunshine",
+            "es": "Blueberry Sunshine"
+          },
+          "description": {
+            "en": "Pancakes or waffles filled with fresh blueberries and fruit compote.",
+            "es": "Pancakes o waffles rellenos de blueberries frescas con compota de frutas."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_two_pancakes",
+                  "label": {
+                    "en": "(2) Pancakes",
+                    "es": "(2) Pancakes"
+                  }
+                },
+                {
+                  "id": "opt_base_one_waffle",
+                  "label": {
+                    "en": "(1) Waffle",
+                    "es": "(1) Waffle"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_nutella_sensation",
+          "name": {
+            "en": "Nutella Sensation",
+            "es": "Nutella Sensation"
+          },
+          "description": {
+            "en": "Nutella pancakes or waffles served with fruit compote.",
+            "es": "Pancakes o waffles de Nutella acompanados de compota de frutas."
+          },
+          "priceCents": 1199,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_two_pancakes",
+                  "label": {
+                    "en": "(2) Pancakes",
+                    "es": "(2) Pancakes"
+                  }
+                },
+                {
+                  "id": "opt_base_one_waffle",
+                  "label": {
+                    "en": "(1) Nutella Waffle",
+                    "es": "(1) Waffle de Nutella"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_red_velvet",
+          "name": {
+            "en": "Red Velvet",
+            "es": "Red Velvet"
+          },
+          "description": {
+            "en": "Delicious pancakes or waffles topped with cream cheese glaze and fruit compote.",
+            "es": "Deliciosos pancakes o waffles coronados con glaseado de queso crema y compota de frutas."
+          },
+          "priceCents": 1199,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_two_pancakes",
+                  "label": {
+                    "en": "(2) Pancakes",
+                    "es": "(2) Pancakes"
+                  }
+                },
+                {
+                  "id": "opt_base_one_waffle",
+                  "label": {
+                    "en": "(1) Waffle",
+                    "es": "(1) Waffle"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_classic_pancakes_waffles",
+          "name": {
+            "en": "Classic Pancakes / Waffles",
+            "es": "Classic Pancakes / Waffles"
+          },
+          "description": {
+            "en": "Classic pancakes or waffles served with fruit compote.",
+            "es": "Pancakes o waffles clasicos acompanados de compota de frutas."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_two_pancakes",
+                  "label": {
+                    "en": "(2) Pancakes",
+                    "es": "(2) Pancakes"
+                  }
+                },
+                {
+                  "id": "opt_base_one_waffle",
+                  "label": {
+                    "en": "(1) Waffle",
+                    "es": "(1) Waffle"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_granola_french_toast",
+          "name": {
+            "en": "Granola French Toast",
+            "es": "Granola French Toast"
+          },
+          "description": {
+            "en": "Delicious french toast with crunchy granola and fruit compote.",
+            "es": "Deliciosas tostadas francesas con granola crujiente acompanadas de compota de frutas."
+          },
+          "priceCents": 1299,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_coconut_french_toast",
+          "name": {
+            "en": "Coconut French Toast",
+            "es": "Coconut French Toast"
+          },
+          "description": {
+            "en": "Soft french toast with coconut flakes and fruit compote.",
+            "es": "Suaves tostadas francesas con hojuelas de coco y compota de frutas."
+          },
+          "priceCents": 1199,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_classic_french_toast",
+          "name": {
+            "en": "Classic French Toast",
+            "es": "Classic French Toast"
+          },
+          "description": {
+            "en": "Soft french toast in vanilla-coconut batter.",
+            "es": "Suaves tostadas francesas en batido de vainilla y coco."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat_omelettes",
+      "title": {
+        "en": "Omelettes",
+        "es": "Omelettes"
+      },
+      "notes": [
+        {
+          "en": "Omelettes include toast.",
+          "es": "Los omelettes incluyen tostadas."
+        }
+      ],
+      "items": [
+        {
+          "id": "item_fajita_omelette",
+          "name": {
+            "en": "Fajita Omelette",
+            "es": "Fajita Omelette"
+          },
+          "description": {
+            "en": "Grilled chicken breast strips and skirt steak sauteed with onion, peppers, Monterey Jack, cheddar, sweet chili sauce, sour cream, and pico de gallo.",
+            "es": "Tiras de pechuga de pollo y churrasco a la parrilla salteadas con cebolla, pimiento, queso Monterey Jack, cheddar, salsa de chile dulce, sour cream y pico de gallo."
+          },
+          "priceCents": 1299,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_remove_ingredients",
+              "title": {
+                "en": "Remove Ingredients",
+                "es": "Remover Ingredientes"
+              },
+              "selectionType": "multiple",
+              "required": false,
+              "minSelections": 0,
+              "maxSelections": 4,
+              "options": [
+                {
+                  "id": "opt_remove_peppers",
+                  "label": {
+                    "en": "No peppers",
+                    "es": "Sin pimientos"
+                  }
+                },
+                {
+                  "id": "opt_remove_onion",
+                  "label": {
+                    "en": "No onion",
+                    "es": "Sin cebolla"
+                  }
+                },
+                {
+                  "id": "opt_remove_monterey_jack",
+                  "label": {
+                    "en": "No Monterey Jack",
+                    "es": "Sin Monterey Jack"
+                  }
+                },
+                {
+                  "id": "opt_remove_cheddar",
+                  "label": {
+                    "en": "No cheddar",
+                    "es": "Sin cheddar"
+                  }
+                },
+                {
+                  "id": "opt_remove_sweet_chili",
+                  "label": {
+                    "en": "No sweet chili sauce",
+                    "es": "Sin salsa de chile dulce"
+                  }
+                },
+                {
+                  "id": "opt_remove_sour_cream",
+                  "label": {
+                    "en": "No sour cream",
+                    "es": "Sin sour cream"
+                  }
+                },
+                {
+                  "id": "opt_remove_pico",
+                  "label": {
+                    "en": "No pico de gallo",
+                    "es": "Sin pico de gallo"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_ricos_omelette",
+          "name": {
+            "en": "Rico's Omelette",
+            "es": "Rico's Omelette"
+          },
+          "description": {
+            "en": "Combination of roast pork, Virginia ham, onion, and hash browns topped with Monterey Jack, cheddar, and sour cream.",
+            "es": "Combinacion de pernil, Virginia ham, cebolla y hash browns cubierto de queso Monterey Jack, cheddar y sour cream."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_remove_ingredients",
+              "title": {
+                "en": "Remove Ingredients",
+                "es": "Remover Ingredientes"
+              },
+              "selectionType": "multiple",
+              "required": false,
+              "minSelections": 0,
+              "maxSelections": 7,
+              "options": [
+                {
+                  "id": "opt_remove_onion",
+                  "label": {
+                    "en": "No onion",
+                    "es": "Sin cebolla"
+                  }
+                },
+                {
+                  "id": "opt_remove_monterey_jack",
+                  "label": {
+                    "en": "No Monterey Jack",
+                    "es": "Sin Monterey Jack"
+                  }
+                },
+                {
+                  "id": "opt_remove_cheddar",
+                  "label": {
+                    "en": "No cheddar",
+                    "es": "Sin cheddar"
+                  }
+                },
+                {
+                  "id": "opt_remove_sour_cream",
+                  "label": {
+                    "en": "No sour cream",
+                    "es": "Sin sour cream"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_big_mouth_omelette",
+          "name": {
+            "en": "Big Mouth Omelette",
+            "es": "Big Mouth Omelette"
+          },
+          "description": {
+            "en": "Combination of bacon, sausage, deluxe ham, onion, peppers, mixed cheese, and pico de gallo.",
+            "es": "Combinacion de bacon, sausage, deluxe ham, cebolla, pimientos, queso mixto y pico de gallo."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_remove_ingredients",
+              "title": {
+                "en": "Remove Ingredients",
+                "es": "Remover Ingredientes"
+              },
+              "selectionType": "multiple",
+              "required": false,
+              "minSelections": 0,
+              "maxSelections": 7,
+              "options": [
+                {
+                  "id": "opt_remove_onion",
+                  "label": {
+                    "en": "No onion",
+                    "es": "Sin cebolla"
+                  }
+                },
+                {
+                  "id": "opt_remove_peppers",
+                  "label": {
+                    "en": "No peppers",
+                    "es": "Sin pimientos"
+                  }
+                },
+                {
+                  "id": "opt_remove_mixed_cheese",
+                  "label": {
+                    "en": "No mixed cheese",
+                    "es": "Sin queso mixto"
+                  }
+                },
+                {
+                  "id": "opt_remove_pico",
+                  "label": {
+                    "en": "No pico de gallo",
+                    "es": "Sin pico de gallo"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_western_omelette",
+          "name": {
+            "en": "Western Omelette",
+            "es": "Western Omelette"
+          },
+          "description": {
+            "en": "Choose ham, bacon, or turkey with Swiss and American cheese, onion, peppers, and tomato.",
+            "es": "Escoge jamon, bacon o pavo con queso suizo y americano, cebolla, pimientos y tomate."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_remove_ingredients",
+              "title": {
+                "en": "Remove Ingredients",
+                "es": "Remover Ingredientes"
+              },
+              "selectionType": "multiple",
+              "required": false,
+              "minSelections": 0,
+              "maxSelections": 4,
+              "options": [
+                {
+                  "id": "opt_remove_tomato",
+                  "label": {
+                    "en": "No tomato",
+                    "es": "Sin tomate"
+                  }
+                },
+                {
+                  "id": "opt_remove_onion",
+                  "label": {
+                    "en": "No onion",
+                    "es": "Sin cebolla"
+                  }
+                },
+                {
+                  "id": "opt_remove_peppers",
+                  "label": {
+                    "en": "No peppers",
+                    "es": "Sin pimientos"
+                  }
+                },
+                {
+                  "id": "opt_remove_cheese",
+                  "label": {
+                    "en": "No cheese",
+                    "es": "Sin queso"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat_egg_plates",
+      "title": {
+        "en": "Egg Plates",
+        "es": "Platos de Huevos"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_steak_eggs",
+          "name": {
+            "en": "Steak & Eggs",
+            "es": "Steak & Eggs"
+          },
+          "description": {
+            "en": "Churrasco strips served with two eggs and home fries.",
+            "es": "Tiritas de churrasco servido con dos huevos y home fries."
+          },
+          "priceCents": 1799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_egg_style",
+              "title": {
+                "en": "Eggs",
+                "es": "Huevos"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_eggs_fried",
+                  "label": {
+                    "en": "Fried",
+                    "es": "Fritos"
+                  }
+                },
+                {
+                  "id": "opt_eggs_scrambled",
+                  "label": {
+                    "en": "Scrambled",
+                    "es": "Revueltos"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_egg_benedict",
+          "name": {
+            "en": "Egg Benedict",
+            "es": "Egg Benedict"
+          },
+          "description": {
+            "en": "English muffin, smoked ham, poached egg, and hollandaise sauce served with roasted potatoes.",
+            "es": "English muffin, jamon ahumado, poached egg y salsa holandesa acompanado de papas rostizadas."
+          },
+          "priceCents": 1499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_home_fries",
+          "name": {
+            "en": "Home Fries",
+            "es": "Home Fries"
+          },
+          "description": {
+            "en": "Roasted potato chunks with peppers, onion, and fried or scrambled eggs; choose bacon, sausage, or ham with local toast.",
+            "es": "Trozos de papas rostizadas con pimientos, cebolla y huevos fritos o revueltos; escoge bacon, sausage o jamon con tostadas criollas."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_egg_style",
+              "title": {
+                "en": "Eggs",
+                "es": "Huevos"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_eggs_fried",
+                  "label": {
+                    "en": "Fried",
+                    "es": "Fritos"
+                  }
+                },
+                {
+                  "id": "opt_eggs_scrambled",
+                  "label": {
+                    "en": "Scrambled",
+                    "es": "Revueltos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_toast_choice",
+              "title": {
+                "en": "Toast",
+                "es": "Tostada"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_toast_white",
+                  "label": {
+                    "en": "White",
+                    "es": "Blanco"
+                  }
+                },
+                {
+                  "id": "opt_toast_wheat",
+                  "label": {
+                    "en": "Wheat",
+                    "es": "Integral"
+                  },
+                  "priceDeltaCents": 100
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_any_style_eggs",
+          "name": {
+            "en": "Any Style Eggs",
+            "es": "Any Style Eggs"
+          },
+          "description": {
+            "en": "(2) fried or scrambled eggs; choose bacon, sausage, or ham with local toast.",
+            "es": "(2) huevos fritos o revueltos; escoge bacon, sausage o jamon con tostadas criollas."
+          },
+          "priceCents": 499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_egg_style",
+              "title": {
+                "en": "Eggs",
+                "es": "Huevos"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_eggs_fried",
+                  "label": {
+                    "en": "Fried",
+                    "es": "Fritos"
+                  }
+                },
+                {
+                  "id": "opt_eggs_scrambled",
+                  "label": {
+                    "en": "Scrambled",
+                    "es": "Revueltos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_ricos_big_breakfast",
+          "name": {
+            "en": "Rico's Big Breakfast",
+            "es": "Rico's Big Breakfast"
+          },
+          "description": {
+            "en": "(1) pancake or waffle served with two fried or scrambled eggs, bacon, ham, and hash browns.",
+            "es": "(1) pancake o waffle acompanado de dos huevos fritos o revueltos con bacon, jamon y hash browns."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Main Dish",
+                "es": "Plato Principal"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_pancake",
+                  "label": {
+                    "en": "(1) Pancake",
+                    "es": "(1) Pancake"
+                  }
+                },
+                {
+                  "id": "opt_base_waffle",
+                  "label": {
+                    "en": "(1) Waffle",
+                    "es": "(1) Waffle"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_egg_style",
+              "title": {
+                "en": "Eggs",
+                "es": "Huevos"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_eggs_fried",
+                  "label": {
+                    "en": "Fried",
+                    "es": "Fritos"
+                  }
+                },
+                {
+                  "id": "opt_eggs_scrambled",
+                  "label": {
+                    "en": "Scrambled",
+                    "es": "Revueltos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_side_choice",
+              "title": {
+                "en": "Sides",
+                "es": "Acompañante"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_side_sausage",
+                  "label": {
+                    "en": "Sausage",
+                    "es": "Salchicha"
+                  }
+                },
+                {
+                  "id": "opt_side_ham",
+                  "label": {
+                    "en": "Ham",
+                    "es": "Jamon"
+                  }
+                },
+                {
+                  "id": "opt_side_bacon",
+                  "label": {
+                    "en": "Bacon",
+                    "es": "Tocineta"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat_hot_cereals",
+      "title": {
+        "en": "Hot Cereals",
+        "es": "Cereales Calientes"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_hot_cereal_oatmeal",
+          "name": {
+            "en": "Oatmeal",
+            "es": "Avena"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 100,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Base",
+                "es": "Base"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_milk",
+                  "label": {
+                    "en": "Milk",
+                    "es": "Leche"
+                  }
+                },
+                {
+                  "id": "opt_base_almond_milk",
+                  "label": {
+                    "en": "Almond Milk",
+                    "es": "Leche de Almendras"
+                  },
+                  "priceDeltaCents": 100
+                },
+                {
+                  "id": "opt_base_water",
+                  "label": {
+                    "en": "Water",
+                    "es": "Agua"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_sugar_choice",
+              "title": {
+                "en": "Sugar",
+                "es": "Azucar"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_sugar_sugar",
+                  "label": {
+                    "en": "Sugar",
+                    "es": "Azucar"
+                  }
+                },
+                {
+                  "id": "opt_sugar_sweetener",
+                  "label": {
+                    "en": "Sweetener",
+                    "es": "Endulzante / Azucar dieta"
+                  }
+                },
+                {
+                  "id": "opt_sugar_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_garnish_choice",
+              "title": {
+                "en": "Garnish",
+                "es": "Garnish"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_garnish_cinamon",
+                  "label": {
+                    "en": "Cinamon",
+                    "es": "Canela"
+                  }
+                },
+                {
+                  "id": "opt_garnish_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_hot_cereal_cornmeal",
+          "name": {
+            "en": "Cornmeal Porridge",
+            "es": "Harina de Maiz"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 100,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Base",
+                "es": "Base"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_milk",
+                  "label": {
+                    "en": "Milk",
+                    "es": "Leche"
+                  }
+                },
+                {
+                  "id": "opt_base_almond_milk",
+                  "label": {
+                    "en": "Almond Milk",
+                    "es": "Leche de Almendras"
+                  },
+                  "priceDeltaCents": 100
+                },
+                {
+                  "id": "opt_base_water",
+                  "label": {
+                    "en": "Water",
+                    "es": "Agua"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_sugar_choice",
+              "title": {
+                "en": "Sugar",
+                "es": "Azucar"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_sugar_sugar",
+                  "label": {
+                    "en": "Sugar",
+                    "es": "Azucar"
+                  }
+                },
+                {
+                  "id": "opt_sugar_sweetener",
+                  "label": {
+                    "en": "Sweetener",
+                    "es": "Endulzante / Azucar dieta"
+                  }
+                },
+                {
+                  "id": "opt_sugar_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_garnish_choice",
+              "title": {
+                "en": "Garnish",
+                "es": "Garnish"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_garnish_cinamon",
+                  "label": {
+                    "en": "Cinamon",
+                    "es": "Canela"
+                  }
+                },
+                {
+                  "id": "opt_garnish_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_hot_cereal_farina",
+          "name": {
+            "en": "Farina",
+            "es": "Farina"
+          },
+          "description": {
+            "en": "Cream of wheat porridge.",
+            "es": ""
+          },
+          "priceCents": 123,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_base_choice",
+              "title": {
+                "en": "Base",
+                "es": "Base"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_base_milk",
+                  "label": {
+                    "en": "Milk",
+                    "es": "Leche"
+                  }
+                },
+                {
+                  "id": "opt_base_almond_milk",
+                  "label": {
+                    "en": "Almond Milk",
+                    "es": "Leche de Almendras"
+                  },
+                  "priceDeltaCents": 100
+                },
+                {
+                  "id": "opt_base_water",
+                  "label": {
+                    "en": "Water",
+                    "es": "Agua"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_sugar_choice",
+              "title": {
+                "en": "Sugar",
+                "es": "Azucar"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_sugar_1_sugar",
+                  "label": {
+                    "en": "Sugar",
+                    "es": "Azucar"
+                  }
+                },
+                {
+                  "id": "opt_sugar_2_sweetener",
+                  "label": {
+                    "en": "Sweetener",
+                    "es": "Endulzante / Azucar dieta"
+                  }
+                },
+                {
+                  "id": "opt_sugar_3_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_garnish_choice",
+              "title": {
+                "en": "Garnish",
+                "es": "Garnish"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_garnish_cinamon",
+                  "label": {
+                    "en": "Cinamon",
+                    "es": "Canela"
+                  }
+                },
+                {
+                  "id": "opt_garnish_none",
+                  "label": {
+                    "en": "None",
+                    "es": "Nada"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_new_mpov23lz_04",
+              "title": {
+                "en": "Table",
+                "es": "Mesa"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_new_mpov3hhe_01",
+                  "label": {
+                    "en": "Plastic",
+                    "es": "Plastico"
+                  }
+                },
+                {
+                  "id": "opt_new_mpov3ioo_02",
+                  "label": {
+                    "en": "Metal",
+                    "es": "Metal"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "orderFees": {
+    "serviceFeeRate": 0.05
+  }
+}
