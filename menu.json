@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 40,
-  "publishedAt": "2026-06-02T21:40:54.171Z",
+  "catalogVersion": 41,
+  "publishedAt": "2026-06-02T21:47:18.162Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1613,6 +1613,82 @@
       ]
     },
     {
+      "id": "cat_tropical_drinks",
+      "title": {
+        "en": "Tropical Drinks",
+        "es": "Tropical Drinks"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_pina_colada",
+          "name": {
+            "en": "Pina Colada",
+            "es": "Piña Colada"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 699,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_pina_colada_alcohol"
+          ]
+        },
+        {
+          "id": "item_sangria",
+          "name": {
+            "en": "Sangria",
+            "es": "Sangria"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 900,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mimosa_flavors",
+          "name": {
+            "en": "Mimosa Flavors",
+            "es": "Mimosa Flavors"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 800,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_mimosa_flavor"
+          ]
+        },
+        {
+          "id": "item_copa_vino_tinto",
+          "name": {
+            "en": "Copa de Vino Tinto",
+            "es": "Copa de Vino Tinto"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 800,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
       "id": "cat_specials",
       "title": {
         "en": "Specials",
@@ -1678,7 +1754,13 @@
       "cat_asopao",
       "cat_mariscos"
     ],
-    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe", "cat_cervezas"],
+    "Bebidas": [
+      "cat_refrescos",
+      "cat_jugos",
+      "cat_cafe",
+      "cat_cervezas",
+      "cat_tropical_drinks"
+    ],
     "Specials": ["cat_specials"]
   },
   "orderFees": {
@@ -1902,6 +1984,68 @@
             "en": "Mamposteao Rice",
             "es": "Arroz mamposteao"
           }
+        }
+      ]
+    },
+    "mod_mimosa_flavor": {
+      "id": "mod_mimosa_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_mimosa_china",
+          "label": {
+            "en": "Orange (China)",
+            "es": "China"
+          }
+        },
+        {
+          "id": "opt_mimosa_acerola",
+          "label": {
+            "en": "Barbados Cherry (Acerola)",
+            "es": "Acerola"
+          }
+        },
+        {
+          "id": "opt_mimosa_parcha",
+          "label": {
+            "en": "Passion Fruit (Parcha)",
+            "es": "Parcha"
+          }
+        }
+      ]
+    },
+    "mod_pina_colada_alcohol": {
+      "id": "mod_pina_colada_alcohol",
+      "title": {
+        "en": "Style",
+        "es": "Estilo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_pina_colada_virgin",
+          "label": {
+            "en": "Virgin",
+            "es": "Virgin"
+          }
+        },
+        {
+          "id": "opt_pina_colada_alcohol",
+          "label": {
+            "en": "With Alcohol",
+            "es": "Con alcohol"
+          },
+          "priceDeltaCents": 201
         }
       ]
     },
