@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 30,
-  "publishedAt": "2026-06-02T05:38:31.504Z",
+  "catalogVersion": 31,
+  "publishedAt": "2026-06-02T05:44:44.428Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1603,6 +1603,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -1720,6 +1787,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
@@ -1839,6 +1973,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -1956,6 +2157,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
@@ -2075,6 +2343,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -2192,6 +2527,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
@@ -2311,6 +2713,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -2428,6 +2897,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
@@ -2547,6 +3083,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -2664,6 +3267,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
@@ -2783,6 +3453,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -2901,6 +3638,73 @@
           "municipalTaxRate": 0.01,
           "modifierGroups": [
             {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
+            {
               "id": "mod_sandwich_format",
               "title": {
                 "en": "Make it a Combo",
@@ -3018,6 +3822,73 @@
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
           "modifierGroups": [
+            {
+              "id": "mod_sandwich_bread",
+              "title": {
+                "en": "Bread",
+                "es": "Pan"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_bread_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                },
+                {
+                  "id": "opt_bread_whole_wheat",
+                  "label": {
+                    "en": "Whole Wheat",
+                    "es": "Trigo Integral"
+                  }
+                },
+                {
+                  "id": "opt_bread_tortilla_wrap",
+                  "label": {
+                    "en": "Tortilla (Wrap)",
+                    "es": "Tortilla (Wrap)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_tortilla_type",
+              "title": {
+                "en": "Tortilla",
+                "es": "Tortilla"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_bread",
+                "optionIds": [
+                  "opt_bread_tortilla_wrap"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_tortilla_spinach",
+                  "label": {
+                    "en": "Spinach",
+                    "es": "Espinaca"
+                  }
+                },
+                {
+                  "id": "opt_tortilla_regular",
+                  "label": {
+                    "en": "Regular",
+                    "es": "Regular"
+                  }
+                }
+              ]
+            },
             {
               "id": "mod_sandwich_format",
               "title": {
