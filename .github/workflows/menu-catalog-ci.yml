@@ -24,3 +24,13 @@ jobs:
         env:
           MENU_CATALOG_BASE_REF: ${{ github.event.before }}
         run: bun scripts/verify-menu-catalog-version.mjs
+
+      - name: Revalidate RicoS menu cache
+        if: success()
+        env:
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          MENU_CATALOG_BASE_REF: ${{ github.event.before }}
+          RICOS_PREVIEW_REVALIDATE_URL: ${{ secrets.RICOS_PREVIEW_REVALIDATE_URL }}
+          RICOS_PRODUCTION_REVALIDATE_URL: ${{ secrets.RICOS_PRODUCTION_REVALIDATE_URL }}
+          RICOS_VERCEL_PROTECTION_BYPASS: ${{ secrets.RICOS_VERCEL_PROTECTION_BYPASS }}
+        run: bun scripts/trigger-menu-revalidate.mjs
