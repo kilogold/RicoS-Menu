@@ -21,4 +21,27 @@ menu.json   # catalogVersion, publishedAt, categories, items, …
 
 ## CI
 
-`.github/workflows/menu-catalog-ci.yml` runs `scripts/verify-menu-catalog-version.mjs` (schema + `catalogVersion` / `publishedAt` rules).
+`.github/workflows/menu-catalog-ci.yml` runs:
+
+1. `scripts/verify-menu-catalog-version.mjs` — schema + `catalogVersion` / `publishedAt` rules when `menu.json` changes.
+2. `scripts/trigger-menu-revalidate.mjs` — `POST` to RicoS `/api/menu/revalidate` so the storefront cache picks up the new version (skipped when `menu.json` is unchanged).
+
+### GitHub Actions secrets (RicoS-Menu repo)
+
+| Secret | Value |
+|--------|--------|
+| `RICOS_PREVIEW_REVALIDATE_URL` | `https://<preview-host>/api/menu/revalidate` (no query string) |
+| `RICOS_VERCEL_PROTECTION_BYPASS` | Vercel **Protection Bypass for Automation** secret (preview only) |
+| `RICOS_PRODUCTION_REVALIDATE_URL` | `https://<production-host>/api/menu/revalidate` |
+
+CI sends the bypass as the `x-vercel-protection-bypass` header (query params break Next.js API routing).
+
+Local test:
+
+```bash
+GITHUB_REF_NAME=preview \
+MENU_CATALOG_BASE_REF=HEAD~1 \
+RICOS_PREVIEW_REVALIDATE_URL=https://web-git-preview-kelvin-bonillas-projects.vercel.app/api/menu/revalidate \
+RICOS_VERCEL_PROTECTION_BYPASS=<secret> \
+bun scripts/trigger-menu-revalidate.mjs
+```
