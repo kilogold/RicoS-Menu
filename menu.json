@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 42,
-  "publishedAt": "2026-06-02T21:50:14.242Z",
+  "catalogVersion": 43,
+  "publishedAt": "2026-06-03T12:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -435,6 +435,58 @@
             "mod_garnish_choice",
             "mod_table_choice"
           ]
+        }
+      ]
+    },
+    {
+      "id": "cat_lunch_platos",
+      "title": {
+        "en": "Lunch Plates",
+        "es": "Platos de Almuerzo"
+      },
+      "notes": [
+        {
+          "en": "Available during lunch hours only.",
+          "es": "Disponible solo en horario de almuerzo."
+        },
+        {
+          "en": "Includes one side dish.",
+          "es": "Incluye un acompanante."
+        }
+      ],
+      "modifierGroupRefs": [
+        "mod_criollo_side"
+      ],
+      "items": [
+        {
+          "id": "item_lunch_plato_del_dia",
+          "name": {
+            "en": "Plato del Dia",
+            "es": "Plato del Dia"
+          },
+          "description": {
+            "en": "Chef's lunch plate — ask your server for today's selection.",
+            "es": "Plato del dia del chef — pregunte a su mesero la seleccion de hoy."
+          },
+          "priceCents": 1199,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_sopa_del_dia",
+          "name": {
+            "en": "Sopa del Dia",
+            "es": "Sopa del Dia"
+          },
+          "description": {
+            "en": "Soup of the day with bread.",
+            "es": "Sopa del dia con pan."
+          },
+          "priceCents": 899,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
         }
       ]
     },
@@ -1744,6 +1796,7 @@
       "cat_egg_plates",
       "cat_hot_cereals"
     ],
+    "Lunch": ["cat_lunch_platos"],
     "Sandwiches": ["cat_sandwiches"],
     "Burgers": ["cat_burgers", "cat_appetizers"],
     "Healthy": ["cat_salads", "cat_veggie", "cat_kids_menu"],
@@ -1762,6 +1815,12 @@
       "cat_tropical_drinks",
       "cat_specials"
     ]
+  },
+  "themeAvailability": {
+    "Lunch": {
+      "days": ["mon", "tue", "wed", "thu", "fri"],
+      "windows": [{ "start": "11:00", "end": "15:00" }]
+    }
   },
   "orderFees": {
     "serviceFeeRate": 0.05

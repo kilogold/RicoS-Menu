@@ -232,6 +232,98 @@ function parseOrderFees(rawOrderFees) {
   };
 }
 
+const WEEKDAYS = new Set(["sun", "mon", "tue", "wed", "thu", "fri", "sat"]);
+
+const HH_MM_PATTERN = /^(\d{1,2}):(\d{2})$/;
+
+/** Keep in sync with RicoS/packages/shared/src/menu-theme-availability.ts */
+function parseThemeTimeHHMM(name, raw) {
+  const trimmed = raw.trim();
+  const match = HH_MM_PATTERN.exec(trimmed);
+  if (!match) {
+    throw new Error(`${name} must be HH:MM (24h), got: ${JSON.stringify(raw)}`);
+  }
+  const hour = Number(match[1]);
+  const minute = Number(match[2]);
+  if (
+    !Number.isInteger(hour) ||
+    !Number.isInteger(minute) ||
+    hour < 0 ||
+    hour > 23 ||
+    minute < 0 ||
+    minute > 59
+  ) {
+    throw new Error(`${name} out of range (hour 0–23, minute 0–59): ${JSON.stringify(raw)}`);
+  }
+  return hour * 60 + minute;
+}
+
+/** Keep in sync with RicoS/packages/shared/src/menu-theme-availability-parse.ts */
+function parseThemeTimeWindow(raw, ctx) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    throw new Error(`Invalid menu: ${ctx}`);
+  }
+  if (typeof raw.start !== "string" || !raw.start.trim()) {
+    throw new Error(`Invalid menu: ${ctx}.start`);
+  }
+  if (typeof raw.end !== "string" || !raw.end.trim()) {
+    throw new Error(`Invalid menu: ${ctx}.end`);
+  }
+  const startMin = parseThemeTimeHHMM(`${ctx}.start`, raw.start);
+  const endMin = parseThemeTimeHHMM(`${ctx}.end`, raw.end);
+  if (!(startMin < endMin)) {
+    throw new Error(`Invalid menu: ${ctx} start must be before end (same-day window)`);
+  }
+  return { start: raw.start.trim(), end: raw.end.trim() };
+}
+
+function parseThemeAvailabilityEntry(raw, theme) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    throw new Error(`Invalid menu: themeAvailability["${theme}"]`);
+  }
+  if (!Array.isArray(raw.days) || raw.days.length === 0) {
+    throw new Error(`Invalid menu: themeAvailability["${theme}"].days`);
+  }
+  const days = [];
+  const seenDays = new Set();
+  for (let i = 0; i < raw.days.length; i++) {
+    const day = raw.days[i];
+    if (typeof day !== "string" || !WEEKDAYS.has(day)) {
+      throw new Error(`Invalid menu: themeAvailability["${theme}"].days[${i}]`);
+    }
+    if (seenDays.has(day)) {
+      throw new Error(`Invalid menu: themeAvailability["${theme}"].days duplicate "${day}"`);
+    }
+    seenDays.add(day);
+    days.push(day);
+  }
+  if (!Array.isArray(raw.windows) || raw.windows.length === 0) {
+    throw new Error(`Invalid menu: themeAvailability["${theme}"].windows`);
+  }
+  const windows = raw.windows.map((w, i) =>
+    parseThemeTimeWindow(w, `themeAvailability["${theme}"].windows[${i}]`),
+  );
+  return { days, windows };
+}
+
+function parseThemeAvailability(raw, themeKeys) {
+  if (raw === undefined) return undefined;
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    throw new Error("Invalid menu: themeAvailability");
+  }
+  const entries = Object.entries(raw);
+  if (entries.length === 0) return undefined;
+  const map = {};
+  for (const [theme, value] of entries) {
+    if (!theme) throw new Error("Invalid menu: themeAvailability empty theme key");
+    if (!themeKeys.has(theme)) {
+      throw new Error(`Invalid menu: themeAvailability unknown theme "${theme}"`);
+    }
+    map[theme] = parseThemeAvailabilityEntry(value, theme);
+  }
+  return map;
+}
+
 function parseThemes(raw, categoryIds) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
     throw new Error("Invalid menu: themes");
@@ -284,6 +376,8 @@ function parseMenuDocumentFromRoot(raw) {
   const categories = raw.categories.map((cat, i) => parseMenuCategory(cat, `categories[${i}]`));
   const categoryIds = new Set(categories.map((category) => category.id));
   const themes = parseThemes(raw.themes, categoryIds);
+  const themeKeys = new Set(Object.keys(themes));
+  parseThemeAvailability(raw.themeAvailability, themeKeys);
   return {
     restaurant: raw.restaurant,
     menuName: raw.menuName,

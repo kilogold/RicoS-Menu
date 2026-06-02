@@ -15,6 +15,7 @@ Each catalog file has release fields plus a menu body:
 | `modifierGroups` | Global registry of reusable modifier groups (required when any item uses refs) |
 | `categories[]` | Menu sections (category payloads; array order is not used for storefront display) |
 | `themes` | Required map of theme name → ordered category ids; controls storefront grouping and sort order |
+| `themeAvailability` | Optional map of theme name → days and time windows when that theme is orderable on the storefront |
 
 ### `themes`
 
@@ -38,6 +39,35 @@ Rules:
 - Every `categories[].id` must appear **exactly once** across all theme arrays.
 - Theme values must not reference unknown category ids.
 - Theme names are opaque English labels shown on the storefront for both locales (not `LocalizedText`).
+
+### `themeAvailability`
+
+Optional schedule for **whole themes** (all categories listed under that theme). Used for menus such as lunch that are only orderable during certain days and hours.
+
+Shape:
+
+```json
+"themeAvailability": {
+  "Lunch": {
+    "days": ["mon", "tue", "wed", "thu", "fri"],
+    "windows": [{ "start": "11:00", "end": "15:00" }]
+  }
+}
+```
+
+Rules:
+
+- Omit `themeAvailability` entirely when no theme uses a schedule (backward compatible).
+- Keys must match keys in `themes`; unknown theme keys fail parse.
+- Themes **without** an entry are always orderable on the storefront (subject only to store open/closed).
+- `days` — non-empty array of lowercase weekday codes: `sun`, `mon`, `tue`, `wed`, `thu`, `fri`, `sat`.
+- `windows` — non-empty array of `{ start, end }` with `HH:MM` 24-hour times; each window is half-open `[start, end)` on the same calendar day (`start` must be strictly before `end`; overnight spans are not supported in v1).
+- Evaluation uses RicoS store wall clock: `America/Puerto_Rico` (same timezone as store open/last-call env).
+- A theme is **active** when the current weekday is in `days` and the current local time falls in at least one window.
+- **Storefront (inactive):** the theme section remains visible; items are browse-only (no add-to-cart); a schedule indicator is shown. Other themes are unaffected (additive).
+- **Storefront (active):** normal ordering for that theme.
+- **Cart / checkout:** schedule does not invalidate lines already in the cart (display-only filter).
+- **Store open:** independent of `STORE_*` env — a theme can be inactive while the store accepts orders.
 
 Each category has:
 
@@ -114,6 +144,7 @@ At checkout, RicoS marks the group **active** only when the rule matches; inacti
 - **Ref order matters:** list parent groups before any group that uses `visibleWhen` on them.
 - **Publish:** bump `catalogVersion` by 1 and set a later `publishedAt` (CI enforces this on push).
 - **Themes:** assign every category to exactly one theme; reorder themes or category lists to change storefront layout.
+- **Lunch / scheduled themes:** put lunch-only categories under a `Lunch` (or similarly named) theme; set `themeAvailability` for that theme key. Keep all-day items (e.g. drinks) in themes with no schedule entry.
 
 ## Resolution rules
 
@@ -186,7 +217,7 @@ flowchart TD
 
 After all items are resolved, the top-level `modifierGroups` key is removed from the working object. `parseMenuDocumentFromRoot` then validates the expanded tree (`themes`, categories, items, stations, tax rates, and each expanded modifier group including `visibleWhen`). `parseThemes` cross-checks `themes` against parsed category ids (bijection).
 
-Storefront display uses `buildThemedMenuSections`: walk `themes` in key order, resolve each category id from `categories[]`.
+Storefront display uses `buildThemedMenuSections`: walk `themes` in key order, resolve each category id from `categories[]`, and set `scheduleActive` per theme from `themeAvailability` and the current store-local time.
 
 Publish reverses the on-disk shape:
 
@@ -201,4 +232,4 @@ flowchart LR
   disk --> parseAgain
 ```
 
-`compactMenuCatalogForDisk` preserves `themes` on disk unchanged from the in-memory catalog.
+`compactMenuCatalogForDisk` preserves `themes` and `themeAvailability` on disk unchanged from the in-memory catalog.
