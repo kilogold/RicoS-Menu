@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 32,
-  "publishedAt": "2026-06-02T06:11:23.548Z",
+  "catalogVersion": 33,
+  "publishedAt": "2026-06-02T18:57:05.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -939,6 +939,114 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_criollo",
+      "title": {
+        "en": "Criollo",
+        "es": "Criollo"
+      },
+      "notes": [
+        {
+          "en": "Includes one side dish.",
+          "es": "Incluye un acompanante."
+        }
+      ],
+      "modifierGroupRefs": [
+        "mod_criollo_side"
+      ],
+      "items": [
+        {
+          "id": "item_carne_frita",
+          "name": {
+            "en": "Carne Frita",
+            "es": "Carne Frita"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1299,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_chicharron_de_pollo",
+          "name": {
+            "en": "Chicharron de Pollo",
+            "es": "Chicharron de Pollo"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1299,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_chuleta_frita",
+          "name": {
+            "en": "Chuleta Frita (2)",
+            "es": "Chuleta Frita (2)"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_bistec_encebollado",
+          "name": {
+            "en": "Bistec Encebollado",
+            "es": "Bistec Encebollado"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1599,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_churrasco",
+          "name": {
+            "en": "Churrasco 8oz",
+            "es": "Churrasco 8oz"
+          },
+          "description": {
+            "en": "Served with cilantro chimichurri.",
+            "es": "Acompañado de chimichurri de cilantro."
+          },
+          "priceCents": 2000,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_masita_mero",
+          "name": {
+            "en": "Masita Mero",
+            "es": "Masita Mero"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
@@ -1076,6 +1184,91 @@
           "label": {
             "en": "Sorullos",
             "es": "Sorullos"
+          }
+        }
+      ]
+    },
+    "mod_criollo_side": {
+      "id": "mod_criollo_side",
+      "title": {
+        "en": "Side Dish",
+        "es": "Acompanante"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_criollo_side_mofongo",
+          "label": {
+            "en": "Plantain or Cassava Mofongo",
+            "es": "Mofongo de platano o yuca"
+          }
+        },
+        {
+          "id": "opt_criollo_side_bifongo",
+          "label": {
+            "en": "Bifongo",
+            "es": "Bifongo"
+          },
+          "priceDeltaCents": 299
+        },
+        {
+          "id": "opt_criollo_side_trifongo",
+          "label": {
+            "en": "Trifongo",
+            "es": "Trifongo"
+          },
+          "priceDeltaCents": 299
+        },
+        {
+          "id": "opt_criollo_side_home_fries",
+          "label": {
+            "en": "Home Fries",
+            "es": "Home fries"
+          }
+        },
+        {
+          "id": "opt_criollo_side_papa_asada",
+          "label": {
+            "en": "Baked Potato",
+            "es": "Papa asada"
+          }
+        },
+        {
+          "id": "opt_criollo_side_sorullitos",
+          "label": {
+            "en": "Sorullitos",
+            "es": "Sorullitos"
+          }
+        },
+        {
+          "id": "opt_criollo_side_tostones",
+          "label": {
+            "en": "Tostones",
+            "es": "Tostones"
+          }
+        },
+        {
+          "id": "opt_criollo_side_amarillos",
+          "label": {
+            "en": "Amarillos",
+            "es": "Amarillos"
+          }
+        },
+        {
+          "id": "opt_criollo_side_arroz_habichuelas",
+          "label": {
+            "en": "Rice and Beans",
+            "es": "Arroz y habichuelas"
+          }
+        },
+        {
+          "id": "opt_criollo_side_arroz_mamposteao",
+          "label": {
+            "en": "Mamposteao Rice",
+            "es": "Arroz mamposteao"
           }
         }
       ]
