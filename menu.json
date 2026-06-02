@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 44,
-  "publishedAt": "2026-06-03T18:00:00.000Z",
+  "catalogVersion": 45,
+  "publishedAt": "2026-06-03T19:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -39,7 +39,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_griddle_base",
@@ -58,7 +58,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_griddle_base",
@@ -77,7 +77,7 @@
           },
           "priceCents": 1199,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_nutella_base",
@@ -96,7 +96,7 @@
           },
           "priceCents": 1199,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_griddle_base",
@@ -115,7 +115,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_griddle_base",
@@ -134,7 +134,7 @@
           },
           "priceCents": 1299,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
@@ -152,7 +152,7 @@
           },
           "priceCents": 1199,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
@@ -170,7 +170,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
@@ -203,7 +203,7 @@
           },
           "priceCents": 1299,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_fajita"
@@ -221,7 +221,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_ricos"
@@ -239,7 +239,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_big_mouth"
@@ -257,7 +257,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_western"
@@ -285,7 +285,7 @@
           },
           "priceCents": 1799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_egg_style"
@@ -303,7 +303,7 @@
           },
           "priceCents": 1499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -318,7 +318,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_egg_style",
@@ -338,7 +338,7 @@
           },
           "priceCents": 499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_egg_style",
@@ -357,7 +357,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_big_breakfast_base",
@@ -387,7 +387,7 @@
           },
           "priceCents": 300,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_cereal_base",
@@ -407,7 +407,7 @@
           },
           "priceCents": 300,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_cereal_base",
@@ -427,7 +427,7 @@
           },
           "priceCents": 300,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_cereal_base",
@@ -463,7 +463,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -478,7 +478,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -493,7 +493,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -508,7 +508,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -523,7 +523,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -538,7 +538,7 @@
           },
           "priceCents": 899,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -553,7 +553,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -590,7 +590,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -605,7 +605,7 @@
           },
           "priceCents": 899,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -620,7 +620,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -635,7 +635,7 @@
           },
           "priceCents": 599,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -650,7 +650,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -665,7 +665,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -680,7 +680,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -695,7 +695,7 @@
           },
           "priceCents": 1099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -710,7 +710,7 @@
           },
           "priceCents": 899,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -725,7 +725,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -740,7 +740,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -755,7 +755,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -770,7 +770,7 @@
           },
           "priceCents": 899,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -805,7 +805,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -820,7 +820,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -835,7 +835,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -860,7 +860,7 @@
           },
           "priceCents": 699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -875,7 +875,7 @@
           },
           "priceCents": 499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -890,7 +890,7 @@
           },
           "priceCents": 2699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -915,7 +915,7 @@
           },
           "priceCents": 1499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -930,7 +930,7 @@
           },
           "priceCents": 1599,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -945,7 +945,7 @@
           },
           "priceCents": 1499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -970,7 +970,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -985,7 +985,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1000,7 +1000,7 @@
           },
           "priceCents": 999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1025,7 +1025,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1040,7 +1040,7 @@
           },
           "priceCents": 799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1055,7 +1055,7 @@
           },
           "priceCents": 699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1088,7 +1088,7 @@
           },
           "priceCents": 1299,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1103,7 +1103,7 @@
           },
           "priceCents": 1299,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1118,7 +1118,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1133,7 +1133,7 @@
           },
           "priceCents": 1599,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1148,7 +1148,7 @@
           },
           "priceCents": 2000,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1163,7 +1163,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1188,7 +1188,7 @@
           },
           "priceCents": 1699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_pechuga_rellena_mofongo"
@@ -1206,7 +1206,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_pechuga_plancha_sauce"
@@ -1224,7 +1224,7 @@
           },
           "priceCents": 1499,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1249,7 +1249,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1264,7 +1264,7 @@
           },
           "priceCents": 1999,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1279,7 +1279,7 @@
           },
           "priceCents": 1799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1294,7 +1294,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1309,7 +1309,7 @@
           },
           "priceCents": 1699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1324,7 +1324,7 @@
           },
           "priceCents": 2099,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1354,7 +1354,7 @@
           },
           "priceCents": 1299,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1369,7 +1369,7 @@
           },
           "priceCents": 1799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1384,7 +1384,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1399,7 +1399,7 @@
           },
           "priceCents": 1699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1432,7 +1432,7 @@
           },
           "priceCents": 1399,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1447,7 +1447,7 @@
           },
           "priceCents": 1699,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1462,7 +1462,7 @@
           },
           "priceCents": 1799,
           "station": "B",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1490,7 +1490,7 @@
           },
           "priceCents": 259,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1505,7 +1505,7 @@
           },
           "priceCents": 299,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1533,7 +1533,7 @@
           },
           "priceCents": 299,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1548,7 +1548,7 @@
           },
           "priceCents": 399,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1573,7 +1573,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
@@ -1591,7 +1591,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
@@ -1609,7 +1609,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
@@ -1627,7 +1627,7 @@
           },
           "priceCents": 450,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1642,7 +1642,7 @@
           },
           "priceCents": 499,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1657,7 +1657,7 @@
           },
           "priceCents": 499,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1672,7 +1672,7 @@
           },
           "priceCents": 499,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1697,7 +1697,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1712,7 +1712,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1727,7 +1727,7 @@
           },
           "priceCents": 375,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1752,7 +1752,7 @@
           },
           "priceCents": 699,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_pina_colada_alcohol"
@@ -1770,7 +1770,7 @@
           },
           "priceCents": 900,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1785,7 +1785,7 @@
           },
           "priceCents": 800,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_mimosa_flavor"
@@ -1803,7 +1803,7 @@
           },
           "priceCents": 800,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
@@ -1836,7 +1836,7 @@
           },
           "priceCents": 599,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
@@ -1851,7 +1851,7 @@
           },
           "priceCents": 599,
           "station": "A",
-          "salesTaxRate": 0.105,
+          "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
       ]
