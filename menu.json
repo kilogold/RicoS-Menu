@@ -884,6 +884,61 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_kids_menu",
+      "title": {
+        "en": "Kids Menu",
+        "es": "Kids Menu"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_kids_chicken_fries",
+          "name": {
+            "en": "Chicken & Fries",
+            "es": "Chicken & Fries"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_kids_quesadillas",
+          "name": {
+            "en": "Quesadillas",
+            "es": "Quesadillas"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_happy_waffle",
+          "name": {
+            "en": "Happy Waffle",
+            "es": "Happy Waffle"
+          },
+          "description": {
+            "en": "(1) Waffle with scrambled eggs.",
+            "es": "(1) Waffle con huevos revueltos."
+          },
+          "priceCents": 699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
