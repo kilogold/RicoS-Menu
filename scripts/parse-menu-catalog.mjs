@@ -26,6 +26,25 @@ function parseModifierOption(raw, ctx) {
   return out;
 }
 
+function parseModifierVisibilityRule(raw, ctx) {
+  if (!raw || typeof raw !== "object") throw new Error(`Invalid menu: ${ctx} visibleWhen`);
+  if (typeof raw.groupId !== "string" || !raw.groupId) {
+    throw new Error(`Invalid menu: ${ctx} visibleWhen groupId`);
+  }
+  if (!Array.isArray(raw.optionIds) || raw.optionIds.length === 0) {
+    throw new Error(`Invalid menu: ${ctx} visibleWhen optionIds`);
+  }
+  const optionIds = [];
+  for (let i = 0; i < raw.optionIds.length; i++) {
+    const optionId = raw.optionIds[i];
+    if (typeof optionId !== "string" || !optionId) {
+      throw new Error(`Invalid menu: ${ctx} visibleWhen optionIds[${i}]`);
+    }
+    optionIds.push(optionId);
+  }
+  return { groupId: raw.groupId, optionIds };
+}
+
 function parseModifierGroup(raw, ctx) {
   if (!raw || typeof raw !== "object") throw new Error(`Invalid menu: ${ctx} group`);
   if (typeof raw.id !== "string" || !raw.id) throw new Error(`Invalid menu: ${ctx} group id`);
@@ -41,7 +60,7 @@ function parseModifierGroup(raw, ctx) {
     throw new Error(`Invalid menu: ${ctx} group maxSelections`);
   }
   if (!Array.isArray(raw.options)) throw new Error(`Invalid menu: ${ctx} group options`);
-  return {
+  const group = {
     id: raw.id,
     title: raw.title,
     selectionType: raw.selectionType,
@@ -50,6 +69,10 @@ function parseModifierGroup(raw, ctx) {
     maxSelections: raw.maxSelections,
     options: raw.options.map((opt, i) => parseModifierOption(opt, `${ctx}[${i}]`)),
   };
+  if (raw.visibleWhen !== undefined) {
+    group.visibleWhen = parseModifierVisibilityRule(raw.visibleWhen, `${ctx}.visibleWhen`);
+  }
+  return group;
 }
 
 function parsePrintStation(raw, ctx) {
