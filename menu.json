@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 43,
-  "publishedAt": "2026-06-03T12:00:00.000Z",
+  "catalogVersion": 44,
+  "publishedAt": "2026-06-03T18:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -448,42 +448,110 @@
         {
           "en": "Available during lunch hours only.",
           "es": "Disponible solo en horario de almuerzo."
-        },
-        {
-          "en": "Includes one side dish.",
-          "es": "Incluye un acompanante."
         }
-      ],
-      "modifierGroupRefs": [
-        "mod_criollo_side"
       ],
       "items": [
         {
-          "id": "item_lunch_plato_del_dia",
+          "id": "item_lunch_bistec_encebollado",
           "name": {
-            "en": "Plato del Dia",
-            "es": "Plato del Dia"
+            "en": "Bistec Encebollado",
+            "es": "Bistec Encebollado"
           },
           "description": {
-            "en": "Chef's lunch plate — ask your server for today's selection.",
-            "es": "Plato del dia del chef — pregunte a su mesero la seleccion de hoy."
+            "en": "With mamposteao.",
+            "es": "Con mamposteao."
           },
-          "priceCents": 1199,
+          "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01
         },
         {
-          "id": "item_lunch_sopa_del_dia",
+          "id": "item_lunch_paella_carne",
           "name": {
-            "en": "Sopa del Dia",
-            "es": "Sopa del Dia"
+            "en": "Paella de Carne",
+            "es": "Paella de Carne"
           },
           "description": {
-            "en": "Soup of the day with bread.",
-            "es": "Sopa del dia con pan."
+            "en": "With gandules.",
+            "es": "Con gandules."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_mero_ajillo",
+          "name": {
+            "en": "Mero al Ajillo",
+            "es": "Mero al Ajillo"
+          },
+          "description": {
+            "en": "With arroz provenzal.",
+            "es": "Con arroz provenzal."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_arroz_pollo",
+          "name": {
+            "en": "Arroz con Pollo",
+            "es": "Arroz con Pollo"
+          },
+          "description": {
+            "en": "With habichuelas.",
+            "es": "Y habichuelas."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_arroz_gandules",
+          "name": {
+            "en": "Arroz con Gandules",
+            "es": "Arroz con Gandules"
+          },
+          "description": {
+            "en": "With carne frita.",
+            "es": "Y carne frita."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_masitas_pollo",
+          "name": {
+            "en": "Masitas de Pollo",
+            "es": "Masitas de Pollo"
+          },
+          "description": {
+            "en": "With rice and habichuelas.",
+            "es": "Arroz y habichuelas."
           },
           "priceCents": 899,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_lunch_mofongo_relleno_pollo",
+          "name": {
+            "en": "Mofongo Relleno",
+            "es": "Mofongo Relleno"
+          },
+          "description": {
+            "en": "Stuffed with chicken.",
+            "es": "De pollo."
+          },
+          "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01
