@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 38,
-  "publishedAt": "2026-06-02T21:00:00.000Z",
+  "catalogVersion": 39,
+  "publishedAt": "2026-06-02T21:36:45.903Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1556,6 +1556,54 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_specials",
+      "title": {
+        "en": "Specials",
+        "es": "Specials"
+      },
+      "notes": [
+        {
+          "en": "Order it your way.",
+          "es": "Pídelo a tu gusto."
+        }
+      ],
+      "modifierGroupRefs": [
+        "mod_specials_flavor"
+      ],
+      "items": [
+        {
+          "id": "item_specials_frozen",
+          "name": {
+            "en": "Frozen",
+            "es": "Frio / Frozen"
+          },
+          "description": {
+            "en": "16 oz.",
+            "es": "16 oz."
+          },
+          "priceCents": 599,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_caliente",
+          "name": {
+            "en": "Caliente",
+            "es": "Caliente"
+          },
+          "description": {
+            "en": "12 oz.",
+            "es": "12 oz."
+          },
+          "priceCents": 599,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "themes": {
@@ -1575,7 +1623,8 @@
       "cat_asopao",
       "cat_mariscos"
     ],
-    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe"]
+    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe"],
+    "Specials": ["cat_specials"]
   },
   "orderFees": {
     "serviceFeeRate": 0.05
@@ -1899,6 +1948,54 @@
           "label": {
             "en": "Barbados Cherry (Acerola)",
             "es": "Acerola"
+          }
+        }
+      ]
+    },
+    "mod_specials_flavor": {
+      "id": "mod_specials_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_specials_smores_mocha",
+          "label": {
+            "en": "S'mores Mocha — chocolate / caramel / white chocolate / vanilla",
+            "es": "S'mores Mocha — chocolate / caramelo / chocolate blanco / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_red_velvet_mocha",
+          "label": {
+            "en": "Red Velvet Mocha — white chocolate / cocoa / vanilla",
+            "es": "Red Velvet Mocha — chocolate blanco / cocoa / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_macadamia_madness",
+          "label": {
+            "en": "Macadamia Madness — white chocolate / macadamia / caramel",
+            "es": "Macadamia Madness — chocolate blanco / macadamia / caramelo"
+          }
+        },
+        {
+          "id": "opt_specials_la_base",
+          "label": {
+            "en": "La Base — chocolate / caramel / vanilla",
+            "es": "La Base — chocolate / caramelo / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_ciento_siete",
+          "label": {
+            "en": "Ciento Siete — white chocolate / amaretto / vanilla",
+            "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
           }
         }
       ]
