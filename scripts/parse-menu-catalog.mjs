@@ -75,6 +75,89 @@ function parseModifierGroup(raw, ctx) {
   return group;
 }
 
+function deepClone(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
+function parseModifierGroupRefs(rawRefs, ctx) {
+  if (rawRefs === undefined) return undefined;
+  if (!Array.isArray(rawRefs)) {
+    throw new Error(`Invalid menu: ${ctx} modifierGroupRefs`);
+  }
+  const refs = [];
+  const seen = new Set();
+  for (let i = 0; i < rawRefs.length; i++) {
+    const ref = rawRefs[i];
+    if (typeof ref !== "string" || !ref) {
+      throw new Error(`Invalid menu: ${ctx} modifierGroupRefs[${i}]`);
+    }
+    if (seen.has(ref)) {
+      throw new Error(`Invalid menu: ${ctx} modifierGroupRefs duplicate id "${ref}"`);
+    }
+    seen.add(ref);
+    refs.push(ref);
+  }
+  return refs;
+}
+
+/**
+ * Mirror of RicoS/packages/shared/src/menu-catalog-compact.ts (resolveMenuCatalogRaw).
+ * Keep in sync: inline item.modifierGroups are not accepted; all modifiers must use refs.
+ */
+function resolveMenuCatalogRaw(raw) {
+  const out = deepClone(raw);
+  const rawRegistry = out.modifierGroups;
+  const registry = new Map();
+  if (rawRegistry !== undefined) {
+    if (!rawRegistry || typeof rawRegistry !== "object" || Array.isArray(rawRegistry)) {
+      throw new Error("Invalid menu: modifierGroups");
+    }
+    for (const [groupId, entry] of Object.entries(rawRegistry)) {
+      if (!entry || typeof entry !== "object" || Array.isArray(entry)) {
+        throw new Error(`Invalid menu: modifierGroups["${groupId}"]`);
+      }
+      const nextEntry = deepClone(entry);
+      if (nextEntry.id === undefined) nextEntry.id = groupId;
+      if (nextEntry.id !== groupId) {
+        throw new Error(`Invalid menu: modifierGroups["${groupId}"] id mismatch`);
+      }
+      registry.set(groupId, nextEntry);
+    }
+  }
+
+  if (Array.isArray(out.categories)) {
+    for (let categoryIndex = 0; categoryIndex < out.categories.length; categoryIndex++) {
+      const category = out.categories[categoryIndex];
+      if (!category || typeof category !== "object" || Array.isArray(category)) continue;
+      const categoryCtx = `categories[${categoryIndex}]`;
+      const categoryRefs = parseModifierGroupRefs(category.modifierGroupRefs, categoryCtx);
+      delete category.modifierGroupRefs;
+
+      if (!Array.isArray(category.items)) continue;
+      for (let itemIndex = 0; itemIndex < category.items.length; itemIndex++) {
+        const item = category.items[itemIndex];
+        if (!item || typeof item !== "object" || Array.isArray(item)) continue;
+        const itemCtx = `${categoryCtx}.items[${itemIndex}]`;
+        const itemRefs = parseModifierGroupRefs(item.modifierGroupRefs, itemCtx);
+        if (item.modifierGroups !== undefined) {
+          throw new Error(`Invalid menu: ${itemCtx} inline modifierGroups are not allowed; use modifierGroupRefs`);
+        }
+        const refs = itemRefs ?? categoryRefs;
+        delete item.modifierGroupRefs;
+        if (!refs) continue;
+        item.modifierGroups = refs.map((groupId) => {
+          const group = registry.get(groupId);
+          if (!group) throw new Error(`Invalid menu: ${itemCtx} unknown modifier group "${groupId}"`);
+          return deepClone(group);
+        });
+      }
+    }
+  }
+
+  delete out.modifierGroups;
+  return out;
+}
+
 function parsePrintStation(raw, ctx) {
   if (raw !== "A" && raw !== "B" && raw !== "default") {
     throw new Error(`Invalid menu: ${ctx} station must be "A", "B", or "default"`);
@@ -178,6 +261,6 @@ export function parseMenuCatalogFile(raw) {
     throw new Error("Invalid menu catalog: publishedAt is not a valid date");
   }
   const publishedAtIso = new Date(publishedAtMs).toISOString();
-  parseMenuDocumentFromRoot(raw);
+  parseMenuDocumentFromRoot(resolveMenuCatalogRaw(raw));
   return { catalogVersion: cv, publishedAtIso };
 }

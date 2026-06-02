@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 31,
-  "publishedAt": "2026-06-02T05:44:44.428Z",
+  "catalogVersion": 32,
+  "publishedAt": "2026-06-02T06:11:23.548Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -41,68 +41,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_two_pancakes",
-                  "label": {
-                    "en": "(2) Pancakes",
-                    "es": "(2) Pancakes"
-                  }
-                },
-                {
-                  "id": "opt_base_one_waffle",
-                  "label": {
-                    "en": "(1) Waffle",
-                    "es": "(1) Waffle"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_griddle_base",
+            "mod_side_choice"
           ]
         },
         {
@@ -119,68 +60,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_two_pancakes",
-                  "label": {
-                    "en": "(2) Pancakes",
-                    "es": "(2) Pancakes"
-                  }
-                },
-                {
-                  "id": "opt_base_one_waffle",
-                  "label": {
-                    "en": "(1) Waffle",
-                    "es": "(1) Waffle"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_griddle_base",
+            "mod_side_choice"
           ]
         },
         {
@@ -197,68 +79,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_two_pancakes",
-                  "label": {
-                    "en": "(2) Pancakes",
-                    "es": "(2) Pancakes"
-                  }
-                },
-                {
-                  "id": "opt_base_one_waffle",
-                  "label": {
-                    "en": "(1) Nutella Waffle",
-                    "es": "(1) Waffle de Nutella"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_nutella_base",
+            "mod_side_choice"
           ]
         },
         {
@@ -275,68 +98,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_two_pancakes",
-                  "label": {
-                    "en": "(2) Pancakes",
-                    "es": "(2) Pancakes"
-                  }
-                },
-                {
-                  "id": "opt_base_one_waffle",
-                  "label": {
-                    "en": "(1) Waffle",
-                    "es": "(1) Waffle"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_griddle_base",
+            "mod_side_choice"
           ]
         },
         {
@@ -353,68 +117,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_two_pancakes",
-                  "label": {
-                    "en": "(2) Pancakes",
-                    "es": "(2) Pancakes"
-                  }
-                },
-                {
-                  "id": "opt_base_one_waffle",
-                  "label": {
-                    "en": "(1) Waffle",
-                    "es": "(1) Waffle"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_griddle_base",
+            "mod_side_choice"
           ]
         },
         {
@@ -431,41 +136,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_side_choice"
           ]
         },
         {
@@ -482,41 +154,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_side_choice"
           ]
         },
         {
@@ -533,41 +172,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_side_choice"
           ]
         }
       ]
@@ -599,69 +205,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_remove_ingredients",
-              "title": {
-                "en": "Remove Ingredients",
-                "es": "Remover Ingredientes"
-              },
-              "selectionType": "multiple",
-              "required": false,
-              "minSelections": 0,
-              "maxSelections": 4,
-              "options": [
-                {
-                  "id": "opt_remove_peppers",
-                  "label": {
-                    "en": "No peppers",
-                    "es": "Sin pimientos"
-                  }
-                },
-                {
-                  "id": "opt_remove_onion",
-                  "label": {
-                    "en": "No onion",
-                    "es": "Sin cebolla"
-                  }
-                },
-                {
-                  "id": "opt_remove_monterey_jack",
-                  "label": {
-                    "en": "No Monterey Jack",
-                    "es": "Sin Monterey Jack"
-                  }
-                },
-                {
-                  "id": "opt_remove_cheddar",
-                  "label": {
-                    "en": "No cheddar",
-                    "es": "Sin cheddar"
-                  }
-                },
-                {
-                  "id": "opt_remove_sweet_chili",
-                  "label": {
-                    "en": "No sweet chili sauce",
-                    "es": "Sin salsa de chile dulce"
-                  }
-                },
-                {
-                  "id": "opt_remove_sour_cream",
-                  "label": {
-                    "en": "No sour cream",
-                    "es": "Sin sour cream"
-                  }
-                },
-                {
-                  "id": "opt_remove_pico",
-                  "label": {
-                    "en": "No pico de gallo",
-                    "es": "Sin pico de gallo"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_remove_fajita"
           ]
         },
         {
@@ -678,48 +223,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_remove_ingredients",
-              "title": {
-                "en": "Remove Ingredients",
-                "es": "Remover Ingredientes"
-              },
-              "selectionType": "multiple",
-              "required": false,
-              "minSelections": 0,
-              "maxSelections": 7,
-              "options": [
-                {
-                  "id": "opt_remove_onion",
-                  "label": {
-                    "en": "No onion",
-                    "es": "Sin cebolla"
-                  }
-                },
-                {
-                  "id": "opt_remove_monterey_jack",
-                  "label": {
-                    "en": "No Monterey Jack",
-                    "es": "Sin Monterey Jack"
-                  }
-                },
-                {
-                  "id": "opt_remove_cheddar",
-                  "label": {
-                    "en": "No cheddar",
-                    "es": "Sin cheddar"
-                  }
-                },
-                {
-                  "id": "opt_remove_sour_cream",
-                  "label": {
-                    "en": "No sour cream",
-                    "es": "Sin sour cream"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_remove_ricos"
           ]
         },
         {
@@ -736,48 +241,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_remove_ingredients",
-              "title": {
-                "en": "Remove Ingredients",
-                "es": "Remover Ingredientes"
-              },
-              "selectionType": "multiple",
-              "required": false,
-              "minSelections": 0,
-              "maxSelections": 7,
-              "options": [
-                {
-                  "id": "opt_remove_onion",
-                  "label": {
-                    "en": "No onion",
-                    "es": "Sin cebolla"
-                  }
-                },
-                {
-                  "id": "opt_remove_peppers",
-                  "label": {
-                    "en": "No peppers",
-                    "es": "Sin pimientos"
-                  }
-                },
-                {
-                  "id": "opt_remove_mixed_cheese",
-                  "label": {
-                    "en": "No mixed cheese",
-                    "es": "Sin queso mixto"
-                  }
-                },
-                {
-                  "id": "opt_remove_pico",
-                  "label": {
-                    "en": "No pico de gallo",
-                    "es": "Sin pico de gallo"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_remove_big_mouth"
           ]
         },
         {
@@ -794,48 +259,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_remove_ingredients",
-              "title": {
-                "en": "Remove Ingredients",
-                "es": "Remover Ingredientes"
-              },
-              "selectionType": "multiple",
-              "required": false,
-              "minSelections": 0,
-              "maxSelections": 4,
-              "options": [
-                {
-                  "id": "opt_remove_tomato",
-                  "label": {
-                    "en": "No tomato",
-                    "es": "Sin tomate"
-                  }
-                },
-                {
-                  "id": "opt_remove_onion",
-                  "label": {
-                    "en": "No onion",
-                    "es": "Sin cebolla"
-                  }
-                },
-                {
-                  "id": "opt_remove_peppers",
-                  "label": {
-                    "en": "No peppers",
-                    "es": "Sin pimientos"
-                  }
-                },
-                {
-                  "id": "opt_remove_cheese",
-                  "label": {
-                    "en": "No cheese",
-                    "es": "Sin queso"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_remove_western"
           ]
         }
       ]
@@ -862,34 +287,8 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_egg_style",
-              "title": {
-                "en": "Eggs",
-                "es": "Huevos"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_eggs_fried",
-                  "label": {
-                    "en": "Fried",
-                    "es": "Fritos"
-                  }
-                },
-                {
-                  "id": "opt_eggs_scrambled",
-                  "label": {
-                    "en": "Scrambled",
-                    "es": "Revueltos"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_egg_style"
           ]
         },
         {
@@ -921,96 +320,10 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_egg_style",
-              "title": {
-                "en": "Eggs",
-                "es": "Huevos"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_eggs_fried",
-                  "label": {
-                    "en": "Fried",
-                    "es": "Fritos"
-                  }
-                },
-                {
-                  "id": "opt_eggs_scrambled",
-                  "label": {
-                    "en": "Scrambled",
-                    "es": "Revueltos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_toast_choice",
-              "title": {
-                "en": "Toast",
-                "es": "Tostada"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_toast_white",
-                  "label": {
-                    "en": "White",
-                    "es": "Blanco"
-                  }
-                },
-                {
-                  "id": "opt_toast_wheat",
-                  "label": {
-                    "en": "Wheat",
-                    "es": "Integral"
-                  },
-                  "priceDeltaCents": 100
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_egg_style",
+            "mod_toast_choice",
+            "mod_side_choice"
           ]
         },
         {
@@ -1027,68 +340,9 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_egg_style",
-              "title": {
-                "en": "Eggs",
-                "es": "Huevos"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_eggs_fried",
-                  "label": {
-                    "en": "Fried",
-                    "es": "Fritos"
-                  }
-                },
-                {
-                  "id": "opt_eggs_scrambled",
-                  "label": {
-                    "en": "Scrambled",
-                    "es": "Revueltos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_egg_style",
+            "mod_side_choice"
           ]
         },
         {
@@ -1105,95 +359,10 @@
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Main Dish",
-                "es": "Plato Principal"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_pancake",
-                  "label": {
-                    "en": "(1) Pancake",
-                    "es": "(1) Pancake"
-                  }
-                },
-                {
-                  "id": "opt_base_waffle",
-                  "label": {
-                    "en": "(1) Waffle",
-                    "es": "(1) Waffle"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_egg_style",
-              "title": {
-                "en": "Eggs",
-                "es": "Huevos"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_eggs_fried",
-                  "label": {
-                    "en": "Fried",
-                    "es": "Fritos"
-                  }
-                },
-                {
-                  "id": "opt_eggs_scrambled",
-                  "label": {
-                    "en": "Scrambled",
-                    "es": "Revueltos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_side_choice",
-              "title": {
-                "en": "Sides",
-                "es": "Acompañante"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_side_sausage",
-                  "label": {
-                    "en": "Sausage",
-                    "es": "Salchicha"
-                  }
-                },
-                {
-                  "id": "opt_side_ham",
-                  "label": {
-                    "en": "Ham",
-                    "es": "Jamon"
-                  }
-                },
-                {
-                  "id": "opt_side_bacon",
-                  "label": {
-                    "en": "Bacon",
-                    "es": "Tocineta"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_big_breakfast_base",
+            "mod_egg_style",
+            "mod_side_choice"
           ]
         }
       ]
@@ -1220,103 +389,10 @@
           "station": "A",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Base",
-                "es": "Base"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_milk",
-                  "label": {
-                    "en": "Milk",
-                    "es": "Leche"
-                  }
-                },
-                {
-                  "id": "opt_base_almond_milk",
-                  "label": {
-                    "en": "Almond Milk",
-                    "es": "Leche de Almendras"
-                  },
-                  "priceDeltaCents": 100
-                },
-                {
-                  "id": "opt_base_water",
-                  "label": {
-                    "en": "Water",
-                    "es": "Agua"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sugar_choice",
-              "title": {
-                "en": "Sugar",
-                "es": "Azucar"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_sugar_sugar",
-                  "label": {
-                    "en": "Sugar",
-                    "es": "Azucar"
-                  }
-                },
-                {
-                  "id": "opt_sugar_sweetener",
-                  "label": {
-                    "en": "Sweetener",
-                    "es": "Endulzante / Azucar dieta"
-                  }
-                },
-                {
-                  "id": "opt_sugar_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_garnish_choice",
-              "title": {
-                "en": "Garnish",
-                "es": "Garnish"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_garnish_cinamon",
-                  "label": {
-                    "en": "Cinamon",
-                    "es": "Canela"
-                  }
-                },
-                {
-                  "id": "opt_garnish_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_cereal_base",
+            "mod_sugar_choice",
+            "mod_garnish_choice"
           ]
         },
         {
@@ -1333,103 +409,10 @@
           "station": "A",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Base",
-                "es": "Base"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_milk",
-                  "label": {
-                    "en": "Milk",
-                    "es": "Leche"
-                  }
-                },
-                {
-                  "id": "opt_base_almond_milk",
-                  "label": {
-                    "en": "Almond Milk",
-                    "es": "Leche de Almendras"
-                  },
-                  "priceDeltaCents": 100
-                },
-                {
-                  "id": "opt_base_water",
-                  "label": {
-                    "en": "Water",
-                    "es": "Agua"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sugar_choice",
-              "title": {
-                "en": "Sugar",
-                "es": "Azucar"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_sugar_sugar",
-                  "label": {
-                    "en": "Sugar",
-                    "es": "Azucar"
-                  }
-                },
-                {
-                  "id": "opt_sugar_sweetener",
-                  "label": {
-                    "en": "Sweetener",
-                    "es": "Endulzante / Azucar dieta"
-                  }
-                },
-                {
-                  "id": "opt_sugar_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_garnish_choice",
-              "title": {
-                "en": "Garnish",
-                "es": "Garnish"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_garnish_cinamon",
-                  "label": {
-                    "en": "Cinamon",
-                    "es": "Canela"
-                  }
-                },
-                {
-                  "id": "opt_garnish_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_cereal_base",
+            "mod_sugar_choice",
+            "mod_garnish_choice"
           ]
         },
         {
@@ -1446,130 +429,11 @@
           "station": "A",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_base_choice",
-              "title": {
-                "en": "Base",
-                "es": "Base"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_base_milk",
-                  "label": {
-                    "en": "Milk",
-                    "es": "Leche"
-                  }
-                },
-                {
-                  "id": "opt_base_almond_milk",
-                  "label": {
-                    "en": "Almond Milk",
-                    "es": "Leche de Almendras"
-                  },
-                  "priceDeltaCents": 100
-                },
-                {
-                  "id": "opt_base_water",
-                  "label": {
-                    "en": "Water",
-                    "es": "Agua"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sugar_choice",
-              "title": {
-                "en": "Sugar",
-                "es": "Azucar"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_sugar_1_sugar",
-                  "label": {
-                    "en": "Sugar",
-                    "es": "Azucar"
-                  }
-                },
-                {
-                  "id": "opt_sugar_2_sweetener",
-                  "label": {
-                    "en": "Sweetener",
-                    "es": "Endulzante / Azucar dieta"
-                  }
-                },
-                {
-                  "id": "opt_sugar_3_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_garnish_choice",
-              "title": {
-                "en": "Garnish",
-                "es": "Garnish"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_garnish_cinamon",
-                  "label": {
-                    "en": "Cinamon",
-                    "es": "Canela"
-                  }
-                },
-                {
-                  "id": "opt_garnish_none",
-                  "label": {
-                    "en": "None",
-                    "es": "Nada"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_new_mpov23lz_04",
-              "title": {
-                "en": "Table",
-                "es": "Mesa"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_new_mpov3hhe_01",
-                  "label": {
-                    "en": "Plastic",
-                    "es": "Plastico"
-                  }
-                },
-                {
-                  "id": "opt_new_mpov3ioo_02",
-                  "label": {
-                    "en": "Metal",
-                    "es": "Metal"
-                  }
-                }
-              ]
-            }
+          "modifierGroupRefs": [
+            "mod_cereal_base",
+            "mod_sugar_choice_farina",
+            "mod_garnish_choice",
+            "mod_table_choice"
           ]
         }
       ]
@@ -1586,6 +450,13 @@
           "es": "Hazlo combo: escoge papas fritas o sorullos y refresco (+$3.99)."
         }
       ],
+      "modifierGroupRefs": [
+        "mod_sandwich_bread",
+        "mod_tortilla_type",
+        "mod_sandwich_format",
+        "mod_combo_side",
+        "mod_combo_drink"
+      ],
       "items": [
         {
           "id": "item_turkey_sandwich",
@@ -1600,177 +471,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_pastrami",
@@ -1785,177 +486,7 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_blt",
@@ -1970,177 +501,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_el_mananero",
@@ -2155,177 +516,7 @@
           "priceCents": 599,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_monterrey",
@@ -2340,177 +531,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_cubano",
@@ -2525,177 +546,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_triple_honey_sensation",
@@ -2710,177 +561,7 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_croque_monsieur",
@@ -2895,177 +576,7 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_el_aguadillano",
@@ -3080,177 +591,7 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_tuna_tuna",
@@ -3265,177 +606,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_rustic_chicken",
@@ -3450,177 +621,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_media_noche",
@@ -3635,177 +636,7 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_bistec_sandwich",
@@ -3820,182 +651,694 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.105,
-          "municipalTaxRate": 0.01,
-          "modifierGroups": [
-            {
-              "id": "mod_sandwich_bread",
-              "title": {
-                "en": "Bread",
-                "es": "Pan"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_bread_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                },
-                {
-                  "id": "opt_bread_whole_wheat",
-                  "label": {
-                    "en": "Whole Wheat",
-                    "es": "Trigo Integral"
-                  }
-                },
-                {
-                  "id": "opt_bread_tortilla_wrap",
-                  "label": {
-                    "en": "Tortilla (Wrap)",
-                    "es": "Tortilla (Wrap)"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_tortilla_type",
-              "title": {
-                "en": "Tortilla",
-                "es": "Tortilla"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_bread",
-                "optionIds": [
-                  "opt_bread_tortilla_wrap"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_tortilla_spinach",
-                  "label": {
-                    "en": "Spinach",
-                    "es": "Espinaca"
-                  }
-                },
-                {
-                  "id": "opt_tortilla_regular",
-                  "label": {
-                    "en": "Regular",
-                    "es": "Regular"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_sandwich_format",
-              "title": {
-                "en": "Make it a Combo",
-                "es": "Hazlo Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "options": [
-                {
-                  "id": "opt_format_individual",
-                  "label": {
-                    "en": "Individual",
-                    "es": "Individual"
-                  }
-                },
-                {
-                  "id": "opt_format_combo",
-                  "label": {
-                    "en": "Combo (fries & drink)",
-                    "es": "Combo (papas o sorullos y refresco)"
-                  },
-                  "priceDeltaCents": 399
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_side",
-              "title": {
-                "en": "Combo Side",
-                "es": "Acompanante del Combo"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_side_fries",
-                  "label": {
-                    "en": "French Fries",
-                    "es": "Papas Fritas"
-                  }
-                },
-                {
-                  "id": "opt_side_sorullos",
-                  "label": {
-                    "en": "Sorullos",
-                    "es": "Sorullos"
-                  }
-                }
-              ]
-            },
-            {
-              "id": "mod_combo_drink",
-              "title": {
-                "en": "Soft Drink",
-                "es": "Refresco"
-              },
-              "selectionType": "single",
-              "required": true,
-              "minSelections": 1,
-              "maxSelections": 1,
-              "visibleWhen": {
-                "groupId": "mod_sandwich_format",
-                "optionIds": [
-                  "opt_format_combo"
-                ]
-              },
-              "options": [
-                {
-                  "id": "opt_drink_coke",
-                  "label": {
-                    "en": "Coke",
-                    "es": "Coca-Cola"
-                  }
-                },
-                {
-                  "id": "opt_drink_sprite",
-                  "label": {
-                    "en": "Sprite",
-                    "es": "Sprite"
-                  }
-                },
-                {
-                  "id": "opt_drink_diet_coke",
-                  "label": {
-                    "en": "Diet Coke",
-                    "es": "Coca-Cola Light"
-                  }
-                }
-              ]
-            }
-          ]
+          "municipalTaxRate": 0.01
         }
       ]
     }
   ],
   "orderFees": {
     "serviceFeeRate": 0.05
+  },
+  "modifierGroups": {
+    "mod_big_breakfast_base": {
+      "id": "mod_big_breakfast_base",
+      "title": {
+        "en": "Main Dish",
+        "es": "Plato Principal"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_base_pancake",
+          "label": {
+            "en": "(1) Pancake",
+            "es": "(1) Pancake"
+          }
+        },
+        {
+          "id": "opt_base_waffle",
+          "label": {
+            "en": "(1) Waffle",
+            "es": "(1) Waffle"
+          }
+        }
+      ]
+    },
+    "mod_cereal_base": {
+      "id": "mod_cereal_base",
+      "title": {
+        "en": "Base",
+        "es": "Base"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_base_milk",
+          "label": {
+            "en": "Milk",
+            "es": "Leche"
+          }
+        },
+        {
+          "id": "opt_base_almond_milk",
+          "label": {
+            "en": "Almond Milk",
+            "es": "Leche de Almendras"
+          },
+          "priceDeltaCents": 100
+        },
+        {
+          "id": "opt_base_water",
+          "label": {
+            "en": "Water",
+            "es": "Agua"
+          }
+        }
+      ]
+    },
+    "mod_combo_drink": {
+      "id": "mod_combo_drink",
+      "title": {
+        "en": "Soft Drink",
+        "es": "Refresco"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "visibleWhen": {
+        "groupId": "mod_sandwich_format",
+        "optionIds": [
+          "opt_format_combo"
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_drink_coke",
+          "label": {
+            "en": "Coke",
+            "es": "Coca-Cola"
+          }
+        },
+        {
+          "id": "opt_drink_sprite",
+          "label": {
+            "en": "Sprite",
+            "es": "Sprite"
+          }
+        },
+        {
+          "id": "opt_drink_diet_coke",
+          "label": {
+            "en": "Diet Coke",
+            "es": "Coca-Cola Light"
+          }
+        }
+      ]
+    },
+    "mod_combo_side": {
+      "id": "mod_combo_side",
+      "title": {
+        "en": "Combo Side",
+        "es": "Acompanante del Combo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "visibleWhen": {
+        "groupId": "mod_sandwich_format",
+        "optionIds": [
+          "opt_format_combo"
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_side_fries",
+          "label": {
+            "en": "French Fries",
+            "es": "Papas Fritas"
+          }
+        },
+        {
+          "id": "opt_side_sorullos",
+          "label": {
+            "en": "Sorullos",
+            "es": "Sorullos"
+          }
+        }
+      ]
+    },
+    "mod_egg_style": {
+      "id": "mod_egg_style",
+      "title": {
+        "en": "Eggs",
+        "es": "Huevos"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_eggs_fried",
+          "label": {
+            "en": "Fried",
+            "es": "Fritos"
+          }
+        },
+        {
+          "id": "opt_eggs_scrambled",
+          "label": {
+            "en": "Scrambled",
+            "es": "Revueltos"
+          }
+        }
+      ]
+    },
+    "mod_garnish_choice": {
+      "id": "mod_garnish_choice",
+      "title": {
+        "en": "Garnish",
+        "es": "Garnish"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_garnish_cinamon",
+          "label": {
+            "en": "Cinamon",
+            "es": "Canela"
+          }
+        },
+        {
+          "id": "opt_garnish_none",
+          "label": {
+            "en": "None",
+            "es": "Nada"
+          }
+        }
+      ]
+    },
+    "mod_griddle_base": {
+      "id": "mod_griddle_base",
+      "title": {
+        "en": "Main Dish",
+        "es": "Plato Principal"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_base_two_pancakes",
+          "label": {
+            "en": "(2) Pancakes",
+            "es": "(2) Pancakes"
+          }
+        },
+        {
+          "id": "opt_base_one_waffle",
+          "label": {
+            "en": "(1) Waffle",
+            "es": "(1) Waffle"
+          }
+        }
+      ]
+    },
+    "mod_nutella_base": {
+      "id": "mod_nutella_base",
+      "title": {
+        "en": "Main Dish",
+        "es": "Plato Principal"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_base_two_pancakes",
+          "label": {
+            "en": "(2) Pancakes",
+            "es": "(2) Pancakes"
+          }
+        },
+        {
+          "id": "opt_base_one_waffle",
+          "label": {
+            "en": "(1) Nutella Waffle",
+            "es": "(1) Waffle de Nutella"
+          }
+        }
+      ]
+    },
+    "mod_remove_big_mouth": {
+      "id": "mod_remove_big_mouth",
+      "title": {
+        "en": "Remove Ingredients",
+        "es": "Remover Ingredientes"
+      },
+      "selectionType": "multiple",
+      "required": false,
+      "minSelections": 0,
+      "maxSelections": 7,
+      "options": [
+        {
+          "id": "opt_remove_onion",
+          "label": {
+            "en": "No onion",
+            "es": "Sin cebolla"
+          }
+        },
+        {
+          "id": "opt_remove_peppers",
+          "label": {
+            "en": "No peppers",
+            "es": "Sin pimientos"
+          }
+        },
+        {
+          "id": "opt_remove_mixed_cheese",
+          "label": {
+            "en": "No mixed cheese",
+            "es": "Sin queso mixto"
+          }
+        },
+        {
+          "id": "opt_remove_pico",
+          "label": {
+            "en": "No pico de gallo",
+            "es": "Sin pico de gallo"
+          }
+        }
+      ]
+    },
+    "mod_remove_fajita": {
+      "id": "mod_remove_fajita",
+      "title": {
+        "en": "Remove Ingredients",
+        "es": "Remover Ingredientes"
+      },
+      "selectionType": "multiple",
+      "required": false,
+      "minSelections": 0,
+      "maxSelections": 4,
+      "options": [
+        {
+          "id": "opt_remove_peppers",
+          "label": {
+            "en": "No peppers",
+            "es": "Sin pimientos"
+          }
+        },
+        {
+          "id": "opt_remove_onion",
+          "label": {
+            "en": "No onion",
+            "es": "Sin cebolla"
+          }
+        },
+        {
+          "id": "opt_remove_monterey_jack",
+          "label": {
+            "en": "No Monterey Jack",
+            "es": "Sin Monterey Jack"
+          }
+        },
+        {
+          "id": "opt_remove_cheddar",
+          "label": {
+            "en": "No cheddar",
+            "es": "Sin cheddar"
+          }
+        },
+        {
+          "id": "opt_remove_sweet_chili",
+          "label": {
+            "en": "No sweet chili sauce",
+            "es": "Sin salsa de chile dulce"
+          }
+        },
+        {
+          "id": "opt_remove_sour_cream",
+          "label": {
+            "en": "No sour cream",
+            "es": "Sin sour cream"
+          }
+        },
+        {
+          "id": "opt_remove_pico",
+          "label": {
+            "en": "No pico de gallo",
+            "es": "Sin pico de gallo"
+          }
+        }
+      ]
+    },
+    "mod_remove_ricos": {
+      "id": "mod_remove_ricos",
+      "title": {
+        "en": "Remove Ingredients",
+        "es": "Remover Ingredientes"
+      },
+      "selectionType": "multiple",
+      "required": false,
+      "minSelections": 0,
+      "maxSelections": 7,
+      "options": [
+        {
+          "id": "opt_remove_onion",
+          "label": {
+            "en": "No onion",
+            "es": "Sin cebolla"
+          }
+        },
+        {
+          "id": "opt_remove_monterey_jack",
+          "label": {
+            "en": "No Monterey Jack",
+            "es": "Sin Monterey Jack"
+          }
+        },
+        {
+          "id": "opt_remove_cheddar",
+          "label": {
+            "en": "No cheddar",
+            "es": "Sin cheddar"
+          }
+        },
+        {
+          "id": "opt_remove_sour_cream",
+          "label": {
+            "en": "No sour cream",
+            "es": "Sin sour cream"
+          }
+        }
+      ]
+    },
+    "mod_remove_western": {
+      "id": "mod_remove_western",
+      "title": {
+        "en": "Remove Ingredients",
+        "es": "Remover Ingredientes"
+      },
+      "selectionType": "multiple",
+      "required": false,
+      "minSelections": 0,
+      "maxSelections": 4,
+      "options": [
+        {
+          "id": "opt_remove_tomato",
+          "label": {
+            "en": "No tomato",
+            "es": "Sin tomate"
+          }
+        },
+        {
+          "id": "opt_remove_onion",
+          "label": {
+            "en": "No onion",
+            "es": "Sin cebolla"
+          }
+        },
+        {
+          "id": "opt_remove_peppers",
+          "label": {
+            "en": "No peppers",
+            "es": "Sin pimientos"
+          }
+        },
+        {
+          "id": "opt_remove_cheese",
+          "label": {
+            "en": "No cheese",
+            "es": "Sin queso"
+          }
+        }
+      ]
+    },
+    "mod_sandwich_bread": {
+      "id": "mod_sandwich_bread",
+      "title": {
+        "en": "Bread",
+        "es": "Pan"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_bread_regular",
+          "label": {
+            "en": "Regular",
+            "es": "Regular"
+          }
+        },
+        {
+          "id": "opt_bread_whole_wheat",
+          "label": {
+            "en": "Whole Wheat",
+            "es": "Trigo Integral"
+          }
+        },
+        {
+          "id": "opt_bread_tortilla_wrap",
+          "label": {
+            "en": "Tortilla (Wrap)",
+            "es": "Tortilla (Wrap)"
+          }
+        }
+      ]
+    },
+    "mod_sandwich_format": {
+      "id": "mod_sandwich_format",
+      "title": {
+        "en": "Make it a Combo",
+        "es": "Hazlo Combo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_format_individual",
+          "label": {
+            "en": "Individual",
+            "es": "Individual"
+          }
+        },
+        {
+          "id": "opt_format_combo",
+          "label": {
+            "en": "Combo (fries & drink)",
+            "es": "Combo (papas o sorullos y refresco)"
+          },
+          "priceDeltaCents": 399
+        }
+      ]
+    },
+    "mod_side_choice": {
+      "id": "mod_side_choice",
+      "title": {
+        "en": "Sides",
+        "es": "Acompañante"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_side_sausage",
+          "label": {
+            "en": "Sausage",
+            "es": "Salchicha"
+          }
+        },
+        {
+          "id": "opt_side_ham",
+          "label": {
+            "en": "Ham",
+            "es": "Jamon"
+          }
+        },
+        {
+          "id": "opt_side_bacon",
+          "label": {
+            "en": "Bacon",
+            "es": "Tocineta"
+          }
+        }
+      ]
+    },
+    "mod_sugar_choice": {
+      "id": "mod_sugar_choice",
+      "title": {
+        "en": "Sugar",
+        "es": "Azucar"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_sugar_sugar",
+          "label": {
+            "en": "Sugar",
+            "es": "Azucar"
+          }
+        },
+        {
+          "id": "opt_sugar_sweetener",
+          "label": {
+            "en": "Sweetener",
+            "es": "Endulzante / Azucar dieta"
+          }
+        },
+        {
+          "id": "opt_sugar_none",
+          "label": {
+            "en": "None",
+            "es": "Nada"
+          }
+        }
+      ]
+    },
+    "mod_sugar_choice_farina": {
+      "id": "mod_sugar_choice_farina",
+      "title": {
+        "en": "Sugar",
+        "es": "Azucar"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_sugar_1_sugar",
+          "label": {
+            "en": "Sugar",
+            "es": "Azucar"
+          }
+        },
+        {
+          "id": "opt_sugar_2_sweetener",
+          "label": {
+            "en": "Sweetener",
+            "es": "Endulzante / Azucar dieta"
+          }
+        },
+        {
+          "id": "opt_sugar_3_none",
+          "label": {
+            "en": "None",
+            "es": "Nada"
+          }
+        }
+      ]
+    },
+    "mod_table_choice": {
+      "id": "mod_table_choice",
+      "title": {
+        "en": "Table",
+        "es": "Mesa"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_new_mpov3hhe_01",
+          "label": {
+            "en": "Plastic",
+            "es": "Plastico"
+          }
+        },
+        {
+          "id": "opt_new_mpov3ioo_02",
+          "label": {
+            "en": "Metal",
+            "es": "Metal"
+          }
+        }
+      ]
+    },
+    "mod_toast_choice": {
+      "id": "mod_toast_choice",
+      "title": {
+        "en": "Toast",
+        "es": "Tostada"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_toast_white",
+          "label": {
+            "en": "White",
+            "es": "Blanco"
+          }
+        },
+        {
+          "id": "opt_toast_wheat",
+          "label": {
+            "en": "Wheat",
+            "es": "Integral"
+          },
+          "priceDeltaCents": 100
+        }
+      ]
+    },
+    "mod_tortilla_type": {
+      "id": "mod_tortilla_type",
+      "title": {
+        "en": "Tortilla",
+        "es": "Tortilla"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "visibleWhen": {
+        "groupId": "mod_sandwich_bread",
+        "optionIds": [
+          "opt_bread_tortilla_wrap"
+        ]
+      },
+      "options": [
+        {
+          "id": "opt_tortilla_spinach",
+          "label": {
+            "en": "Spinach",
+            "es": "Espinaca"
+          }
+        },
+        {
+          "id": "opt_tortilla_regular",
+          "label": {
+            "en": "Regular",
+            "es": "Regular"
+          }
+        }
+      ]
+    }
   }
 }

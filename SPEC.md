@@ -1,6 +1,6 @@
 # Specification
 
-How `menu.json` models items, choices, and conditional combo flows. RicoS reads the same shape at checkout, on tickets, and in the admin editor.
+How `menu.json` models menu data on disk. Parsing expands compact refs into the same runtime item shape used by RicoS checkout, kitchen tickets, and admin tooling.
 
 ## Document shape
 
@@ -11,49 +11,89 @@ Each catalog file has release fields plus a menu body:
 | `catalogVersion` | Integer bumped on every publish |
 | `publishedAt` | ISO timestamp; must increase each publish |
 | `restaurant`, `menuName` | Bilingual labels |
-| `categories[]` | Menu sections |
 | `orderFees` | Checkout fees (e.g. service charge rate) |
+| `modifierGroups` | Optional global registry of reusable modifier groups |
+| `categories[]` | Menu sections |
 
-Each **category** has `id`, bilingual `title`, optional `notes[]`, and `items[]`.
+Each category has:
 
-Each **item** has `id`, bilingual `name` / `description`, `priceCents`, `station` (`A`, `B`, or `default`), tax rates, and optional `modifierGroups[]`.
+- `id`, localized `title`, `notes[]`, `items[]`
+- optional `modifierGroupRefs: string[]` (default modifier stack for all items in the category)
 
-## Modifier groups
+Each item has:
 
-A modifier group is a set of choices for one item (e.g. “Pancake or waffle”, “Make it a combo”).
+- `id`, localized `name`, localized `description`, `priceCents`, `station`, tax rates
+- either inline `modifierGroups[]` (legacy) or `modifierGroupRefs[]` (compact)
 
-| Field | Meaning |
-|-------|---------|
-| `id` | Stable key stored in cart selections |
-| `title` | Bilingual group label shown to staff and customers |
-| `selectionType` | `single` or `multiple` |
-| `required` | Customer must pick when the group is **active** |
-| `minSelections` / `maxSelections` | How many options can be picked |
-| `options[]` | Each option has `id`, bilingual `label`, and optional `priceDeltaCents` (surcharge) |
+## Two primitives for modifiers
 
-Cart selections are flat: `{ "groupId": ["optionId"] }`.
+### 1) `modifierGroups` registry
+
+Top-level object map from modifier group id to full group definition:
+
+```json
+"modifierGroups": {
+  "mod_sandwich_format": {
+    "id": "mod_sandwich_format",
+    "title": { "en": "Make it a Combo", "es": "Hazlo Combo" },
+    "selectionType": "single",
+    "required": true,
+    "minSelections": 1,
+    "maxSelections": 1,
+    "options": [
+      { "id": "opt_format_individual", "label": { "en": "Individual", "es": "Individual" } },
+      { "id": "opt_format_combo", "label": { "en": "Combo", "es": "Combo" }, "priceDeltaCents": 399 }
+    ]
+  }
+}
+```
+
+### 2) `modifierGroupRefs`
+
+Ordered list of group ids attached to a category or item:
+
+```json
+"modifierGroupRefs": [
+  "mod_sandwich_bread",
+  "mod_tortilla_type",
+  "mod_sandwich_format",
+  "mod_combo_side",
+  "mod_combo_drink"
+]
+```
+
+Order is preserved and controls display/validation order.
+
+## Resolution rules
+
+Parser resolution (before normal item validation):
+
+1. `refs = item.modifierGroupRefs ?? category.modifierGroupRefs`
+2. If `refs` exist:
+   - each id must exist in top-level `modifierGroups`
+   - refs must not repeat ids
+   - parser expands refs into inline `item.modifierGroups[]`
+3. If no refs and item has inline `modifierGroups[]`, parse inline directly (legacy path)
+4. If both `modifierGroupRefs` and inline `modifierGroups` are set on the same item, validation fails
+
+After parse, runtime always sees inline `item.modifierGroups[]`.
 
 ```mermaid
-flowchart TB
-  item[Menu item]
-  groupA[Modifier group A]
-  groupB[Modifier group B]
-  opt1[Option 1]
-  opt2[Option 2]
-  opt3[Option 3]
+flowchart LR
+  compactDisk[menuJsonCompact]
+  parser[parseMenuCatalogFile]
+  expandedRuntime[expandedMenuDocument]
+  surface[MenuCatalogSurface]
+  codec[cartCodec]
 
-  item --> groupA
-  item --> groupB
-  groupA --> opt1
-  groupA --> opt2
-  groupB --> opt3
+  compactDisk --> parser --> expandedRuntime
+  expandedRuntime --> surface
+  expandedRuntime --> codec
 ```
 
 ## Conditional groups (`visibleWhen`)
 
-Some choices only apply after another choice is made. Example: combo side and drink only matter when the customer picks **Combo**.
-
-Add optional `visibleWhen` on a modifier group:
+`visibleWhen` stays unchanged and is evaluated on expanded groups:
 
 ```json
 "visibleWhen": {
@@ -62,82 +102,16 @@ Add optional `visibleWhen` on a modifier group:
 }
 ```
 
-**Rules:**
+Rules:
 
-- No `visibleWhen` → group is always active.
-- With `visibleWhen` → group is **active** only when the parent group includes one of `optionIds`.
-- When inactive: customer must **not** pick anything; stale picks are rejected at checkout.
-- When active: normal `required` / min / max rules apply.
-- Combo surcharges use `priceDeltaCents` on the combo **option** (not on side/drink).
+- No `visibleWhen` -> group is always active.
+- With `visibleWhen` -> active only when parent group includes one matching option id.
+- Inactive groups must not be selected; active groups follow normal required/min/max rules.
 
-```mermaid
-flowchart TD
-  start[Customer opens item]
-  format{Pick format}
-  individual[Individual]
-  combo[Combo plus 399 cents]
-  side[Pick side: fries or sorullos]
-  drink[Pick drink flavor]
-  cart[Add to cart]
+## Authoring rules
 
-  start --> format
-  format --> individual --> cart
-  format --> combo --> side --> drink --> cart
-```
-
-```mermaid
-flowchart LR
-  menuJson[menu.json]
-  parse[parseMenuCatalogFile]
-  surface[MenuCatalogSurface]
-  codec[cart codec]
-  ui[Storefront and admin editor]
-  ticket[Kitchen chit and receipt]
-
-  menuJson --> parse --> surface
-  surface --> ui
-  surface --> ticket
-  ui --> codec
-  codec --> surface
-```
-
-## Example: sandwiches combo
-
-Category `cat_sandwiches` uses three modifier groups on each sandwich item:
-
-1. **`mod_sandwich_format`** (always shown, required)
-   - `opt_format_individual` — no surcharge
-   - `opt_format_combo` — `priceDeltaCents: 399`
-
-2. **`mod_combo_side`** (shown only when Combo is selected, required when active)
-   - `opt_side_fries` / `opt_side_sorullos`
-   - `visibleWhen`: parent `mod_sandwich_format`, option `opt_format_combo`
-
-3. **`mod_combo_drink`** (same visibility as side, required when active)
-   - Placeholder flavors: Coke, Sprite, Diet Coke
-
-Category `notes` carry the printed-menu callout (e.g. “Hazlo combo: escoge papas fritas o sorullos y refresco (+$3.99).”).
-
-**Individual order** — selections:
-
-```json
-{ "mod_sandwich_format": ["opt_format_individual"] }
-```
-
-**Combo order** — selections:
-
-```json
-{
-  "mod_sandwich_format": ["opt_format_combo"],
-  "mod_combo_side": ["opt_side_fries"],
-  "mod_combo_drink": ["opt_drink_coke"]
-}
-```
-
-Reuse the same group and option ids across sandwich items so behavior stays consistent.
-
-## Authoring tips
-
-- Put the **parent** group first in `modifierGroups` (e.g. format before side/drink).
-- Use the RicoS admin editor fields **Show only when group ID** and **Show only when option IDs** for `visibleWhen`; no need to hand-edit JSON unless you prefer it.
-- Every publish: increment `catalogVersion` by 1 and set a later `publishedAt`. CI validates schema (including `visibleWhen`) via `scripts/parse-menu-catalog.mjs`.
+- Prefer registry + refs over copy-paste inline groups.
+- Put shared stacks at category level (`category.modifierGroupRefs`) and override per item only when needed.
+- One group id must represent one stable definition. Do not reuse one id for different option sets.
+- Parent groups should appear before groups that depend on them with `visibleWhen`.
+- Every publish: increment `catalogVersion` by 1 and set a later `publishedAt`.
