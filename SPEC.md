@@ -13,7 +13,31 @@ Each catalog file has release fields plus a menu body:
 | `restaurant`, `menuName` | Bilingual labels |
 | `orderFees` | Checkout fees (e.g. service charge rate) |
 | `modifierGroups` | Global registry of reusable modifier groups (required when any item uses refs) |
-| `categories[]` | Menu sections |
+| `categories[]` | Menu sections (category payloads; array order is not used for storefront display) |
+| `themes` | Required map of theme name → ordered category ids; controls storefront grouping and sort order |
+
+### `themes`
+
+Shape: `Record<string, string[]>` — each key is an English display label; each value lists category ids in display order within that theme.
+
+Example:
+
+```json
+"themes": {
+  "Breakfast": ["cat_breakfast_griddles", "cat_omelettes", "cat_egg_plates", "cat_hot_cereals"],
+  "Sandwiches": ["cat_sandwiches"],
+  "Burgers": ["cat_burgers", "cat_appetizers"]
+}
+```
+
+Rules:
+
+- `themes` is **required** (catalogs without it fail parse; no migration or fallback).
+- Theme section order follows **object key insertion order** in the JSON file.
+- Category order within a theme follows each theme’s array order.
+- Every `categories[].id` must appear **exactly once** across all theme arrays.
+- Theme values must not reference unknown category ids.
+- Theme names are opaque English labels shown on the storefront for both locales (not `LocalizedText`).
 
 Each category has:
 
@@ -89,7 +113,7 @@ At checkout, RicoS marks the group **active** only when the rule matches; inacti
 - **One id, one meaning:** never reuse a group id for a different option set—split into a new id instead.
 - **Ref order matters:** list parent groups before any group that uses `visibleWhen` on them.
 - **Publish:** bump `catalogVersion` by 1 and set a later `publishedAt` (CI enforces this on push).
-
+- **Themes:** assign every category to exactly one theme; reorder themes or category lists to change storefront layout.
 
 ## Resolution rules
 
@@ -160,7 +184,9 @@ flowchart TD
   lookup -->|yes| expand --> next
 ```
 
-After all items are resolved, the top-level `modifierGroups` key is removed from the working object. `parseMenuDocumentFromRoot` then validates the expanded tree (categories, items, stations, tax rates, and each expanded modifier group including `visibleWhen`).
+After all items are resolved, the top-level `modifierGroups` key is removed from the working object. `parseMenuDocumentFromRoot` then validates the expanded tree (`themes`, categories, items, stations, tax rates, and each expanded modifier group including `visibleWhen`). `parseThemes` cross-checks `themes` against parsed category ids (bijection).
+
+Storefront display uses `buildThemedMenuSections`: walk `themes` in key order, resolve each category id from `categories[]`.
 
 Publish reverses the on-disk shape:
 
@@ -168,9 +194,11 @@ Publish reverses the on-disk shape:
 flowchart LR
   editor[Admin editor in-memory expanded menu]
   compact[compactMenuCatalogForDisk]
-  disk[menu.json registry plus refs]
+  disk[menu.json themes registry plus refs]
   parseAgain[parseMenuCatalogFile on next load]
 
   editor --> compact --> disk
   disk --> parseAgain
 ```
+
+`compactMenuCatalogForDisk` preserves `themes` on disk unchanged from the in-memory catalog.

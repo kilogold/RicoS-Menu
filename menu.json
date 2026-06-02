@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 36,
-  "publishedAt": "2026-06-02T19:21:01.860Z",
+  "catalogVersion": 37,
+  "publishedAt": "2026-06-02T20:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1348,6 +1348,24 @@
       ]
     }
   ],
+  "themes": {
+    "Breakfast": [
+      "cat_breakfast_griddles",
+      "cat_omelettes",
+      "cat_egg_plates",
+      "cat_hot_cereals"
+    ],
+    "Sandwiches": ["cat_sandwiches"],
+    "Burgers": ["cat_burgers", "cat_appetizers"],
+    "Healthy": ["cat_salads", "cat_veggie", "cat_kids_menu"],
+    "Criollo": [
+      "cat_criollo",
+      "cat_pechugas",
+      "cat_mofongo_relleno",
+      "cat_asopao",
+      "cat_mariscos"
+    ]
+  },
   "orderFees": {
     "serviceFeeRate": 0.05
   },
