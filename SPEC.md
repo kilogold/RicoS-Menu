@@ -12,7 +12,7 @@ Each catalog file has release fields plus a menu body:
 | `publishedAt` | ISO timestamp; must increase each publish |
 | `restaurant`, `menuName` | Bilingual labels |
 | `orderFees` | Checkout fees (e.g. service charge rate) |
-| `modifierGroups` | Optional global registry of reusable modifier groups |
+| `modifierGroups` | Global registry of reusable modifier groups (required when any item uses refs) |
 | `categories[]` | Menu sections |
 
 Each category has:
@@ -23,7 +23,9 @@ Each category has:
 Each item has:
 
 - `id`, localized `name`, localized `description`, `priceCents`, `station`, tax rates
-- either inline `modifierGroups[]` (legacy) or `modifierGroupRefs[]` (compact)
+- optional `modifierGroupRefs: string[]` (overrides the category default for that item only)
+
+Items must **not** include inline `modifierGroups[]` in `menu.json`. Use refs plus the top-level registry instead.
 
 ## Two primitives for modifiers
 
@@ -64,36 +66,9 @@ Ordered list of group ids attached to a category or item:
 
 Order is preserved and controls display/validation order.
 
-## Resolution rules
-
-Parser resolution (before normal item validation):
-
-1. `refs = item.modifierGroupRefs ?? category.modifierGroupRefs`
-2. If `refs` exist:
-   - each id must exist in top-level `modifierGroups`
-   - refs must not repeat ids
-   - parser expands refs into inline `item.modifierGroups[]`
-3. If no refs and item has inline `modifierGroups[]`, parse inline directly (legacy path)
-4. If both `modifierGroupRefs` and inline `modifierGroups` are set on the same item, validation fails
-
-After parse, runtime always sees inline `item.modifierGroups[]`.
-
-```mermaid
-flowchart LR
-  compactDisk[menuJsonCompact]
-  parser[parseMenuCatalogFile]
-  expandedRuntime[expandedMenuDocument]
-  surface[MenuCatalogSurface]
-  codec[cartCodec]
-
-  compactDisk --> parser --> expandedRuntime
-  expandedRuntime --> surface
-  expandedRuntime --> codec
-```
-
 ## Conditional groups (`visibleWhen`)
 
-`visibleWhen` stays unchanged and is evaluated on expanded groups:
+Some modifier groups only apply after the customer picks a specific option in another group (e.g. combo side and drink after **Combo**). Declare that dependency on the group in the registry with optional `visibleWhen`:
 
 ```json
 "visibleWhen": {
@@ -102,16 +77,100 @@ flowchart LR
 }
 ```
 
-Rules:
+- `groupId` — parent modifier group (must appear earlier in the same item’s `modifierGroupRefs` order).
+- `optionIds` — parent is satisfied if the customer selected any of these options.
 
-- No `visibleWhen` -> group is always active.
-- With `visibleWhen` -> active only when parent group includes one matching option id.
-- Inactive groups must not be selected; active groups follow normal required/min/max rules.
+At checkout, RicoS marks the group **active** only when the rule matches; inactive groups are hidden and must stay empty in cart selections. When active, normal `required` / min / max rules apply. Combo surcharges belong on the triggering option (`priceDeltaCents`), not on dependent groups.
 
 ## Authoring rules
 
-- Prefer registry + refs over copy-paste inline groups.
-- Put shared stacks at category level (`category.modifierGroupRefs`) and override per item only when needed.
-- One group id must represent one stable definition. Do not reuse one id for different option sets.
-- Parent groups should appear before groups that depend on them with `visibleWhen`.
-- Every publish: increment `catalogVersion` by 1 and set a later `publishedAt`.
+- **Change a choice once:** edit the group in `modifierGroups` (labels, options, `visibleWhen`, surcharges). Every item that references that id picks up the change.
+- **Same stack on many items:** set `modifierGroupRefs` on the category; leave items bare unless one dish differs.
+- **One id, one meaning:** never reuse a group id for a different option set—split into a new id instead.
+- **Ref order matters:** list parent groups before any group that uses `visibleWhen` on them.
+- **Publish:** bump `catalogVersion` by 1 and set a later `publishedAt` (CI enforces this on push).
+
+
+## Resolution rules
+
+Parser resolution runs before normal item validation:
+
+1. `refs = item.modifierGroupRefs ?? category.modifierGroupRefs`
+2. If the item has inline `modifierGroups[]` in the catalog file, validation fails.
+3. If `refs` exist:
+   - each id must exist in top-level `modifierGroups`
+   - ref ids must not repeat within the same list
+   - the parser expands refs into `item.modifierGroups[]` (deep copy from the registry)
+4. If there are no refs, the item has no modifiers.
+
+After parse, RicoS always works with expanded items that carry inline `item.modifierGroups[]`. That shape is produced by resolution (or held in memory in the admin editor); it is not authored directly in `menu.json`.
+
+Publish serializes the expanded catalog back to registry + refs via `compactMenuCatalogForDisk`.
+
+### Parsing flow and order
+
+`parseMenuCatalogFile` runs in this order:
+
+```mermaid
+flowchart TD
+  subgraph catalogParse [parseMenuCatalogFile]
+    raw[menu.json raw object]
+    release[Validate catalogVersion and publishedAt]
+    resolve[resolveMenuCatalogRaw]
+    validateDoc[parseMenuDocumentFromRoot]
+    parsed[ParsedMenuCatalogFile with expanded catalog]
+
+    raw --> release --> resolve --> validateDoc --> parsed
+  end
+
+  subgraph consumers [Runtime consumers]
+    surface[MenuCatalogSurface]
+    codec[cart codec]
+    parsed --> surface
+    parsed --> codec
+  end
+```
+
+Inside `resolveMenuCatalogRaw`, the registry is built once, then each category and item is processed in array order. Per item:
+
+```mermaid
+flowchart TD
+  start[Next item in category]
+  inline{Item has inline modifierGroups in file?}
+  rejectInline[Reject: inline modifierGroups not allowed]
+  pickRefs["refs = item.modifierGroupRefs ?? category.modifierGroupRefs"]
+  hasRefs{refs present?}
+  noMods[Leave item without modifierGroups]
+  dupRefs{Duplicate ids in refs?}
+  rejectDup[Reject: duplicate modifierGroupRefs id]
+  lookup{Every ref id exists in modifierGroups registry?}
+  rejectMissing[Reject: unknown modifier group id]
+  expand[Set item.modifierGroups to deep copies from registry]
+  next[Continue to next item]
+
+  start --> inline
+  inline -->|yes| rejectInline
+  inline -->|no| pickRefs
+  pickRefs --> hasRefs
+  hasRefs -->|no| noMods --> next
+  hasRefs -->|yes| dupRefs
+  dupRefs -->|yes| rejectDup
+  dupRefs -->|no| lookup
+  lookup -->|no| rejectMissing
+  lookup -->|yes| expand --> next
+```
+
+After all items are resolved, the top-level `modifierGroups` key is removed from the working object. `parseMenuDocumentFromRoot` then validates the expanded tree (categories, items, stations, tax rates, and each expanded modifier group including `visibleWhen`).
+
+Publish reverses the on-disk shape:
+
+```mermaid
+flowchart LR
+  editor[Admin editor in-memory expanded menu]
+  compact[compactMenuCatalogForDisk]
+  disk[menu.json registry plus refs]
+  parseAgain[parseMenuCatalogFile on next load]
+
+  editor --> compact --> disk
+  disk --> parseAgain
+```
