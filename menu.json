@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 37,
-  "publishedAt": "2026-06-02T20:00:00.000Z",
+  "catalogVersion": 38,
+  "publishedAt": "2026-06-02T21:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1346,6 +1346,216 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_refrescos",
+      "title": {
+        "en": "Refrescos",
+        "es": "Refrescos"
+      },
+      "notes": [],
+      "modifierGroupRefs": [
+        "mod_refrescos_flavor"
+      ],
+      "items": [
+        {
+          "id": "item_refrescos_medium",
+          "name": {
+            "en": "Medium (Med.)",
+            "es": "Mediano (Med.)"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 259,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_refrescos_large",
+          "name": {
+            "en": "Large (Lg.)",
+            "es": "Grande (Lg.)"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 299,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cat_jugos",
+      "title": {
+        "en": "Jugos",
+        "es": "Jugos"
+      },
+      "notes": [],
+      "modifierGroupRefs": [
+        "mod_jugos_flavor"
+      ],
+      "items": [
+        {
+          "id": "item_jugos_medium",
+          "name": {
+            "en": "Medium (Med.)",
+            "es": "Mediano (Med.)"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 299,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_jugos_large",
+          "name": {
+            "en": "Large (Lg.)",
+            "es": "Grande (Lg.)"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 399,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cat_cafe",
+      "title": {
+        "en": "Cafe",
+        "es": "Cafe"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_cafe_espresso",
+          "name": {
+            "en": "Espresso",
+            "es": "Espresso"
+          },
+          "description": {
+            "en": "8 oz.",
+            "es": "8 oz."
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sugar_choice"
+          ]
+        },
+        {
+          "id": "item_cafe_americano",
+          "name": {
+            "en": "Americano",
+            "es": "Americano"
+          },
+          "description": {
+            "en": "8 oz.",
+            "es": "8 oz."
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sugar_choice"
+          ]
+        },
+        {
+          "id": "item_cafe_latte",
+          "name": {
+            "en": "Latte",
+            "es": "Latte"
+          },
+          "description": {
+            "en": "8 oz.",
+            "es": "8 oz."
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sugar_choice"
+          ]
+        },
+        {
+          "id": "item_cafe_macchiato",
+          "name": {
+            "en": "Macchiato",
+            "es": "Macchiato"
+          },
+          "description": {
+            "en": "12 oz.",
+            "es": "12 oz."
+          },
+          "priceCents": 450,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_cafe_mocha",
+          "name": {
+            "en": "Mocha",
+            "es": "Mocha"
+          },
+          "description": {
+            "en": "12 oz.",
+            "es": "12 oz."
+          },
+          "priceCents": 499,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_cafe_cappuccino",
+          "name": {
+            "en": "Cappuccino",
+            "es": "Cappuccino"
+          },
+          "description": {
+            "en": "12 oz.",
+            "es": "12 oz."
+          },
+          "priceCents": 499,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_cafe_caramel_macchiato",
+          "name": {
+            "en": "Caramel Macchiato",
+            "es": "Caramel Macchiato"
+          },
+          "description": {
+            "en": "12 oz.",
+            "es": "12 oz."
+          },
+          "priceCents": 499,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "themes": {
@@ -1364,7 +1574,8 @@
       "cat_mofongo_relleno",
       "cat_asopao",
       "cat_mariscos"
-    ]
+    ],
+    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe"]
   },
   "orderFees": {
     "serviceFeeRate": 0.05
@@ -1647,6 +1858,102 @@
           "label": {
             "en": "Garlic (Ajillo)",
             "es": "Al ajillo"
+          }
+        }
+      ]
+    },
+    "mod_jugos_flavor": {
+      "id": "mod_jugos_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_jugo_china",
+          "label": {
+            "en": "Orange (China)",
+            "es": "China"
+          }
+        },
+        {
+          "id": "opt_jugo_parcha",
+          "label": {
+            "en": "Passion Fruit (Parcha)",
+            "es": "Parcha"
+          }
+        },
+        {
+          "id": "opt_jugo_uva",
+          "label": {
+            "en": "Grape (Uva)",
+            "es": "Uva"
+          }
+        },
+        {
+          "id": "opt_jugo_acerola",
+          "label": {
+            "en": "Barbados Cherry (Acerola)",
+            "es": "Acerola"
+          }
+        }
+      ]
+    },
+    "mod_refrescos_flavor": {
+      "id": "mod_refrescos_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_refresco_coke",
+          "label": {
+            "en": "Coca-Cola",
+            "es": "Coca-Cola"
+          }
+        },
+        {
+          "id": "opt_refresco_diet_coke",
+          "label": {
+            "en": "Diet Coke",
+            "es": "Diet-Coke"
+          }
+        },
+        {
+          "id": "opt_refresco_sprite",
+          "label": {
+            "en": "Sprite",
+            "es": "Sprite"
+          }
+        },
+        {
+          "id": "opt_refresco_fanta_china",
+          "label": {
+            "en": "Fanta China",
+            "es": "Fanta-China"
+          }
+        },
+        {
+          "id": "opt_refresco_iced_tea",
+          "label": {
+            "en": "Iced Tea",
+            "es": "Iced Tea"
+          }
+        },
+        {
+          "id": "opt_refresco_lemonade",
+          "label": {
+            "en": "Lemonade",
+            "es": "Lemonade"
           }
         }
       ]
