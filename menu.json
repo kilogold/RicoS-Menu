@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 29,
-  "publishedAt": "2026-06-02T18:00:00.000Z",
+  "catalogVersion": 30,
+  "publishedAt": "2026-06-02T05:38:31.504Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1642,7 +1642,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1673,7 +1675,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1756,7 +1760,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1787,7 +1793,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1870,7 +1878,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1901,7 +1911,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -1984,7 +1996,9 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
@@ -2015,7 +2029,1071 @@
               "maxSelections": 1,
               "visibleWhen": {
                 "groupId": "mod_sandwich_format",
-                "optionIds": ["opt_format_combo"]
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_monterrey",
+          "name": {
+            "en": "Monterrey",
+            "es": "Monterrey"
+          },
+          "description": {
+            "en": "Turkey, Virginia ham, salad and Swiss cheese on criollo bread.",
+            "es": "Turkey, virginia ham, ensalada y queso suizo en pan criollo."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_cubano",
+          "name": {
+            "en": "Cubano",
+            "es": "Cubano"
+          },
+          "description": {
+            "en": "Pork shoulder, Virginia ham, pickle, Swiss cheese and mustard on criollo bread.",
+            "es": "Pernil, virginia ham, pepinillo, queso suizo y mostaza en pan criollo."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_triple_honey_sensation",
+          "name": {
+            "en": "Triple Honey Sensation",
+            "es": "Triple Honey Sensation"
+          },
+          "description": {
+            "en": "Turkey, bacon, Virginia ham, honey mustard, salad and Swiss cheese on criollo bread.",
+            "es": "Turkey, bacon, virginia ham, honey mustard, ensalada y queso suizo en pan criollo."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_croque_monsieur",
+          "name": {
+            "en": "Croque Monsieur",
+            "es": "Croque Monsieur"
+          },
+          "description": {
+            "en": "Turkey, Virginia ham, lettuce and tomato on artisan bread topped with broiled Swiss cheese.",
+            "es": "Turkey, virginia ham, lechuga y tomate en pan artesanal cubierto de queso suizo gratinado."
+          },
+          "priceCents": 1099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_el_aguadillano",
+          "name": {
+            "en": "El Aguadillano",
+            "es": "El Aguadillano"
+          },
+          "description": {
+            "en": "Pastrami, pork shoulder, salad, mayo and Swiss cheese on criollo bread.",
+            "es": "Pastrami, pernil, ensalada, mayonesa y queso suizo en pan criollo."
+          },
+          "priceCents": 899,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_tuna_tuna",
+          "name": {
+            "en": "Tuna-Tuna",
+            "es": "Tuna-Tuna"
+          },
+          "description": {
+            "en": "Tuna, onion, salad, mayo and American cheese on criollo bread.",
+            "es": "Atún, cebolla, ensalada, mayonesa y queso americano en pan criollo."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_rustic_chicken",
+          "name": {
+            "en": "Rustic Chicken",
+            "es": "Rustic Chicken"
+          },
+          "description": {
+            "en": "Sauteed chicken thighs, salad, mayo and Swiss cheese on criollo bread.",
+            "es": "Caderas de pollo salteadas, ensalada, mayonesa y queso suizo en pan criollo."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_media_noche",
+          "name": {
+            "en": "Media Noche",
+            "es": "Media Noche"
+          },
+          "description": {
+            "en": "Virginia ham, pork shoulder, pickle, mustard and Swiss cheese on sweet bread.",
+            "es": "Virginia ham, pernil, pepinillo, mostaza y queso suizo en pan dulce."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_drink_coke",
+                  "label": {
+                    "en": "Coke",
+                    "es": "Coca-Cola"
+                  }
+                },
+                {
+                  "id": "opt_drink_sprite",
+                  "label": {
+                    "en": "Sprite",
+                    "es": "Sprite"
+                  }
+                },
+                {
+                  "id": "opt_drink_diet_coke",
+                  "label": {
+                    "en": "Diet Coke",
+                    "es": "Coca-Cola Light"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "item_bistec_sandwich",
+          "name": {
+            "en": "Bistec Sandwich",
+            "es": "Bistec Sandwich"
+          },
+          "description": {
+            "en": "Tender sliced steak with onions, salad and mayo.",
+            "es": "Tierno corte de bistec encebollado, ensalada y mayonesa."
+          },
+          "priceCents": 899,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroups": [
+            {
+              "id": "mod_sandwich_format",
+              "title": {
+                "en": "Make it a Combo",
+                "es": "Hazlo Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "options": [
+                {
+                  "id": "opt_format_individual",
+                  "label": {
+                    "en": "Individual",
+                    "es": "Individual"
+                  }
+                },
+                {
+                  "id": "opt_format_combo",
+                  "label": {
+                    "en": "Combo (fries & drink)",
+                    "es": "Combo (papas o sorullos y refresco)"
+                  },
+                  "priceDeltaCents": 399
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_side",
+              "title": {
+                "en": "Combo Side",
+                "es": "Acompanante del Combo"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
+              },
+              "options": [
+                {
+                  "id": "opt_side_fries",
+                  "label": {
+                    "en": "French Fries",
+                    "es": "Papas Fritas"
+                  }
+                },
+                {
+                  "id": "opt_side_sorullos",
+                  "label": {
+                    "en": "Sorullos",
+                    "es": "Sorullos"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "mod_combo_drink",
+              "title": {
+                "en": "Soft Drink",
+                "es": "Refresco"
+              },
+              "selectionType": "single",
+              "required": true,
+              "minSelections": 1,
+              "maxSelections": 1,
+              "visibleWhen": {
+                "groupId": "mod_sandwich_format",
+                "optionIds": [
+                  "opt_format_combo"
+                ]
               },
               "options": [
                 {
