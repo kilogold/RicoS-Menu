@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 41,
-  "publishedAt": "2026-06-02T21:47:18.162Z",
+  "catalogVersion": 42,
+  "publishedAt": "2026-06-02T21:50:14.242Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1759,9 +1759,9 @@
       "cat_jugos",
       "cat_cafe",
       "cat_cervezas",
-      "cat_tropical_drinks"
-    ],
-    "Specials": ["cat_specials"]
+      "cat_tropical_drinks",
+      "cat_specials"
+    ]
   },
   "orderFees": {
     "serviceFeeRate": 0.05
