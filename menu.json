@@ -719,6 +719,61 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_appetizers",
+      "title": {
+        "en": "Appetizers",
+        "es": "Appetizers"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_queso_frito",
+          "name": {
+            "en": "Queso Frito",
+            "es": "Queso Frito"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_sorullitos",
+          "name": {
+            "en": "Sorullitos",
+            "es": "Sorullitos"
+          },
+          "description": {
+            "en": "A dozen (12) crispy sorullitos.",
+            "es": "Una docena (12) de ricos sorullitos."
+          },
+          "priceCents": 499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_surtido_criollo",
+          "name": {
+            "en": "Surtido Criollo",
+            "es": "Surtido Criollo"
+          },
+          "description": {
+            "en": "Fried beef, chicken chicharron, fried cheese, sorullitos, and plantain tostones.",
+            "es": "Carne frita, chicharrón de pollo, queso frito, sorullitos y tostones de plátanos."
+          },
+          "priceCents": 2699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
