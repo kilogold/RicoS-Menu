@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 24,
-  "publishedAt": "2026-06-02T01:59:01.828Z",
+  "catalogVersion": 25,
+  "publishedAt": "2026-06-02T02:09:34.113Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1216,7 +1216,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 9500,
+          "priceCents": 150,
           "station": "A",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01,
