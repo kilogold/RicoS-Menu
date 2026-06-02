@@ -774,6 +774,116 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_salads",
+      "title": {
+        "en": "Salads",
+        "es": "Salads"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_chicken_caesar",
+          "name": {
+            "en": "Chicken Caesar",
+            "es": "Chicken Caesar"
+          },
+          "description": {
+            "en": "Chicken breast, romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+            "es": "Pechuga de pollo, lechuga romana, crutones, queso parmesano y aderezo caesar."
+          },
+          "priceCents": 1499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_fresh_chicken_blt",
+          "name": {
+            "en": "Fresh Chicken BLT",
+            "es": "Fresh Chicken BLT"
+          },
+          "description": {
+            "en": "Chicken breast, bacon, romaine lettuce, cherry tomatoes, almonds, dried cranberries, carrot, and Parmesan cheese.",
+            "es": "Pechuga de pollo, bacon, lechuga romana, cherry tomato, almendras, cranberries secas, zanahoria y queso parmesano."
+          },
+          "priceCents": 1599,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_ricos_salad",
+          "name": {
+            "en": "Rico's Salad",
+            "es": "Rico's Salad"
+          },
+          "description": {
+            "en": "Chicken breast, shredded cheese, plantain croutons, romaine lettuce, carrot, and cherry tomatoes.",
+            "es": "Pechuga de pollo, queso rallado, crutones de plátano, lechuga romana, zanahoria y cherry tomato."
+          },
+          "priceCents": 1499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cat_veggie",
+      "title": {
+        "en": "Vegetarian",
+        "es": "Veggie"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_farm_omelette",
+          "name": {
+            "en": "Farm Omelette",
+            "es": "Farm Omelette"
+          },
+          "description": {
+            "en": "Broccoli, peppers, onion, carrots, cherry tomatoes, mushrooms, and baked potato topped with mozzarella. Includes whole wheat toast.",
+            "es": "Brócoli, pimientos, cebolla, zanahorias, cherry tomato, setas y papa horneada coronado con queso mozzarella. Incluye tostadas integrales."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_veggie_wrap",
+          "name": {
+            "en": "Veggie Wrap",
+            "es": "Veggie Wrap"
+          },
+          "description": {
+            "en": "Broccoli, cherry tomatoes, onion, carrots, and peppers with Swiss cheese.",
+            "es": "Brócoli, cherry tomato, cebolla, zanahorias y pimientos con queso suizo."
+          },
+          "priceCents": 799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_veggiefongo",
+          "name": {
+            "en": "Veggiefongo",
+            "es": "Veggiefongo"
+          },
+          "description": {
+            "en": "Broccoli, mushrooms, tomato, onion, carrots, and peppers in criolla sauce.",
+            "es": "Brócoli, setas, tomate, cebolla, zanahorias y pimientos en salsa criolla."
+          },
+          "priceCents": 999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
