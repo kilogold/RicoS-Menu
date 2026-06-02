@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 34,
-  "publishedAt": "2026-06-02T19:09:31.041Z",
+  "catalogVersion": 35,
+  "publishedAt": "2026-06-02T19:18:17.729Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1103,6 +1103,181 @@
             "es": "Pechuga empanada, salsa marinara y queso mozzarella."
           },
           "priceCents": 1499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cat_mofongo_relleno",
+      "title": {
+        "en": "Mofongo Relleno",
+        "es": "Mofongo Relleno"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_mofongo_relleno_pollo",
+          "name": {
+            "en": "Pollo",
+            "es": "Pollo"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mofongo_relleno_churrasco",
+          "name": {
+            "en": "Churrasco",
+            "es": "Churrasco"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1999,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mofongo_relleno_camarones",
+          "name": {
+            "en": "Camarones",
+            "es": "Camarones"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mofongo_relleno_mero",
+          "name": {
+            "en": "Mero",
+            "es": "Mero"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mofongo_relleno_dorado",
+          "name": {
+            "en": "Dorado",
+            "es": "Dorado"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mofongo_relleno_mar_y_tierra",
+          "name": {
+            "en": "Mar y Tierra",
+            "es": "Mar y Tierra"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 2099,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
+      "id": "cat_asopao",
+      "title": {
+        "en": "Asopao",
+        "es": "Asopao"
+      },
+      "notes": [
+        {
+          "en": "All asopao includes plantain tostones.",
+          "es": "Todo asopao incluye tostones de plátanos."
+        }
+      ],
+      "items": [
+        {
+          "id": "item_asopao_pollo",
+          "name": {
+            "en": "Pollo",
+            "es": "Pollo"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1299,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_asopao_camarones",
+          "name": {
+            "en": "Camarones",
+            "es": "Camarones"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_asopao_mero",
+          "name": {
+            "en": "Mero",
+            "es": "Mero"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_asopao_dorado",
+          "name": {
+            "en": "Dorado",
+            "es": "Dorado"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1699,
           "station": "B",
           "salesTaxRate": 0.105,
           "municipalTaxRate": 0.01
