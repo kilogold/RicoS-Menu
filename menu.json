@@ -1997,6 +1997,27 @@
             "en": "Ciento Siete — white chocolate / amaretto / vanilla",
             "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
           }
+        },
+        {
+          "id": "opt_specials_choco_rico",
+          "label": {
+            "en": "Choco Rico — chocolate / hazelnut / almonds",
+            "es": "Choco Rico — chocolate / avellana / almendras"
+          }
+        },
+        {
+          "id": "opt_specials_almond_mocha",
+          "label": {
+            "en": "Almond Mocha — chocolate / caramel / almonds",
+            "es": "Almond Mocha — chocolate / caramelo / almendras"
+          }
+        },
+        {
+          "id": "opt_specials_pumpkin_pie",
+          "label": {
+            "en": "Pumpkin Pie — pumpkin / spices / vanilla",
+            "es": "Pumpkin Pie — calabaza / especias / vainilla"
+          }
         }
       ]
     },
