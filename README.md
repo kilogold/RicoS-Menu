@@ -32,7 +32,7 @@ menu.json   # catalogVersion, publishedAt, categories, items, …
 |--------|--------|
 | `RICOS_PREVIEW_REVALIDATE_URL` | `https://<preview-host>/api/menu/revalidate` (no query string) |
 | `RICOS_VERCEL_PROTECTION_BYPASS` | Vercel **Protection Bypass for Automation** secret (preview only) |
-| `RICOS_PRODUCTION_REVALIDATE_URL` | `https://<production-host>/api/menu/revalidate` |
+| `RICOS_PRODUCTION_REVALIDATE_URL` | `https://web-eight-roan-79.vercel.app/api/menu/revalidate` |
 
 CI sends the bypass as the `x-vercel-protection-bypass` header (query params break Next.js API routing).
 
