@@ -1047,6 +1047,67 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_pechugas",
+      "title": {
+        "en": "Chicken Breast",
+        "es": "Pechugas"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_pechuga_pollo_rellena",
+          "name": {
+            "en": "Pechuga de Pollo Rellena",
+            "es": "Pechuga de Pollo Rellena"
+          },
+          "description": {
+            "en": "Stuffed with mofongo wrapped in bacon with mushroom sauce.",
+            "es": "Rellena de mofongo envuelta en bacon con salsa de setas."
+          },
+          "priceCents": 1699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_pechuga_rellena_mofongo"
+          ]
+        },
+        {
+          "id": "item_pechuga_a_la_plancha",
+          "name": {
+            "en": "Pechuga a la Plancha",
+            "es": "Pechuga a la Plancha"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_pechuga_plancha_sauce"
+          ]
+        },
+        {
+          "id": "item_pechuga_a_la_parmesana",
+          "name": {
+            "en": "Pechuga a la Parmesana",
+            "es": "Pechuga a la Parmesana"
+          },
+          "description": {
+            "en": "Breaded chicken breast, marinara sauce, and mozzarella.",
+            "es": "Pechuga empanada, salsa marinara y queso mozzarella."
+          },
+          "priceCents": 1499,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
@@ -1269,6 +1330,60 @@
           "label": {
             "en": "Mamposteao Rice",
             "es": "Arroz mamposteao"
+          }
+        }
+      ]
+    },
+    "mod_pechuga_plancha_sauce": {
+      "id": "mod_pechuga_plancha_sauce",
+      "title": {
+        "en": "Sauce",
+        "es": "Salsa"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_plancha_sauce_criolla",
+          "label": {
+            "en": "Criolla",
+            "es": "Criolla"
+          }
+        },
+        {
+          "id": "opt_plancha_sauce_ajillo",
+          "label": {
+            "en": "Garlic (Ajillo)",
+            "es": "Al ajillo"
+          }
+        }
+      ]
+    },
+    "mod_pechuga_rellena_mofongo": {
+      "id": "mod_pechuga_rellena_mofongo",
+      "title": {
+        "en": "Mofongo",
+        "es": "Mofongo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_rellena_mofongo_platano",
+          "label": {
+            "en": "Plantain",
+            "es": "Platano"
+          }
+        },
+        {
+          "id": "opt_rellena_mofongo_yuca",
+          "label": {
+            "en": "Cassava (Yuca)",
+            "es": "Yuca"
           }
         }
       ]
