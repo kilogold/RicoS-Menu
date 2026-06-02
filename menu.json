@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 39,
-  "publishedAt": "2026-06-02T21:36:45.903Z",
+  "catalogVersion": 40,
+  "publishedAt": "2026-06-02T21:40:54.171Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1558,6 +1558,61 @@
       ]
     },
     {
+      "id": "cat_cervezas",
+      "title": {
+        "en": "Beers",
+        "es": "Cervezas"
+      },
+      "notes": [],
+      "items": [
+        {
+          "id": "item_cerveza_heineken",
+          "name": {
+            "en": "Heineken",
+            "es": "Heineken"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_cerveza_michelob",
+          "name": {
+            "en": "Michelob",
+            "es": "Michelob"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_cerveza_medalla",
+          "name": {
+            "en": "Medalla",
+            "es": "Medalla"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 375,
+          "station": "A",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
+    },
+    {
       "id": "cat_specials",
       "title": {
         "en": "Specials",
@@ -1623,7 +1678,7 @@
       "cat_asopao",
       "cat_mariscos"
     ],
-    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe"],
+    "Bebidas": ["cat_refrescos", "cat_jugos", "cat_cafe", "cat_cervezas"],
     "Specials": ["cat_specials"]
   },
   "orderFees": {
