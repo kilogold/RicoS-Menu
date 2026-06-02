@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 45,
-  "publishedAt": "2026-06-03T19:00:00.000Z",
+  "catalogVersion": 46,
+  "publishedAt": "2026-06-03T20:00:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1753,10 +1753,7 @@
           "priceCents": 699,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01,
-          "modifierGroupRefs": [
-            "mod_pina_colada_alcohol"
-          ]
+          "municipalTaxRate": 0.01
         },
         {
           "id": "item_sangria",
@@ -2145,34 +2142,6 @@
             "en": "Passion Fruit (Parcha)",
             "es": "Parcha"
           }
-        }
-      ]
-    },
-    "mod_pina_colada_alcohol": {
-      "id": "mod_pina_colada_alcohol",
-      "title": {
-        "en": "Style",
-        "es": "Estilo"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_pina_colada_virgin",
-          "label": {
-            "en": "Virgin",
-            "es": "Virgin"
-          }
-        },
-        {
-          "id": "opt_pina_colada_alcohol",
-          "label": {
-            "en": "With Alcohol",
-            "es": "Con alcohol"
-          },
-          "priceDeltaCents": 201
         }
       ]
     },
