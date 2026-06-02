@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 35,
-  "publishedAt": "2026-06-02T19:18:17.729Z",
+  "catalogVersion": 36,
+  "publishedAt": "2026-06-02T19:21:01.860Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1283,6 +1283,69 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_mariscos",
+      "title": {
+        "en": "Seafood",
+        "es": "Mariscos"
+      },
+      "notes": [
+        {
+          "en": "Prepared in criolla sauce, garlic (ajillo), or butter.",
+          "es": "En salsa criolla / al ajillo o mantequilla."
+        }
+      ],
+      "modifierGroupRefs": [
+        "mod_mariscos_preparation"
+      ],
+      "items": [
+        {
+          "id": "item_filete_de_mero",
+          "name": {
+            "en": "Filete de Mero",
+            "es": "Filete de Mero"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_filete_de_dorado",
+          "name": {
+            "en": "Filete de Dorado",
+            "es": "Filete de Dorado"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1699,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_mariscos_camarones",
+          "name": {
+            "en": "Camarones",
+            "es": "Camarones"
+          },
+          "description": {
+            "en": "",
+            "es": ""
+          },
+          "priceCents": 1799,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
@@ -1505,6 +1568,40 @@
           "label": {
             "en": "Mamposteao Rice",
             "es": "Arroz mamposteao"
+          }
+        }
+      ]
+    },
+    "mod_mariscos_preparation": {
+      "id": "mod_mariscos_preparation",
+      "title": {
+        "en": "Preparation",
+        "es": "Preparacion"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_mariscos_sauce_criolla",
+          "label": {
+            "en": "Criolla Sauce",
+            "es": "Salsa criolla"
+          }
+        },
+        {
+          "id": "opt_mariscos_sauce_ajillo",
+          "label": {
+            "en": "Garlic (Ajillo)",
+            "es": "Al ajillo"
+          }
+        },
+        {
+          "id": "opt_mariscos_sauce_mantequilla",
+          "label": {
+            "en": "Butter",
+            "es": "Mantequilla"
           }
         }
       ]
