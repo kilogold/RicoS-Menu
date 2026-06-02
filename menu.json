@@ -654,6 +654,71 @@
           "municipalTaxRate": 0.01
         }
       ]
+    },
+    {
+      "id": "cat_burgers",
+      "title": {
+        "en": "Burgers",
+        "es": "Burgers"
+      },
+      "notes": [
+        {
+          "en": "Make it a combo: choose french fries or sorullos and a soft drink (+$3.99).",
+          "es": "Hazlo combo: escoge papas fritas o sorullos y refresco (+$3.99)."
+        }
+      ],
+      "modifierGroupRefs": [
+        "mod_sandwich_format",
+        "mod_combo_side",
+        "mod_combo_drink"
+      ],
+      "items": [
+        {
+          "id": "item_rico_burger",
+          "name": {
+            "en": "Rico Burger",
+            "es": "Rico Burger"
+          },
+          "description": {
+            "en": "Half-pound beef, bacon, mushroom glaze, lettuce, tomato, caramelized onions, and American cheese on a brioche bun.",
+            "es": "1/2 Libra de carne de res, bacon, glaseado de setas, lechuga, tomate, cebollas caramelizadas y queso americano en brioche bun."
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_chicken_burger",
+          "name": {
+            "en": "Chicken Burger",
+            "es": "Chicken Burger"
+          },
+          "description": {
+            "en": "Grilled chicken breast, bacon, lettuce, tomato, onions, honey mustard, and American cheese on a brioche bun.",
+            "es": "Pechuga a la parrilla, bacon, lechuga, tomate, cebollas, honey mustard y queso americano en brioche bun."
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_danger_burger",
+          "name": {
+            "en": "Danger Burger",
+            "es": "Danger Burger"
+          },
+          "description": {
+            "en": "Half-pound beef, lettuce, tomato, onions, pickles, jalapeños, American cheese, and our danger sauce on a brioche bun.",
+            "es": "1/2 Libra de carne de res, lechuga, tomate, cebollas, pepinillos, jalapeños, queso americano y nuestra \"danger sauce\" en brioche bun."
+          },
+          "priceCents": 1399,
+          "station": "B",
+          "salesTaxRate": 0.105,
+          "municipalTaxRate": 0.01
+        }
+      ]
     }
   ],
   "orderFees": {
@@ -1143,8 +1208,8 @@
         {
           "id": "opt_format_combo",
           "label": {
-            "en": "Combo (fries & drink)",
-            "es": "Combo (papas o sorullos y refresco)"
+            "en": "Combo",
+            "es": "Combo"
           },
           "priceDeltaCents": 399
         }
