@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 46,
-  "publishedAt": "2026-06-03T20:00:00.000Z",
+  "catalogVersion": 47,
+  "publishedAt": "2026-06-03T01:58:59.538Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -8,6 +8,44 @@
   "menuName": {
     "en": "All Day Breakfast",
     "es": "Desayuno Todo el Dia"
+  },
+  "themes": {
+    "Breakfast": [
+      "cat_breakfast_griddles",
+      "cat_omelettes",
+      "cat_egg_plates",
+      "cat_hot_cereals"
+    ],
+    "Sandwiches": [
+      "cat_sandwiches"
+    ],
+    "Burgers": [
+      "cat_burgers",
+      "cat_appetizers"
+    ],
+    "Healthy": [
+      "cat_salads",
+      "cat_veggie",
+      "cat_kids_menu"
+    ],
+    "Criollo": [
+      "cat_criollo",
+      "cat_pechugas",
+      "cat_mofongo_relleno",
+      "cat_asopao",
+      "cat_mariscos"
+    ],
+    "Bebidas": [
+      "cat_refrescos",
+      "cat_jugos",
+      "cat_cafe",
+      "cat_cervezas",
+      "cat_tropical_drinks",
+      "cat_specials"
+    ],
+    "Lunch": [
+      "cat_lunch_platos"
+    ]
   },
   "categories": [
     {
@@ -1854,604 +1892,27 @@
       ]
     }
   ],
-  "themes": {
-    "Breakfast": [
-      "cat_breakfast_griddles",
-      "cat_omelettes",
-      "cat_egg_plates",
-      "cat_hot_cereals"
-    ],
-    "Lunch": ["cat_lunch_platos"],
-    "Sandwiches": ["cat_sandwiches"],
-    "Burgers": ["cat_burgers", "cat_appetizers"],
-    "Healthy": ["cat_salads", "cat_veggie", "cat_kids_menu"],
-    "Criollo": [
-      "cat_criollo",
-      "cat_pechugas",
-      "cat_mofongo_relleno",
-      "cat_asopao",
-      "cat_mariscos"
-    ],
-    "Bebidas": [
-      "cat_refrescos",
-      "cat_jugos",
-      "cat_cafe",
-      "cat_cervezas",
-      "cat_tropical_drinks",
-      "cat_specials"
-    ]
-  },
-  "themeAvailability": {
-    "Lunch": {
-      "days": ["mon", "tue", "wed", "thu", "fri"],
-      "windows": [{ "start": "11:00", "end": "15:00" }]
-    }
-  },
   "orderFees": {
     "serviceFeeRate": 0.05
   },
+  "themeAvailability": {
+    "Lunch": {
+      "days": [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ],
+      "windows": [
+        {
+          "start": "11:00",
+          "end": "15:00"
+        }
+      ]
+    }
+  },
   "modifierGroups": {
-    "mod_big_breakfast_base": {
-      "id": "mod_big_breakfast_base",
-      "title": {
-        "en": "Main Dish",
-        "es": "Plato Principal"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_base_pancake",
-          "label": {
-            "en": "(1) Pancake",
-            "es": "(1) Pancake"
-          }
-        },
-        {
-          "id": "opt_base_waffle",
-          "label": {
-            "en": "(1) Waffle",
-            "es": "(1) Waffle"
-          }
-        }
-      ]
-    },
-    "mod_cereal_base": {
-      "id": "mod_cereal_base",
-      "title": {
-        "en": "Base",
-        "es": "Base"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_base_milk",
-          "label": {
-            "en": "Milk",
-            "es": "Leche"
-          }
-        },
-        {
-          "id": "opt_base_almond_milk",
-          "label": {
-            "en": "Almond Milk",
-            "es": "Leche de Almendras"
-          },
-          "priceDeltaCents": 100
-        },
-        {
-          "id": "opt_base_water",
-          "label": {
-            "en": "Water",
-            "es": "Agua"
-          }
-        }
-      ]
-    },
-    "mod_combo_drink": {
-      "id": "mod_combo_drink",
-      "title": {
-        "en": "Soft Drink",
-        "es": "Refresco"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "visibleWhen": {
-        "groupId": "mod_sandwich_format",
-        "optionIds": [
-          "opt_format_combo"
-        ]
-      },
-      "options": [
-        {
-          "id": "opt_drink_coke",
-          "label": {
-            "en": "Coke",
-            "es": "Coca-Cola"
-          }
-        },
-        {
-          "id": "opt_drink_sprite",
-          "label": {
-            "en": "Sprite",
-            "es": "Sprite"
-          }
-        },
-        {
-          "id": "opt_drink_diet_coke",
-          "label": {
-            "en": "Diet Coke",
-            "es": "Coca-Cola Light"
-          }
-        }
-      ]
-    },
-    "mod_combo_side": {
-      "id": "mod_combo_side",
-      "title": {
-        "en": "Combo Side",
-        "es": "Acompanante del Combo"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "visibleWhen": {
-        "groupId": "mod_sandwich_format",
-        "optionIds": [
-          "opt_format_combo"
-        ]
-      },
-      "options": [
-        {
-          "id": "opt_side_fries",
-          "label": {
-            "en": "French Fries",
-            "es": "Papas Fritas"
-          }
-        },
-        {
-          "id": "opt_side_sorullos",
-          "label": {
-            "en": "Sorullos",
-            "es": "Sorullos"
-          }
-        }
-      ]
-    },
-    "mod_criollo_side": {
-      "id": "mod_criollo_side",
-      "title": {
-        "en": "Side Dish",
-        "es": "Acompanante"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_criollo_side_mofongo",
-          "label": {
-            "en": "Plantain or Cassava Mofongo",
-            "es": "Mofongo de platano o yuca"
-          }
-        },
-        {
-          "id": "opt_criollo_side_bifongo",
-          "label": {
-            "en": "Bifongo",
-            "es": "Bifongo"
-          },
-          "priceDeltaCents": 299
-        },
-        {
-          "id": "opt_criollo_side_trifongo",
-          "label": {
-            "en": "Trifongo",
-            "es": "Trifongo"
-          },
-          "priceDeltaCents": 299
-        },
-        {
-          "id": "opt_criollo_side_home_fries",
-          "label": {
-            "en": "Home Fries",
-            "es": "Home fries"
-          }
-        },
-        {
-          "id": "opt_criollo_side_papa_asada",
-          "label": {
-            "en": "Baked Potato",
-            "es": "Papa asada"
-          }
-        },
-        {
-          "id": "opt_criollo_side_sorullitos",
-          "label": {
-            "en": "Sorullitos",
-            "es": "Sorullitos"
-          }
-        },
-        {
-          "id": "opt_criollo_side_tostones",
-          "label": {
-            "en": "Tostones",
-            "es": "Tostones"
-          }
-        },
-        {
-          "id": "opt_criollo_side_amarillos",
-          "label": {
-            "en": "Amarillos",
-            "es": "Amarillos"
-          }
-        },
-        {
-          "id": "opt_criollo_side_arroz_habichuelas",
-          "label": {
-            "en": "Rice and Beans",
-            "es": "Arroz y habichuelas"
-          }
-        },
-        {
-          "id": "opt_criollo_side_arroz_mamposteao",
-          "label": {
-            "en": "Mamposteao Rice",
-            "es": "Arroz mamposteao"
-          }
-        }
-      ]
-    },
-    "mod_mimosa_flavor": {
-      "id": "mod_mimosa_flavor",
-      "title": {
-        "en": "Flavor",
-        "es": "Sabor"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_mimosa_china",
-          "label": {
-            "en": "Orange (China)",
-            "es": "China"
-          }
-        },
-        {
-          "id": "opt_mimosa_acerola",
-          "label": {
-            "en": "Barbados Cherry (Acerola)",
-            "es": "Acerola"
-          }
-        },
-        {
-          "id": "opt_mimosa_parcha",
-          "label": {
-            "en": "Passion Fruit (Parcha)",
-            "es": "Parcha"
-          }
-        }
-      ]
-    },
-    "mod_mariscos_preparation": {
-      "id": "mod_mariscos_preparation",
-      "title": {
-        "en": "Preparation",
-        "es": "Preparacion"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_mariscos_sauce_criolla",
-          "label": {
-            "en": "Criolla Sauce",
-            "es": "Salsa criolla"
-          }
-        },
-        {
-          "id": "opt_mariscos_sauce_ajillo",
-          "label": {
-            "en": "Garlic (Ajillo)",
-            "es": "Al ajillo"
-          }
-        },
-        {
-          "id": "opt_mariscos_sauce_mantequilla",
-          "label": {
-            "en": "Butter",
-            "es": "Mantequilla"
-          }
-        }
-      ]
-    },
-    "mod_pechuga_plancha_sauce": {
-      "id": "mod_pechuga_plancha_sauce",
-      "title": {
-        "en": "Sauce",
-        "es": "Salsa"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_plancha_sauce_criolla",
-          "label": {
-            "en": "Criolla",
-            "es": "Criolla"
-          }
-        },
-        {
-          "id": "opt_plancha_sauce_ajillo",
-          "label": {
-            "en": "Garlic (Ajillo)",
-            "es": "Al ajillo"
-          }
-        }
-      ]
-    },
-    "mod_jugos_flavor": {
-      "id": "mod_jugos_flavor",
-      "title": {
-        "en": "Flavor",
-        "es": "Sabor"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_jugo_china",
-          "label": {
-            "en": "Orange (China)",
-            "es": "China"
-          }
-        },
-        {
-          "id": "opt_jugo_parcha",
-          "label": {
-            "en": "Passion Fruit (Parcha)",
-            "es": "Parcha"
-          }
-        },
-        {
-          "id": "opt_jugo_uva",
-          "label": {
-            "en": "Grape (Uva)",
-            "es": "Uva"
-          }
-        },
-        {
-          "id": "opt_jugo_acerola",
-          "label": {
-            "en": "Barbados Cherry (Acerola)",
-            "es": "Acerola"
-          }
-        }
-      ]
-    },
-    "mod_specials_flavor": {
-      "id": "mod_specials_flavor",
-      "title": {
-        "en": "Flavor",
-        "es": "Sabor"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_specials_smores_mocha",
-          "label": {
-            "en": "S'mores Mocha — chocolate / caramel / white chocolate / vanilla",
-            "es": "S'mores Mocha — chocolate / caramelo / chocolate blanco / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_red_velvet_mocha",
-          "label": {
-            "en": "Red Velvet Mocha — white chocolate / cocoa / vanilla",
-            "es": "Red Velvet Mocha — chocolate blanco / cocoa / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_macadamia_madness",
-          "label": {
-            "en": "Macadamia Madness — white chocolate / macadamia / caramel",
-            "es": "Macadamia Madness — chocolate blanco / macadamia / caramelo"
-          }
-        },
-        {
-          "id": "opt_specials_la_base",
-          "label": {
-            "en": "La Base — chocolate / caramel / vanilla",
-            "es": "La Base — chocolate / caramelo / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_ciento_siete",
-          "label": {
-            "en": "Ciento Siete — white chocolate / amaretto / vanilla",
-            "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_choco_rico",
-          "label": {
-            "en": "Choco Rico — chocolate / hazelnut / almonds",
-            "es": "Choco Rico — chocolate / avellana / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_almond_mocha",
-          "label": {
-            "en": "Almond Mocha — chocolate / caramel / almonds",
-            "es": "Almond Mocha — chocolate / caramelo / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_pumpkin_pie",
-          "label": {
-            "en": "Pumpkin Pie — pumpkin / spices / vanilla",
-            "es": "Pumpkin Pie — calabaza / especias / vainilla"
-          }
-        }
-      ]
-    },
-    "mod_refrescos_flavor": {
-      "id": "mod_refrescos_flavor",
-      "title": {
-        "en": "Flavor",
-        "es": "Sabor"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_refresco_coke",
-          "label": {
-            "en": "Coca-Cola",
-            "es": "Coca-Cola"
-          }
-        },
-        {
-          "id": "opt_refresco_diet_coke",
-          "label": {
-            "en": "Diet Coke",
-            "es": "Diet-Coke"
-          }
-        },
-        {
-          "id": "opt_refresco_sprite",
-          "label": {
-            "en": "Sprite",
-            "es": "Sprite"
-          }
-        },
-        {
-          "id": "opt_refresco_fanta_china",
-          "label": {
-            "en": "Fanta China",
-            "es": "Fanta-China"
-          }
-        },
-        {
-          "id": "opt_refresco_iced_tea",
-          "label": {
-            "en": "Iced Tea",
-            "es": "Iced Tea"
-          }
-        },
-        {
-          "id": "opt_refresco_lemonade",
-          "label": {
-            "en": "Lemonade",
-            "es": "Lemonade"
-          }
-        }
-      ]
-    },
-    "mod_pechuga_rellena_mofongo": {
-      "id": "mod_pechuga_rellena_mofongo",
-      "title": {
-        "en": "Mofongo",
-        "es": "Mofongo"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_rellena_mofongo_platano",
-          "label": {
-            "en": "Plantain",
-            "es": "Platano"
-          }
-        },
-        {
-          "id": "opt_rellena_mofongo_yuca",
-          "label": {
-            "en": "Cassava (Yuca)",
-            "es": "Yuca"
-          }
-        }
-      ]
-    },
-    "mod_egg_style": {
-      "id": "mod_egg_style",
-      "title": {
-        "en": "Eggs",
-        "es": "Huevos"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_eggs_fried",
-          "label": {
-            "en": "Fried",
-            "es": "Fritos"
-          }
-        },
-        {
-          "id": "opt_eggs_scrambled",
-          "label": {
-            "en": "Scrambled",
-            "es": "Revueltos"
-          }
-        }
-      ]
-    },
-    "mod_garnish_choice": {
-      "id": "mod_garnish_choice",
-      "title": {
-        "en": "Garnish",
-        "es": "Garnish"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_garnish_cinamon",
-          "label": {
-            "en": "Cinamon",
-            "es": "Canela"
-          }
-        },
-        {
-          "id": "opt_garnish_none",
-          "label": {
-            "en": "None",
-            "es": "Nada"
-          }
-        }
-      ]
-    },
     "mod_griddle_base": {
       "id": "mod_griddle_base",
       "title": {
@@ -2479,6 +1940,40 @@
         }
       ]
     },
+    "mod_breakfast_side": {
+      "id": "mod_breakfast_side",
+      "title": {
+        "en": "Sides",
+        "es": "Acompañante"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_side_sausage",
+          "label": {
+            "en": "Sausage",
+            "es": "Salchicha"
+          }
+        },
+        {
+          "id": "opt_side_ham",
+          "label": {
+            "en": "Ham",
+            "es": "Jamon"
+          }
+        },
+        {
+          "id": "opt_side_bacon",
+          "label": {
+            "en": "Bacon",
+            "es": "Tocineta"
+          }
+        }
+      ]
+    },
     "mod_nutella_base": {
       "id": "mod_nutella_base",
       "title": {
@@ -2502,47 +1997,6 @@
           "label": {
             "en": "(1) Nutella Waffle",
             "es": "(1) Waffle de Nutella"
-          }
-        }
-      ]
-    },
-    "mod_remove_big_mouth": {
-      "id": "mod_remove_big_mouth",
-      "title": {
-        "en": "Remove Ingredients",
-        "es": "Remover Ingredientes"
-      },
-      "selectionType": "multiple",
-      "required": false,
-      "minSelections": 0,
-      "maxSelections": 7,
-      "options": [
-        {
-          "id": "opt_remove_onion",
-          "label": {
-            "en": "No onion",
-            "es": "Sin cebolla"
-          }
-        },
-        {
-          "id": "opt_remove_peppers",
-          "label": {
-            "en": "No peppers",
-            "es": "Sin pimientos"
-          }
-        },
-        {
-          "id": "opt_remove_mixed_cheese",
-          "label": {
-            "en": "No mixed cheese",
-            "es": "Sin queso mixto"
-          }
-        },
-        {
-          "id": "opt_remove_pico",
-          "label": {
-            "en": "No pico de gallo",
-            "es": "Sin pico de gallo"
           }
         }
       ]
@@ -2650,6 +2104,47 @@
         }
       ]
     },
+    "mod_remove_big_mouth": {
+      "id": "mod_remove_big_mouth",
+      "title": {
+        "en": "Remove Ingredients",
+        "es": "Remover Ingredientes"
+      },
+      "selectionType": "multiple",
+      "required": false,
+      "minSelections": 0,
+      "maxSelections": 7,
+      "options": [
+        {
+          "id": "opt_remove_onion",
+          "label": {
+            "en": "No onion",
+            "es": "Sin cebolla"
+          }
+        },
+        {
+          "id": "opt_remove_peppers",
+          "label": {
+            "en": "No peppers",
+            "es": "Sin pimientos"
+          }
+        },
+        {
+          "id": "opt_remove_mixed_cheese",
+          "label": {
+            "en": "No mixed cheese",
+            "es": "Sin queso mixto"
+          }
+        },
+        {
+          "id": "opt_remove_pico",
+          "label": {
+            "en": "No pico de gallo",
+            "es": "Sin pico de gallo"
+          }
+        }
+      ]
+    },
     "mod_remove_western": {
       "id": "mod_remove_western",
       "title": {
@@ -2691,11 +2186,11 @@
         }
       ]
     },
-    "mod_sandwich_bread": {
-      "id": "mod_sandwich_bread",
+    "mod_egg_style": {
+      "id": "mod_egg_style",
       "title": {
-        "en": "Bread",
-        "es": "Pan"
+        "en": "Eggs",
+        "es": "Huevos"
       },
       "selectionType": "single",
       "required": true,
@@ -2703,33 +2198,26 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_bread_regular",
+          "id": "opt_eggs_fried",
           "label": {
-            "en": "Regular",
-            "es": "Regular"
+            "en": "Fried",
+            "es": "Fritos"
           }
         },
         {
-          "id": "opt_bread_whole_wheat",
+          "id": "opt_eggs_scrambled",
           "label": {
-            "en": "Whole Wheat",
-            "es": "Trigo Integral"
-          }
-        },
-        {
-          "id": "opt_bread_tortilla_wrap",
-          "label": {
-            "en": "Tortilla (Wrap)",
-            "es": "Tortilla (Wrap)"
+            "en": "Scrambled",
+            "es": "Revueltos"
           }
         }
       ]
     },
-    "mod_sandwich_format": {
-      "id": "mod_sandwich_format",
+    "mod_toast_choice": {
+      "id": "mod_toast_choice",
       "title": {
-        "en": "Make it a Combo",
-        "es": "Hazlo Combo"
+        "en": "Toast",
+        "es": "Tostada"
       },
       "selectionType": "single",
       "required": true,
@@ -2737,27 +2225,27 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_format_individual",
+          "id": "opt_toast_white",
           "label": {
-            "en": "Individual",
-            "es": "Individual"
+            "en": "White",
+            "es": "Blanco"
           }
         },
         {
-          "id": "opt_format_combo",
+          "id": "opt_toast_wheat",
           "label": {
-            "en": "Combo",
-            "es": "Combo"
+            "en": "Wheat",
+            "es": "Integral"
           },
-          "priceDeltaCents": 399
+          "priceDeltaCents": 100
         }
       ]
     },
-    "mod_breakfast_side": {
-      "id": "mod_breakfast_side",
+    "mod_big_breakfast_base": {
+      "id": "mod_big_breakfast_base",
       "title": {
-        "en": "Sides",
-        "es": "Acompañante"
+        "en": "Main Dish",
+        "es": "Plato Principal"
       },
       "selectionType": "single",
       "required": true,
@@ -2765,24 +2253,52 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_side_sausage",
+          "id": "opt_base_pancake",
           "label": {
-            "en": "Sausage",
-            "es": "Salchicha"
+            "en": "(1) Pancake",
+            "es": "(1) Pancake"
           }
         },
         {
-          "id": "opt_side_ham",
+          "id": "opt_base_waffle",
           "label": {
-            "en": "Ham",
-            "es": "Jamon"
+            "en": "(1) Waffle",
+            "es": "(1) Waffle"
+          }
+        }
+      ]
+    },
+    "mod_cereal_base": {
+      "id": "mod_cereal_base",
+      "title": {
+        "en": "Base",
+        "es": "Base"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_base_milk",
+          "label": {
+            "en": "Milk",
+            "es": "Leche"
           }
         },
         {
-          "id": "opt_side_bacon",
+          "id": "opt_base_almond_milk",
           "label": {
-            "en": "Bacon",
-            "es": "Tocineta"
+            "en": "Almond Milk",
+            "es": "Leche de Almendras"
+          },
+          "priceDeltaCents": 100
+        },
+        {
+          "id": "opt_base_water",
+          "label": {
+            "en": "Water",
+            "es": "Agua"
           }
         }
       ]
@@ -2814,6 +2330,33 @@
         },
         {
           "id": "opt_sugar_none",
+          "label": {
+            "en": "None",
+            "es": "Nada"
+          }
+        }
+      ]
+    },
+    "mod_garnish_choice": {
+      "id": "mod_garnish_choice",
+      "title": {
+        "en": "Garnish",
+        "es": "Garnish"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_garnish_cinamon",
+          "label": {
+            "en": "Cinamon",
+            "es": "Canela"
+          }
+        },
+        {
+          "id": "opt_garnish_none",
           "label": {
             "en": "None",
             "es": "Nada"
@@ -2882,11 +2425,11 @@
         }
       ]
     },
-    "mod_toast_choice": {
-      "id": "mod_toast_choice",
+    "mod_sandwich_bread": {
+      "id": "mod_sandwich_bread",
       "title": {
-        "en": "Toast",
-        "es": "Tostada"
+        "en": "Bread",
+        "es": "Pan"
       },
       "selectionType": "single",
       "required": true,
@@ -2894,19 +2437,25 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_toast_white",
+          "id": "opt_bread_regular",
           "label": {
-            "en": "White",
-            "es": "Blanco"
+            "en": "Regular",
+            "es": "Regular"
           }
         },
         {
-          "id": "opt_toast_wheat",
+          "id": "opt_bread_whole_wheat",
           "label": {
-            "en": "Wheat",
-            "es": "Integral"
-          },
-          "priceDeltaCents": 100
+            "en": "Whole Wheat",
+            "es": "Trigo Integral"
+          }
+        },
+        {
+          "id": "opt_bread_tortilla_wrap",
+          "label": {
+            "en": "Tortilla (Wrap)",
+            "es": "Tortilla (Wrap)"
+          }
         }
       ]
     },
@@ -2920,12 +2469,6 @@
       "required": true,
       "minSelections": 1,
       "maxSelections": 1,
-      "visibleWhen": {
-        "groupId": "mod_sandwich_bread",
-        "optionIds": [
-          "opt_bread_tortilla_wrap"
-        ]
-      },
       "options": [
         {
           "id": "opt_tortilla_spinach",
@@ -2939,6 +2482,485 @@
           "label": {
             "en": "Regular",
             "es": "Regular"
+          }
+        }
+      ],
+      "visibleWhen": {
+        "groupId": "mod_sandwich_bread",
+        "optionIds": [
+          "opt_bread_tortilla_wrap"
+        ]
+      }
+    },
+    "mod_sandwich_format": {
+      "id": "mod_sandwich_format",
+      "title": {
+        "en": "Make it a Combo",
+        "es": "Hazlo Combo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_format_individual",
+          "label": {
+            "en": "Individual",
+            "es": "Individual"
+          }
+        },
+        {
+          "id": "opt_format_combo",
+          "label": {
+            "en": "Combo",
+            "es": "Combo"
+          },
+          "priceDeltaCents": 399
+        }
+      ]
+    },
+    "mod_combo_side": {
+      "id": "mod_combo_side",
+      "title": {
+        "en": "Combo Side",
+        "es": "Acompanante del Combo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_side_fries",
+          "label": {
+            "en": "French Fries",
+            "es": "Papas Fritas"
+          }
+        },
+        {
+          "id": "opt_side_sorullos",
+          "label": {
+            "en": "Sorullos",
+            "es": "Sorullos"
+          }
+        }
+      ],
+      "visibleWhen": {
+        "groupId": "mod_sandwich_format",
+        "optionIds": [
+          "opt_format_combo"
+        ]
+      }
+    },
+    "mod_combo_drink": {
+      "id": "mod_combo_drink",
+      "title": {
+        "en": "Soft Drink",
+        "es": "Refresco"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_drink_coke",
+          "label": {
+            "en": "Coke",
+            "es": "Coca-Cola"
+          }
+        },
+        {
+          "id": "opt_drink_sprite",
+          "label": {
+            "en": "Sprite",
+            "es": "Sprite"
+          }
+        },
+        {
+          "id": "opt_drink_diet_coke",
+          "label": {
+            "en": "Diet Coke",
+            "es": "Coca-Cola Light"
+          }
+        }
+      ],
+      "visibleWhen": {
+        "groupId": "mod_sandwich_format",
+        "optionIds": [
+          "opt_format_combo"
+        ]
+      }
+    },
+    "mod_criollo_side": {
+      "id": "mod_criollo_side",
+      "title": {
+        "en": "Side Dish",
+        "es": "Acompanante"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_criollo_side_mofongo",
+          "label": {
+            "en": "Plantain or Cassava Mofongo",
+            "es": "Mofongo de platano o yuca"
+          }
+        },
+        {
+          "id": "opt_criollo_side_bifongo",
+          "label": {
+            "en": "Bifongo",
+            "es": "Bifongo"
+          },
+          "priceDeltaCents": 299
+        },
+        {
+          "id": "opt_criollo_side_trifongo",
+          "label": {
+            "en": "Trifongo",
+            "es": "Trifongo"
+          },
+          "priceDeltaCents": 299
+        },
+        {
+          "id": "opt_criollo_side_home_fries",
+          "label": {
+            "en": "Home Fries",
+            "es": "Home fries"
+          }
+        },
+        {
+          "id": "opt_criollo_side_papa_asada",
+          "label": {
+            "en": "Baked Potato",
+            "es": "Papa asada"
+          }
+        },
+        {
+          "id": "opt_criollo_side_sorullitos",
+          "label": {
+            "en": "Sorullitos",
+            "es": "Sorullitos"
+          }
+        },
+        {
+          "id": "opt_criollo_side_tostones",
+          "label": {
+            "en": "Tostones",
+            "es": "Tostones"
+          }
+        },
+        {
+          "id": "opt_criollo_side_amarillos",
+          "label": {
+            "en": "Amarillos",
+            "es": "Amarillos"
+          }
+        },
+        {
+          "id": "opt_criollo_side_arroz_habichuelas",
+          "label": {
+            "en": "Rice and Beans",
+            "es": "Arroz y habichuelas"
+          }
+        },
+        {
+          "id": "opt_criollo_side_arroz_mamposteao",
+          "label": {
+            "en": "Mamposteao Rice",
+            "es": "Arroz mamposteao"
+          }
+        }
+      ]
+    },
+    "mod_pechuga_rellena_mofongo": {
+      "id": "mod_pechuga_rellena_mofongo",
+      "title": {
+        "en": "Mofongo",
+        "es": "Mofongo"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_rellena_mofongo_platano",
+          "label": {
+            "en": "Plantain",
+            "es": "Platano"
+          }
+        },
+        {
+          "id": "opt_rellena_mofongo_yuca",
+          "label": {
+            "en": "Cassava (Yuca)",
+            "es": "Yuca"
+          }
+        }
+      ]
+    },
+    "mod_pechuga_plancha_sauce": {
+      "id": "mod_pechuga_plancha_sauce",
+      "title": {
+        "en": "Sauce",
+        "es": "Salsa"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_plancha_sauce_criolla",
+          "label": {
+            "en": "Criolla",
+            "es": "Criolla"
+          }
+        },
+        {
+          "id": "opt_plancha_sauce_ajillo",
+          "label": {
+            "en": "Garlic (Ajillo)",
+            "es": "Al ajillo"
+          }
+        }
+      ]
+    },
+    "mod_mariscos_preparation": {
+      "id": "mod_mariscos_preparation",
+      "title": {
+        "en": "Preparation",
+        "es": "Preparacion"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_mariscos_sauce_criolla",
+          "label": {
+            "en": "Criolla Sauce",
+            "es": "Salsa criolla"
+          }
+        },
+        {
+          "id": "opt_mariscos_sauce_ajillo",
+          "label": {
+            "en": "Garlic (Ajillo)",
+            "es": "Al ajillo"
+          }
+        },
+        {
+          "id": "opt_mariscos_sauce_mantequilla",
+          "label": {
+            "en": "Butter",
+            "es": "Mantequilla"
+          }
+        }
+      ]
+    },
+    "mod_refrescos_flavor": {
+      "id": "mod_refrescos_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_refresco_coke",
+          "label": {
+            "en": "Coca-Cola",
+            "es": "Coca-Cola"
+          }
+        },
+        {
+          "id": "opt_refresco_diet_coke",
+          "label": {
+            "en": "Diet Coke",
+            "es": "Diet-Coke"
+          }
+        },
+        {
+          "id": "opt_refresco_sprite",
+          "label": {
+            "en": "Sprite",
+            "es": "Sprite"
+          }
+        },
+        {
+          "id": "opt_refresco_fanta_china",
+          "label": {
+            "en": "Fanta China",
+            "es": "Fanta-China"
+          }
+        },
+        {
+          "id": "opt_refresco_iced_tea",
+          "label": {
+            "en": "Iced Tea",
+            "es": "Iced Tea"
+          }
+        },
+        {
+          "id": "opt_refresco_lemonade",
+          "label": {
+            "en": "Lemonade",
+            "es": "Lemonade"
+          }
+        }
+      ]
+    },
+    "mod_jugos_flavor": {
+      "id": "mod_jugos_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_jugo_china",
+          "label": {
+            "en": "Orange (China)",
+            "es": "China"
+          }
+        },
+        {
+          "id": "opt_jugo_parcha",
+          "label": {
+            "en": "Passion Fruit (Parcha)",
+            "es": "Parcha"
+          }
+        },
+        {
+          "id": "opt_jugo_uva",
+          "label": {
+            "en": "Grape (Uva)",
+            "es": "Uva"
+          }
+        },
+        {
+          "id": "opt_jugo_acerola",
+          "label": {
+            "en": "Barbados Cherry (Acerola)",
+            "es": "Acerola"
+          }
+        }
+      ]
+    },
+    "mod_mimosa_flavor": {
+      "id": "mod_mimosa_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_mimosa_china",
+          "label": {
+            "en": "Orange (China)",
+            "es": "China"
+          }
+        },
+        {
+          "id": "opt_mimosa_acerola",
+          "label": {
+            "en": "Barbados Cherry (Acerola)",
+            "es": "Acerola"
+          }
+        },
+        {
+          "id": "opt_mimosa_parcha",
+          "label": {
+            "en": "Passion Fruit (Parcha)",
+            "es": "Parcha"
+          }
+        }
+      ]
+    },
+    "mod_specials_flavor": {
+      "id": "mod_specials_flavor",
+      "title": {
+        "en": "Flavor",
+        "es": "Sabor"
+      },
+      "selectionType": "single",
+      "required": true,
+      "minSelections": 1,
+      "maxSelections": 1,
+      "options": [
+        {
+          "id": "opt_specials_smores_mocha",
+          "label": {
+            "en": "S'mores Mocha — chocolate / caramel / white chocolate / vanilla",
+            "es": "S'mores Mocha — chocolate / caramelo / chocolate blanco / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_red_velvet_mocha",
+          "label": {
+            "en": "Red Velvet Mocha — white chocolate / cocoa / vanilla",
+            "es": "Red Velvet Mocha — chocolate blanco / cocoa / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_macadamia_madness",
+          "label": {
+            "en": "Macadamia Madness — white chocolate / macadamia / caramel",
+            "es": "Macadamia Madness — chocolate blanco / macadamia / caramelo"
+          }
+        },
+        {
+          "id": "opt_specials_la_base",
+          "label": {
+            "en": "La Base — chocolate / caramel / vanilla",
+            "es": "La Base — chocolate / caramelo / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_ciento_siete",
+          "label": {
+            "en": "Ciento Siete — white chocolate / amaretto / vanilla",
+            "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
+          }
+        },
+        {
+          "id": "opt_specials_choco_rico",
+          "label": {
+            "en": "Choco Rico — chocolate / hazelnut / almonds",
+            "es": "Choco Rico — chocolate / avellana / almendras"
+          }
+        },
+        {
+          "id": "opt_specials_almond_mocha",
+          "label": {
+            "en": "Almond Mocha — chocolate / caramel / almonds",
+            "es": "Almond Mocha — chocolate / caramelo / almendras"
+          }
+        },
+        {
+          "id": "opt_specials_pumpkin_pie",
+          "label": {
+            "en": "Pumpkin Pie — pumpkin / spices / vanilla",
+            "es": "Pumpkin Pie — calabaza / especias / vainilla"
           }
         }
       ]
