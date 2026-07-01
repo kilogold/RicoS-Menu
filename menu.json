@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 47,
-  "publishedAt": "2026-06-03T01:58:59.538Z",
+  "catalogVersion": 48,
+  "publishedAt": "2026-07-01T20:18:53.784Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -328,21 +328,6 @@
           "modifierGroupRefs": [
             "mod_egg_style"
           ]
-        },
-        {
-          "id": "item_egg_benedict",
-          "name": {
-            "en": "Egg Benedict",
-            "es": "Egg Benedict"
-          },
-          "description": {
-            "en": "English muffin, smoked ham, poached egg, and hollandaise sauce served with roasted potatoes.",
-            "es": "English muffin, jamon ahumado, poached egg y salsa holandesa acompanado de papas rostizadas."
-          },
-          "priceCents": 1499,
-          "station": "B",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
         },
         {
           "id": "item_home_fries",
