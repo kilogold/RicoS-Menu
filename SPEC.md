@@ -86,7 +86,8 @@ Each item has:
 - Non-empty relative pathname only (e.g. `menu-thumbnails/item_turkey_sandwich.webp`).
 - Must not be an absolute URL, must not start with `/`, and must not have leading/trailing whitespace.
 - Well-known shared fallback blob pathname (app constant): `menu-thumbnails/fallback.webp`.
-- The RicoS web app resolves pathnames against `MENU_BLOB_BASE_URL` (public blob store origin).
+- The RicoS web app resolves pathnames against `NEXT_PUBLIC_MENU_BLOB_BASE_URL` (public blob store origin).
+- Storefront may hide the well-known fallback via `NEXT_PUBLIC_MENU_THUMBNAIL_FALLBACK_MODE=skip` (default `show`); this is display-only and does not change the catalog.
 
 Items must **not** include inline `modifierGroups[]` in `menu.json`. Use refs plus the top-level registry instead.
 
