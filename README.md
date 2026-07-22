@@ -10,6 +10,28 @@ Public menu catalog for [RicoS](https://github.com/kilogold/RicoS). Each branch 
 
 ## CI
 
+This repo owns catalog **data** and **SPEC**. Executable schema (`parseMenuCatalogFile`) belongs in `@ricos/shared`, consumed by both RicoS and this CI.
+
+**Current approximation** — shared lives inside the RicoS repo; Menu CI sparse-checkouts that folder:
+
+```mermaid
+flowchart LR
+  menuData[RicoS-Menu data plus SPEC] --> menuCI[Menu CI]
+  menuCI -.->|sparse-checkout packages/shared| ricosApp
+  subgraph ricosApp [RicoS app]
+    shared["@ricos/shared"]
+  end
+```
+
+**Ideal** — shared is a standalone package both depend on:
+
+```mermaid
+flowchart LR
+  menuData[RicoS-Menu data plus SPEC] --> menuCI[Menu CI]
+  menuCI --> shared["@ricos/shared package"]
+  ricosApp[RicoS app] --> shared
+```
+
 `.github/workflows/menu-catalog-ci.yml` runs:
 
 1. `scripts/verify-menu-catalog-version.mjs` — schema + `catalogVersion` / `publishedAt` rules when `menu.json` changes.

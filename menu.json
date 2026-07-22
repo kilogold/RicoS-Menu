@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 48,
-  "publishedAt": "2026-07-01T20:18:53.784Z",
+  "catalogVersion": 49,
+  "publishedAt": "2026-07-21T22:06:33.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -82,7 +82,8 @@
           "modifierGroupRefs": [
             "mod_griddle_base",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_blueberry_sunshine",
@@ -101,7 +102,8 @@
           "modifierGroupRefs": [
             "mod_griddle_base",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_nutella_sensation",
@@ -120,7 +122,8 @@
           "modifierGroupRefs": [
             "mod_nutella_base",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_red_velvet",
@@ -139,7 +142,8 @@
           "modifierGroupRefs": [
             "mod_griddle_base",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_classic_pancakes_waffles",
@@ -158,7 +162,8 @@
           "modifierGroupRefs": [
             "mod_griddle_base",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_granola_french_toast",
@@ -176,7 +181,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_coconut_french_toast",
@@ -194,7 +200,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_classic_french_toast",
@@ -212,7 +219,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -245,7 +253,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_fajita"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_ricos_omelette",
@@ -263,7 +272,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_ricos"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_big_mouth_omelette",
@@ -281,7 +291,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_big_mouth"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_western_omelette",
@@ -299,7 +310,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_western"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -327,7 +339,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_egg_style"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_home_fries",
@@ -347,7 +360,8 @@
             "mod_egg_style",
             "mod_toast_choice",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_any_style_eggs",
@@ -366,7 +380,8 @@
           "modifierGroupRefs": [
             "mod_egg_style",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_ricos_big_breakfast",
@@ -386,7 +401,8 @@
             "mod_big_breakfast_base",
             "mod_egg_style",
             "mod_breakfast_side"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -416,7 +432,8 @@
             "mod_cereal_base",
             "mod_sugar_choice",
             "mod_garnish_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_hot_cereal_cornmeal",
@@ -436,7 +453,8 @@
             "mod_cereal_base",
             "mod_sugar_choice",
             "mod_garnish_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_hot_cereal_farina",
@@ -457,7 +475,8 @@
             "mod_sugar_choice_farina",
             "mod_garnish_choice",
             "mod_table_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -487,7 +506,8 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_paella_carne",
@@ -502,7 +522,8 @@
           "priceCents": 999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_mero_ajillo",
@@ -517,7 +538,8 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_arroz_pollo",
@@ -532,7 +554,8 @@
           "priceCents": 999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_arroz_gandules",
@@ -547,7 +570,8 @@
           "priceCents": 999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_masitas_pollo",
@@ -562,7 +586,8 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_lunch_mofongo_relleno_pollo",
@@ -577,7 +602,8 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -614,7 +640,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_pastrami",
@@ -629,7 +656,8 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_blt",
@@ -644,7 +672,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_el_mananero",
@@ -659,7 +688,8 @@
           "priceCents": 599,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_monterrey",
@@ -674,7 +704,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cubano",
@@ -689,7 +720,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_triple_honey_sensation",
@@ -704,7 +736,8 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_croque_monsieur",
@@ -719,7 +752,8 @@
           "priceCents": 1099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_el_aguadillano",
@@ -734,7 +768,8 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_tuna_tuna",
@@ -749,7 +784,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_rustic_chicken",
@@ -764,7 +800,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_media_noche",
@@ -779,7 +816,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_bistec_sandwich",
@@ -794,7 +832,8 @@
           "priceCents": 899,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -829,7 +868,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_chicken_burger",
@@ -844,7 +884,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_danger_burger",
@@ -859,7 +900,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -884,7 +926,8 @@
           "priceCents": 699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_sorullitos",
@@ -899,7 +942,8 @@
           "priceCents": 499,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_surtido_criollo",
@@ -914,7 +958,8 @@
           "priceCents": 2699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -939,7 +984,8 @@
           "priceCents": 1499,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_fresh_chicken_blt",
@@ -954,7 +1000,8 @@
           "priceCents": 1599,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_ricos_salad",
@@ -969,7 +1016,8 @@
           "priceCents": 1499,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -994,7 +1042,8 @@
           "priceCents": 999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_veggie_wrap",
@@ -1009,7 +1058,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_veggiefongo",
@@ -1024,7 +1074,8 @@
           "priceCents": 999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1049,7 +1100,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_kids_quesadillas",
@@ -1064,7 +1116,8 @@
           "priceCents": 799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_happy_waffle",
@@ -1079,7 +1132,8 @@
           "priceCents": 699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1112,7 +1166,8 @@
           "priceCents": 1299,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_chicharron_de_pollo",
@@ -1127,7 +1182,8 @@
           "priceCents": 1299,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_chuleta_frita",
@@ -1142,7 +1198,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_bistec_encebollado",
@@ -1157,7 +1214,8 @@
           "priceCents": 1599,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_churrasco",
@@ -1172,7 +1230,8 @@
           "priceCents": 2000,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_masita_mero",
@@ -1187,7 +1246,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1215,7 +1275,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_pechuga_rellena_mofongo"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_pechuga_a_la_plancha",
@@ -1233,7 +1294,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_pechuga_plancha_sauce"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_pechuga_a_la_parmesana",
@@ -1248,7 +1310,8 @@
           "priceCents": 1499,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1273,7 +1336,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mofongo_relleno_churrasco",
@@ -1288,7 +1352,8 @@
           "priceCents": 1999,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mofongo_relleno_camarones",
@@ -1303,7 +1368,8 @@
           "priceCents": 1799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mofongo_relleno_mero",
@@ -1318,7 +1384,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mofongo_relleno_dorado",
@@ -1333,7 +1400,8 @@
           "priceCents": 1699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mofongo_relleno_mar_y_tierra",
@@ -1348,7 +1416,8 @@
           "priceCents": 2099,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1378,7 +1447,8 @@
           "priceCents": 1299,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_asopao_camarones",
@@ -1393,7 +1463,8 @@
           "priceCents": 1799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_asopao_mero",
@@ -1408,7 +1479,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_asopao_dorado",
@@ -1423,7 +1495,8 @@
           "priceCents": 1699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1456,7 +1529,8 @@
           "priceCents": 1399,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_filete_de_dorado",
@@ -1471,7 +1545,8 @@
           "priceCents": 1699,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mariscos_camarones",
@@ -1486,7 +1561,8 @@
           "priceCents": 1799,
           "station": "B",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1514,7 +1590,8 @@
           "priceCents": 259,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_refrescos_large",
@@ -1529,7 +1606,8 @@
           "priceCents": 299,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1557,7 +1635,8 @@
           "priceCents": 299,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_jugos_large",
@@ -1572,7 +1651,8 @@
           "priceCents": 399,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1600,7 +1680,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_americano",
@@ -1618,7 +1699,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_latte",
@@ -1636,7 +1718,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_sugar_choice"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_macchiato",
@@ -1651,7 +1734,8 @@
           "priceCents": 450,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_mocha",
@@ -1666,7 +1750,8 @@
           "priceCents": 499,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_cappuccino",
@@ -1681,7 +1766,8 @@
           "priceCents": 499,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cafe_caramel_macchiato",
@@ -1696,7 +1782,8 @@
           "priceCents": 499,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1721,7 +1808,8 @@
           "priceCents": 375,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cerveza_michelob",
@@ -1736,7 +1824,8 @@
           "priceCents": 375,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_cerveza_medalla",
@@ -1751,7 +1840,8 @@
           "priceCents": 375,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1776,7 +1866,8 @@
           "priceCents": 699,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_sangria",
@@ -1791,7 +1882,8 @@
           "priceCents": 900,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_mimosa_flavors",
@@ -1809,7 +1901,8 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_mimosa_flavor"
-          ]
+          ],
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_copa_vino_tinto",
@@ -1824,7 +1917,8 @@
           "priceCents": 800,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     },
@@ -1857,7 +1951,8 @@
           "priceCents": 599,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         },
         {
           "id": "item_specials_caliente",
@@ -1872,7 +1967,8 @@
           "priceCents": 599,
           "station": "A",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "thumbnailPathname": "menu-thumbnails/fallback.webp"
         }
       ]
     }

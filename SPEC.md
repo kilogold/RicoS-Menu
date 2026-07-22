@@ -77,7 +77,16 @@ Each category has:
 Each item has:
 
 - `id`, localized `name`, localized `description`, `priceCents`, `station`, tax rates
+- required `thumbnailPathname` — relative Vercel Blob pathname for the item thumbnail (not a URL)
 - optional `modifierGroupRefs: string[]` (overrides the category default for that item only)
+
+`thumbnailPathname` rules:
+
+- Required on every item (catalogs without it fail parse; no migration or fallback at parse time).
+- Non-empty relative pathname only (e.g. `menu-thumbnails/item_turkey_sandwich.webp`).
+- Must not be an absolute URL, must not start with `/`, and must not have leading/trailing whitespace.
+- Well-known shared fallback blob pathname (app constant): `menu-thumbnails/fallback.webp`.
+- The RicoS web app resolves pathnames against `MENU_BLOB_BASE_URL` (public blob store origin).
 
 Items must **not** include inline `modifierGroups[]` in `menu.json`. Use refs plus the top-level registry instead.
 
@@ -145,6 +154,7 @@ At checkout, RicoS marks the group **active** only when the rule matches; inacti
 - **Publish:** bump `catalogVersion` by 1 and set a later `publishedAt` (CI enforces this on push).
 - **Themes:** assign every category to exactly one theme; reorder themes or category lists to change storefront layout.
 - **Lunch / scheduled themes:** put lunch-only categories under a `Lunch` (or similarly named) theme; set `themeAvailability` for that theme key. Keep all-day items (e.g. drinks) in themes with no schedule entry.
+- **Thumbnails:** every item must have `thumbnailPathname`. Use a real item blob when available; otherwise use the well-known fallback `menu-thumbnails/fallback.webp`.
 
 ## Resolution rules
 
@@ -159,6 +169,8 @@ Parser resolution runs before normal item validation:
 4. If there are no refs, the item has no modifiers.
 
 After parse, RicoS always works with expanded items that carry inline `item.modifierGroups[]`. That shape is produced by resolution (or held in memory in the admin editor); it is not authored directly in `menu.json`.
+
+RicoS-Menu CI validates `menu.json` with the same `@ricos/shared` `parseMenuCatalogFile` implementation (no mirrored parser in this repo).
 
 Publish serializes the expanded catalog back to registry + refs via `compactMenuCatalogForDisk`.
 

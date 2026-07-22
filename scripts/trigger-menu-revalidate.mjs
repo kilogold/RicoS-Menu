@@ -15,7 +15,7 @@
 
 import { execSync } from "node:child_process";
 import { readFileSync } from "node:fs";
-import { parseMenuCatalogFile } from "./parse-menu-catalog.mjs";
+import { parseMenuCatalogFile } from "../../RicoS/packages/shared/src/index.ts";
 
 const MENU_PATH = process.env.MENU_PATH?.trim() || "menu.json";
 const ZERO_SHA = "0".repeat(40);
