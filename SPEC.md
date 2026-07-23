@@ -88,6 +88,8 @@ Each item has:
 - Well-known shared fallback blob pathname (app constant): `menu-thumbnails/fallback.webp`.
 - The RicoS web app resolves pathnames against `NEXT_PUBLIC_MENU_BLOB_BASE_URL` (public blob store origin).
 - Storefront may hide the well-known fallback via `NEXT_PUBLIC_MENU_THUMBNAIL_FALLBACK_MODE=skip` (default `show`); this is display-only and does not change the catalog.
+- **Gallery (admin):** immutable uploads under `menu-thumbnails/{itemId}-<random>` (persist the pathname returned by Blob; `contentType` is set on put). Custom thumbnails are **1:1** with items; `fallback.webp` is the only shared placeholder. Clear sets the draft pathname to fallback (does not delete the blob). Catalog pathnames update on publish; Blob upload/delete is immediate and separate. Manual prune uses draft-only “referenced” math — older git SHAs may break after delete. No same-pathname restore; catalog reverts are manual and must re-assign/upload thumbs in the reverting commit.
+- **Runtime:** a missing custom blob URL is treated like a fallback-designated item (same `NEXT_PUBLIC_MENU_THUMBNAIL_FALLBACK_MODE` show/skip rules) via image `onError`. If `fallback.webp` itself fails, that is a loud infra failure (do not silently drop the image chrome).
 
 Items must **not** include inline `modifierGroups[]` in `menu.json`. Use refs plus the top-level registry instead.
 
@@ -155,7 +157,7 @@ At checkout, RicoS marks the group **active** only when the rule matches; inacti
 - **Publish:** bump `catalogVersion` by 1 and set a later `publishedAt` (CI enforces this on push).
 - **Themes:** assign every category to exactly one theme; reorder themes or category lists to change storefront layout.
 - **Lunch / scheduled themes:** put lunch-only categories under a `Lunch` (or similarly named) theme; set `themeAvailability` for that theme key. Keep all-day items (e.g. drinks) in themes with no schedule entry.
-- **Thumbnails:** every item must have `thumbnailPathname`. Use a real item blob when available; otherwise use the well-known fallback `menu-thumbnails/fallback.webp`.
+- **Thumbnails:** every item must have `thumbnailPathname`. Use a real item blob when available; otherwise use the well-known fallback `menu-thumbnails/fallback.webp`. Prefer one custom blob per item (do not share custom pathnames across items). After pruning Blob objects, fix pathnames in the next catalog commit — there is no same-pathname restore.
 
 ## Resolution rules
 
