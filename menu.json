@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 51,
-  "publishedAt": "2026-07-28T20:53:00.000Z",
+  "catalogVersion": 52,
+  "publishedAt": "2026-07-28T21:05:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -3085,10 +3085,17 @@
       "maxSelections": 1,
       "options": [
         {
+          "id": "opt_specials_temp_frio",
+          "label": {
+            "en": "Cold — 16 oz.",
+            "es": "Frío — 16 oz."
+          }
+        },
+        {
           "id": "opt_specials_temp_frozen",
           "label": {
             "en": "Frozen — 16 oz.",
-            "es": "Frio / Frozen — 16 oz."
+            "es": "Frozen — 16 oz."
           }
         },
         {
