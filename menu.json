@@ -1091,7 +1091,7 @@
           "id": "item_kids_chicken_fries",
           "name": {
             "en": "Chicken & Fries",
-            "es": "Chicken & Fries"
+            "es": "Pollo con Papas"
           },
           "description": {
             "en": "",
@@ -1156,7 +1156,7 @@
         {
           "id": "item_carne_frita",
           "name": {
-            "en": "Carne Frita",
+            "en": "Fried Pork",
             "es": "Carne Frita"
           },
           "description": {
@@ -1172,7 +1172,7 @@
         {
           "id": "item_chicharron_de_pollo",
           "name": {
-            "en": "Chicharron de Pollo",
+            "en": "Chicken Chicharron",
             "es": "Chicharron de Pollo"
           },
           "description": {
@@ -1188,7 +1188,7 @@
         {
           "id": "item_chuleta_frita",
           "name": {
-            "en": "Chuleta Frita (2)",
+            "en": "Fried Pork Chop (2)",
             "es": "Chuleta Frita (2)"
           },
           "description": {
@@ -1204,7 +1204,7 @@
         {
           "id": "item_bistec_encebollado",
           "name": {
-            "en": "Bistec Encebollado",
+            "en": "Bistec & Onions",
             "es": "Bistec Encebollado"
           },
           "description": {
@@ -1236,7 +1236,7 @@
         {
           "id": "item_masita_mero",
           "name": {
-            "en": "Masita Mero",
+            "en": "Grouper Tips",
             "es": "Masita Mero"
           },
           "description": {
@@ -1281,7 +1281,7 @@
         {
           "id": "item_pechuga_a_la_plancha",
           "name": {
-            "en": "Pechuga a la Plancha",
+            "en": "Griddled Chicken Breast",
             "es": "Pechuga a la Plancha"
           },
           "description": {
@@ -1300,7 +1300,7 @@
         {
           "id": "item_pechuga_a_la_parmesana",
           "name": {
-            "en": "Pechuga a la Parmesana",
+            "en": "Chicken Parmesan",
             "es": "Pechuga a la Parmesana"
           },
           "description": {
@@ -1318,7 +1318,7 @@
     {
       "id": "cat_mofongo_relleno",
       "title": {
-        "en": "Mofongo Relleno",
+        "en": "Stuffed Mofongo",
         "es": "Mofongo Relleno"
       },
       "notes": [],
@@ -1326,7 +1326,7 @@
         {
           "id": "item_mofongo_relleno_pollo",
           "name": {
-            "en": "Pollo",
+            "en": "Chicken",
             "es": "Pollo"
           },
           "description": {
@@ -1358,7 +1358,7 @@
         {
           "id": "item_mofongo_relleno_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1374,7 +1374,7 @@
         {
           "id": "item_mofongo_relleno_mero",
           "name": {
-            "en": "Mero",
+            "en": "Grouper",
             "es": "Mero"
           },
           "description": {
@@ -1390,7 +1390,7 @@
         {
           "id": "item_mofongo_relleno_dorado",
           "name": {
-            "en": "Dorado",
+            "en": "Mahi Mahi",
             "es": "Dorado"
           },
           "description": {
@@ -1406,7 +1406,7 @@
         {
           "id": "item_mofongo_relleno_mar_y_tierra",
           "name": {
-            "en": "Mar y Tierra",
+            "en": "Surf & Turf",
             "es": "Mar y Tierra"
           },
           "description": {
@@ -1437,7 +1437,7 @@
         {
           "id": "item_asopao_pollo",
           "name": {
-            "en": "Pollo",
+            "en": "Chicken",
             "es": "Pollo"
           },
           "description": {
@@ -1453,7 +1453,7 @@
         {
           "id": "item_asopao_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1469,7 +1469,7 @@
         {
           "id": "item_asopao_mero",
           "name": {
-            "en": "Mero",
+            "en": "Grouper",
             "es": "Mero"
           },
           "description": {
@@ -1485,7 +1485,7 @@
         {
           "id": "item_asopao_dorado",
           "name": {
-            "en": "Dorado",
+            "en": "Mahi Mahi",
             "es": "Dorado"
           },
           "description": {
@@ -1519,7 +1519,7 @@
         {
           "id": "item_filete_de_mero",
           "name": {
-            "en": "Filete de Mero",
+            "en": "Grouper Filet",
             "es": "Filete de Mero"
           },
           "description": {
@@ -1535,7 +1535,7 @@
         {
           "id": "item_filete_de_dorado",
           "name": {
-            "en": "Filete de Dorado",
+            "en": "Mahi Mahi Filet",
             "es": "Filete de Dorado"
           },
           "description": {
@@ -1551,7 +1551,7 @@
         {
           "id": "item_mariscos_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1569,7 +1569,7 @@
     {
       "id": "cat_refrescos",
       "title": {
-        "en": "Refrescos",
+        "en": "Soft Drinks",
         "es": "Refrescos"
       },
       "notes": [],
@@ -1659,7 +1659,7 @@
     {
       "id": "cat_cafe",
       "title": {
-        "en": "Cafe",
+        "en": "Coffee",
         "es": "Cafe"
       },
       "notes": [],
@@ -1907,7 +1907,7 @@
         {
           "id": "item_copa_vino_tinto",
           "name": {
-            "en": "Copa de Vino Tinto",
+            "en": "Red Wine Copa",
             "es": "Copa de Vino Tinto"
           },
           "description": {
@@ -1926,7 +1926,7 @@
       "id": "cat_specials",
       "title": {
         "en": "Specials",
-        "es": "Specials"
+        "es": "Especiales"
       },
       "notes": [
         {
@@ -1957,7 +1957,7 @@
         {
           "id": "item_specials_caliente",
           "name": {
-            "en": "Caliente",
+            "en": "Hot",
             "es": "Caliente"
           },
           "description": {
