@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 50,
-  "publishedAt": "2026-07-23T22:06:42.553Z",
+  "catalogVersion": 51,
+  "publishedAt": "2026-07-28T20:53:00.000Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1935,18 +1935,18 @@
         }
       ],
       "modifierGroupRefs": [
-        "mod_specials_flavor"
+        "mod_specials_temp"
       ],
       "items": [
         {
-          "id": "item_specials_frozen",
+          "id": "item_specials_smores_mocha",
           "name": {
-            "en": "Frozen",
-            "es": "Frio / Frozen"
+            "en": "S'mores Mocha",
+            "es": "S'mores Mocha"
           },
           "description": {
-            "en": "16 oz.",
-            "es": "16 oz."
+            "en": "chocolate / caramel / white chocolate / vanilla",
+            "es": "chocolate / caramelo / chocolate blanco / vainilla"
           },
           "priceCents": 599,
           "station": "A",
@@ -1955,14 +1955,110 @@
           "municipalTaxRate": 0.01
         },
         {
-          "id": "item_specials_caliente",
+          "id": "item_specials_red_velvet_mocha",
           "name": {
-            "en": "Hot",
-            "es": "Caliente"
+            "en": "Red Velvet Mocha",
+            "es": "Red Velvet Mocha"
           },
           "description": {
-            "en": "12 oz.",
-            "es": "12 oz."
+            "en": "white chocolate / cocoa / vanilla",
+            "es": "chocolate blanco / cocoa / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_macadamia_madness",
+          "name": {
+            "en": "Macadamia Madness",
+            "es": "Macadamia Madness"
+          },
+          "description": {
+            "en": "white chocolate / macadamia / caramel",
+            "es": "chocolate blanco / macadamia / caramelo"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_la_base",
+          "name": {
+            "en": "La Base",
+            "es": "La Base"
+          },
+          "description": {
+            "en": "chocolate / caramel / vanilla",
+            "es": "chocolate / caramelo / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_ciento_siete",
+          "name": {
+            "en": "Ciento Siete",
+            "es": "Ciento Siete"
+          },
+          "description": {
+            "en": "white chocolate / amaretto / vanilla",
+            "es": "chocolate blanco / amaretto / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_choco_rico",
+          "name": {
+            "en": "Choco Rico",
+            "es": "Choco Rico"
+          },
+          "description": {
+            "en": "chocolate / hazelnut / almonds",
+            "es": "chocolate / avellana / almendras"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_almond_mocha",
+          "name": {
+            "en": "Almond Mocha",
+            "es": "Almond Mocha"
+          },
+          "description": {
+            "en": "chocolate / caramel / almonds",
+            "es": "chocolate / caramelo / almendras"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_pumpkin_pie",
+          "name": {
+            "en": "Pumpkin Pie",
+            "es": "Pumpkin Pie"
+          },
+          "description": {
+            "en": "pumpkin / spices / vanilla",
+            "es": "calabaza / especias / vainilla"
           },
           "priceCents": 599,
           "station": "A",
@@ -2977,11 +3073,11 @@
         }
       ]
     },
-    "mod_specials_flavor": {
-      "id": "mod_specials_flavor",
+    "mod_specials_temp": {
+      "id": "mod_specials_temp",
       "title": {
-        "en": "Flavor",
-        "es": "Sabor"
+        "en": "Temperature",
+        "es": "Temperatura"
       },
       "selectionType": "single",
       "required": true,
@@ -2989,59 +3085,17 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_specials_smores_mocha",
+          "id": "opt_specials_temp_frozen",
           "label": {
-            "en": "S'mores Mocha — chocolate / caramel / white chocolate / vanilla",
-            "es": "S'mores Mocha — chocolate / caramelo / chocolate blanco / vainilla"
+            "en": "Frozen — 16 oz.",
+            "es": "Frio / Frozen — 16 oz."
           }
         },
         {
-          "id": "opt_specials_red_velvet_mocha",
+          "id": "opt_specials_temp_hot",
           "label": {
-            "en": "Red Velvet Mocha — white chocolate / cocoa / vanilla",
-            "es": "Red Velvet Mocha — chocolate blanco / cocoa / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_macadamia_madness",
-          "label": {
-            "en": "Macadamia Madness — white chocolate / macadamia / caramel",
-            "es": "Macadamia Madness — chocolate blanco / macadamia / caramelo"
-          }
-        },
-        {
-          "id": "opt_specials_la_base",
-          "label": {
-            "en": "La Base — chocolate / caramel / vanilla",
-            "es": "La Base — chocolate / caramelo / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_ciento_siete",
-          "label": {
-            "en": "Ciento Siete — white chocolate / amaretto / vanilla",
-            "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_choco_rico",
-          "label": {
-            "en": "Choco Rico — chocolate / hazelnut / almonds",
-            "es": "Choco Rico — chocolate / avellana / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_almond_mocha",
-          "label": {
-            "en": "Almond Mocha — chocolate / caramel / almonds",
-            "es": "Almond Mocha — chocolate / caramelo / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_pumpkin_pie",
-          "label": {
-            "en": "Pumpkin Pie — pumpkin / spices / vanilla",
-            "es": "Pumpkin Pie — calabaza / especias / vainilla"
+            "en": "Hot — 12 oz.",
+            "es": "Caliente — 12 oz."
           }
         }
       ]
