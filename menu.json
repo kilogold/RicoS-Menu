@@ -1,13 +1,13 @@
 {
-  "catalogVersion": 26,
-  "publishedAt": "2026-06-04T20:08:40.439Z",
+  "catalogVersion": 27,
+  "publishedAt": "2026-08-04T03:37:38.699Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
   },
   "menuName": {
-    "en": "All Day Breakfast",
-    "es": "Desayuno Todo el Dia"
+    "en": "",
+    "es": ""
   },
   "themes": {
     "Breakfast": [
@@ -77,6 +77,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -96,6 +97,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -115,6 +117,7 @@
           },
           "priceCents": 1199,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -134,6 +137,7 @@
           },
           "priceCents": 1199,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -153,6 +157,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -172,6 +177,7 @@
           },
           "priceCents": 1299,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -190,6 +196,7 @@
           },
           "priceCents": 1199,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -208,6 +215,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -241,6 +249,7 @@
           },
           "priceCents": 1299,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -259,6 +268,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -277,6 +287,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -295,6 +306,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -323,26 +335,12 @@
           },
           "priceCents": 1799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_egg_style"
           ]
-        },
-        {
-          "id": "item_egg_benedict",
-          "name": {
-            "en": "Egg Benedict",
-            "es": "Egg Benedict"
-          },
-          "description": {
-            "en": "English muffin, smoked ham, poached egg, and hollandaise sauce served with roasted potatoes.",
-            "es": "English muffin, jamon ahumado, poached egg y salsa holandesa acompanado de papas rostizadas."
-          },
-          "priceCents": 1499,
-          "station": "B",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
         },
         {
           "id": "item_home_fries",
@@ -356,6 +354,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -376,6 +375,7 @@
           },
           "priceCents": 499,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -395,6 +395,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -423,8 +424,9 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 200,
+          "priceCents": 300,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -443,8 +445,9 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 200,
+          "priceCents": 300,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -463,8 +466,9 @@
             "en": "Cream of wheat porridge.",
             "es": ""
           },
-          "priceCents": 200,
+          "priceCents": 300,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -501,6 +505,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -516,6 +521,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -531,6 +537,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -546,6 +553,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -561,6 +569,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -576,6 +585,7 @@
           },
           "priceCents": 899,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -591,6 +601,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -628,6 +639,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -643,6 +655,7 @@
           },
           "priceCents": 899,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -658,6 +671,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -673,6 +687,7 @@
           },
           "priceCents": 599,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -688,6 +703,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -703,6 +719,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -718,6 +735,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -733,6 +751,7 @@
           },
           "priceCents": 1099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -748,6 +767,7 @@
           },
           "priceCents": 899,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -763,6 +783,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -778,6 +799,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -793,6 +815,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -808,6 +831,7 @@
           },
           "priceCents": 899,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -843,6 +867,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/item_rico_burger-HbUk5tHax6AcuT5D88jXrpcyBaQ5Qy",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -858,6 +883,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -873,6 +899,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -898,6 +925,7 @@
           },
           "priceCents": 699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -913,6 +941,7 @@
           },
           "priceCents": 499,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -928,6 +957,7 @@
           },
           "priceCents": 2699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -953,6 +983,7 @@
           },
           "priceCents": 1499,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -968,6 +999,7 @@
           },
           "priceCents": 1599,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -983,6 +1015,7 @@
           },
           "priceCents": 1499,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1008,6 +1041,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1023,6 +1057,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1038,6 +1073,7 @@
           },
           "priceCents": 999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1055,7 +1091,7 @@
           "id": "item_kids_chicken_fries",
           "name": {
             "en": "Chicken & Fries",
-            "es": "Chicken & Fries"
+            "es": "Pollo con Papas"
           },
           "description": {
             "en": "",
@@ -1063,6 +1099,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1078,6 +1115,7 @@
           },
           "priceCents": 799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1093,6 +1131,7 @@
           },
           "priceCents": 699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1117,7 +1156,7 @@
         {
           "id": "item_carne_frita",
           "name": {
-            "en": "Carne Frita",
+            "en": "Fried Pork",
             "es": "Carne Frita"
           },
           "description": {
@@ -1126,13 +1165,14 @@
           },
           "priceCents": 1299,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_chicharron_de_pollo",
           "name": {
-            "en": "Chicharron de Pollo",
+            "en": "Chicken Chicharron",
             "es": "Chicharron de Pollo"
           },
           "description": {
@@ -1141,13 +1181,14 @@
           },
           "priceCents": 1299,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_chuleta_frita",
           "name": {
-            "en": "Chuleta Frita (2)",
+            "en": "Fried Pork Chop (2)",
             "es": "Chuleta Frita (2)"
           },
           "description": {
@@ -1156,13 +1197,14 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_bistec_encebollado",
           "name": {
-            "en": "Bistec Encebollado",
+            "en": "Bistec & Onions",
             "es": "Bistec Encebollado"
           },
           "description": {
@@ -1171,6 +1213,7 @@
           },
           "priceCents": 1599,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1186,13 +1229,14 @@
           },
           "priceCents": 2000,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_masita_mero",
           "name": {
-            "en": "Masita Mero",
+            "en": "Grouper Tips",
             "es": "Masita Mero"
           },
           "description": {
@@ -1201,6 +1245,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1226,6 +1271,7 @@
           },
           "priceCents": 1699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1235,7 +1281,7 @@
         {
           "id": "item_pechuga_a_la_plancha",
           "name": {
-            "en": "Pechuga a la Plancha",
+            "en": "Griddled Chicken Breast",
             "es": "Pechuga a la Plancha"
           },
           "description": {
@@ -1244,6 +1290,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1253,7 +1300,7 @@
         {
           "id": "item_pechuga_a_la_parmesana",
           "name": {
-            "en": "Pechuga a la Parmesana",
+            "en": "Chicken Parmesan",
             "es": "Pechuga a la Parmesana"
           },
           "description": {
@@ -1262,6 +1309,7 @@
           },
           "priceCents": 1499,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1270,7 +1318,7 @@
     {
       "id": "cat_mofongo_relleno",
       "title": {
-        "en": "Mofongo Relleno",
+        "en": "Stuffed Mofongo",
         "es": "Mofongo Relleno"
       },
       "notes": [],
@@ -1278,7 +1326,7 @@
         {
           "id": "item_mofongo_relleno_pollo",
           "name": {
-            "en": "Pollo",
+            "en": "Chicken",
             "es": "Pollo"
           },
           "description": {
@@ -1287,6 +1335,7 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1302,13 +1351,14 @@
           },
           "priceCents": 1999,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_mofongo_relleno_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1317,13 +1367,14 @@
           },
           "priceCents": 1799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_mofongo_relleno_mero",
           "name": {
-            "en": "Mero",
+            "en": "Grouper",
             "es": "Mero"
           },
           "description": {
@@ -1332,13 +1383,14 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_mofongo_relleno_dorado",
           "name": {
-            "en": "Dorado",
+            "en": "Mahi Mahi",
             "es": "Dorado"
           },
           "description": {
@@ -1347,13 +1399,14 @@
           },
           "priceCents": 1699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_mofongo_relleno_mar_y_tierra",
           "name": {
-            "en": "Mar y Tierra",
+            "en": "Surf & Turf",
             "es": "Mar y Tierra"
           },
           "description": {
@@ -1362,6 +1415,7 @@
           },
           "priceCents": 2099,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1383,7 +1437,7 @@
         {
           "id": "item_asopao_pollo",
           "name": {
-            "en": "Pollo",
+            "en": "Chicken",
             "es": "Pollo"
           },
           "description": {
@@ -1392,13 +1446,14 @@
           },
           "priceCents": 1299,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_asopao_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1407,13 +1462,14 @@
           },
           "priceCents": 1799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_asopao_mero",
           "name": {
-            "en": "Mero",
+            "en": "Grouper",
             "es": "Mero"
           },
           "description": {
@@ -1422,13 +1478,14 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_asopao_dorado",
           "name": {
-            "en": "Dorado",
+            "en": "Mahi Mahi",
             "es": "Dorado"
           },
           "description": {
@@ -1437,6 +1494,7 @@
           },
           "priceCents": 1699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1461,7 +1519,7 @@
         {
           "id": "item_filete_de_mero",
           "name": {
-            "en": "Filete de Mero",
+            "en": "Grouper Filet",
             "es": "Filete de Mero"
           },
           "description": {
@@ -1470,13 +1528,14 @@
           },
           "priceCents": 1399,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_filete_de_dorado",
           "name": {
-            "en": "Filete de Dorado",
+            "en": "Mahi Mahi Filet",
             "es": "Filete de Dorado"
           },
           "description": {
@@ -1485,13 +1544,14 @@
           },
           "priceCents": 1699,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
           "id": "item_mariscos_camarones",
           "name": {
-            "en": "Camarones",
+            "en": "Shrimp",
             "es": "Camarones"
           },
           "description": {
@@ -1500,6 +1560,7 @@
           },
           "priceCents": 1799,
           "station": "B",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1508,7 +1569,7 @@
     {
       "id": "cat_refrescos",
       "title": {
-        "en": "Refrescos",
+        "en": "Soft Drinks",
         "es": "Refrescos"
       },
       "notes": [],
@@ -1528,6 +1589,7 @@
           },
           "priceCents": 259,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1543,6 +1605,7 @@
           },
           "priceCents": 299,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1571,6 +1634,7 @@
           },
           "priceCents": 299,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1586,6 +1650,7 @@
           },
           "priceCents": 399,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1594,7 +1659,7 @@
     {
       "id": "cat_cafe",
       "title": {
-        "en": "Cafe",
+        "en": "Coffee",
         "es": "Cafe"
       },
       "notes": [],
@@ -1611,6 +1676,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1629,6 +1695,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1647,6 +1714,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1665,6 +1733,7 @@
           },
           "priceCents": 450,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1680,6 +1749,7 @@
           },
           "priceCents": 499,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1695,6 +1765,7 @@
           },
           "priceCents": 499,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1710,6 +1781,7 @@
           },
           "priceCents": 499,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1735,6 +1807,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1750,6 +1823,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1765,6 +1839,7 @@
           },
           "priceCents": 375,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1790,6 +1865,7 @@
           },
           "priceCents": 699,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1805,6 +1881,7 @@
           },
           "priceCents": 900,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
@@ -1820,6 +1897,7 @@
           },
           "priceCents": 800,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
@@ -1829,7 +1907,7 @@
         {
           "id": "item_copa_vino_tinto",
           "name": {
-            "en": "Copa de Vino Tinto",
+            "en": "Red Wine Copa",
             "es": "Copa de Vino Tinto"
           },
           "description": {
@@ -1838,6 +1916,7 @@
           },
           "priceCents": 800,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -1847,7 +1926,7 @@
       "id": "cat_specials",
       "title": {
         "en": "Specials",
-        "es": "Specials"
+        "es": "Especiales"
       },
       "notes": [
         {
@@ -1856,36 +1935,134 @@
         }
       ],
       "modifierGroupRefs": [
-        "mod_specials_flavor"
+        "mod_specials_temp"
       ],
       "items": [
         {
-          "id": "item_specials_frozen",
+          "id": "item_specials_smores_mocha",
           "name": {
-            "en": "Frozen",
-            "es": "Frio / Frozen"
+            "en": "S'mores Mocha",
+            "es": "S'mores Mocha"
           },
           "description": {
-            "en": "16 oz.",
-            "es": "16 oz."
+            "en": "chocolate / caramel / white chocolate / vanilla",
+            "es": "chocolate / caramelo / chocolate blanco / vainilla"
           },
           "priceCents": 599,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         },
         {
-          "id": "item_specials_caliente",
+          "id": "item_specials_red_velvet_mocha",
           "name": {
-            "en": "Caliente",
-            "es": "Caliente"
+            "en": "Red Velvet Mocha",
+            "es": "Red Velvet Mocha"
           },
           "description": {
-            "en": "12 oz.",
-            "es": "12 oz."
+            "en": "white chocolate / cocoa / vanilla",
+            "es": "chocolate blanco / cocoa / vainilla"
           },
           "priceCents": 599,
           "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_macadamia_madness",
+          "name": {
+            "en": "Macadamia Madness",
+            "es": "Macadamia Madness"
+          },
+          "description": {
+            "en": "white chocolate / macadamia / caramel",
+            "es": "chocolate blanco / macadamia / caramelo"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_la_base",
+          "name": {
+            "en": "La Base",
+            "es": "La Base"
+          },
+          "description": {
+            "en": "chocolate / caramel / vanilla",
+            "es": "chocolate / caramelo / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_ciento_siete",
+          "name": {
+            "en": "Ciento Siete",
+            "es": "Ciento Siete"
+          },
+          "description": {
+            "en": "white chocolate / amaretto / vanilla",
+            "es": "chocolate blanco / amaretto / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_choco_rico",
+          "name": {
+            "en": "Choco Rico",
+            "es": "Choco Rico"
+          },
+          "description": {
+            "en": "chocolate / hazelnut / almonds",
+            "es": "chocolate / avellana / almendras"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_almond_mocha",
+          "name": {
+            "en": "Almond Mocha",
+            "es": "Almond Mocha"
+          },
+          "description": {
+            "en": "chocolate / caramel / almonds",
+            "es": "chocolate / caramelo / almendras"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
+          "salesTaxRate": 0.06,
+          "municipalTaxRate": 0.01
+        },
+        {
+          "id": "item_specials_pumpkin_pie",
+          "name": {
+            "en": "Pumpkin Pie",
+            "es": "Pumpkin Pie"
+          },
+          "description": {
+            "en": "pumpkin / spices / vanilla",
+            "es": "calabaza / especias / vainilla"
+          },
+          "priceCents": 599,
+          "station": "A",
+          "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
           "municipalTaxRate": 0.01
         }
@@ -2896,11 +3073,11 @@
         }
       ]
     },
-    "mod_specials_flavor": {
-      "id": "mod_specials_flavor",
+    "mod_specials_temp": {
+      "id": "mod_specials_temp",
       "title": {
-        "en": "Flavor",
-        "es": "Sabor"
+        "en": "Temperature",
+        "es": "Temperatura"
       },
       "selectionType": "single",
       "required": true,
@@ -2908,59 +3085,24 @@
       "maxSelections": 1,
       "options": [
         {
-          "id": "opt_specials_smores_mocha",
+          "id": "opt_specials_temp_frio",
           "label": {
-            "en": "S'mores Mocha — chocolate / caramel / white chocolate / vanilla",
-            "es": "S'mores Mocha — chocolate / caramelo / chocolate blanco / vainilla"
+            "en": "Cold — 16 oz.",
+            "es": "Frío — 16 oz."
           }
         },
         {
-          "id": "opt_specials_red_velvet_mocha",
+          "id": "opt_specials_temp_frozen",
           "label": {
-            "en": "Red Velvet Mocha — white chocolate / cocoa / vanilla",
-            "es": "Red Velvet Mocha — chocolate blanco / cocoa / vainilla"
+            "en": "Frozen — 16 oz.",
+            "es": "Frozen — 16 oz."
           }
         },
         {
-          "id": "opt_specials_macadamia_madness",
+          "id": "opt_specials_temp_hot",
           "label": {
-            "en": "Macadamia Madness — white chocolate / macadamia / caramel",
-            "es": "Macadamia Madness — chocolate blanco / macadamia / caramelo"
-          }
-        },
-        {
-          "id": "opt_specials_la_base",
-          "label": {
-            "en": "La Base — chocolate / caramel / vanilla",
-            "es": "La Base — chocolate / caramelo / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_ciento_siete",
-          "label": {
-            "en": "Ciento Siete — white chocolate / amaretto / vanilla",
-            "es": "Ciento Siete — chocolate blanco / amaretto / vainilla"
-          }
-        },
-        {
-          "id": "opt_specials_choco_rico",
-          "label": {
-            "en": "Choco Rico — chocolate / hazelnut / almonds",
-            "es": "Choco Rico — chocolate / avellana / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_almond_mocha",
-          "label": {
-            "en": "Almond Mocha — chocolate / caramel / almonds",
-            "es": "Almond Mocha — chocolate / caramelo / almendras"
-          }
-        },
-        {
-          "id": "opt_specials_pumpkin_pie",
-          "label": {
-            "en": "Pumpkin Pie — pumpkin / spices / vanilla",
-            "es": "Pumpkin Pie — calabaza / especias / vainilla"
+            "en": "Hot — 12 oz.",
+            "es": "Caliente — 12 oz."
           }
         }
       ]
