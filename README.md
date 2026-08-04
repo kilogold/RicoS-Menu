@@ -4,9 +4,24 @@ Public menu catalog for [RicoS](https://github.com/kilogold/RicoS). Each branch 
 
 ## Rules
 
-- **Do not** merge `preview` into `main` to promote menu content. Production and preview menus evolve separately.
+- **Do not** merge `preview` into `main` to promote menu content. `catalogVersion` is a per-branch counter, so preview's version cannot be carried over — a merge fails CI, and because the revalidate step is gated on a green verify, production keeps serving its cached catalog.
+  - **Promote** a tested `preview` catalog with `bun scripts/promote-menu.mjs` (see below) instead.
 - **Staff publish** should go through the RicoS admin menu editor (`POST /api/staff/admin/menu/commit-publish`), which bumps `catalogVersion` and updates `publishedAt`.
 - **Direct git pushes** must increment `catalogVersion` by exactly `+1` and set `publishedAt` strictly later than the previous revision. CI enforces this on push.
+
+## Promotion (`preview` → `main`)
+
+`preview` is the tested release candidate; `main` is production.
+
+```bash
+bun scripts/promote-menu.mjs --dry-run   # report the version bump and item add/remove list
+bun scripts/promote-menu.mjs             # commit on main
+bun scripts/promote-menu.mjs --push      # commit and push
+```
+
+The script copies `preview`'s `menu.json` byte-for-byte and rewrites only `catalogVersion` (main's `+1`) and `publishedAt`, which is what the CI verifier demands. It commits via git plumbing, so your working tree and current branch are untouched — run it while sitting on `preview`. The release candidate is validated against `@ricos/shared` before anything is written; `main` is read leniently, since a stale production catalog is what the promotion is fixing.
+
+`preview` is **not** guaranteed to be a superset of `main`. Read the `removed:` line in the output before promoting.
 
 ## CI
 
