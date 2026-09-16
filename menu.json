@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 37,
-  "publishedAt": "2026-09-16T18:16:45.435Z",
+  "catalogVersion": 38,
+  "publishedAt": "2026-09-16T18:35:47.140Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1300,8 +1300,8 @@
         {
           "id": "item_mofongo_relleno_pollo",
           "name": {
-            "en": "Chicken",
-            "es": "Pollo"
+            "en": "Chicken Stuffed Mofongo",
+            "es": "Relleno Pollo"
           },
           "description": {
             "en": "",
@@ -1316,8 +1316,8 @@
         {
           "id": "item_mofongo_relleno_churrasco",
           "name": {
-            "en": "Churrasco",
-            "es": "Churrasco"
+            "en": "Churrasco Stuffed Mofongo",
+            "es": "Relleno Churrasco"
           },
           "description": {
             "en": "",
@@ -1332,8 +1332,8 @@
         {
           "id": "item_mofongo_relleno_camarones",
           "name": {
-            "en": "Shrimp",
-            "es": "Camarones"
+            "en": "Shrimp Stuffed Mofongo",
+            "es": "Relleno Camarones"
           },
           "description": {
             "en": "",
@@ -1348,8 +1348,8 @@
         {
           "id": "item_mofongo_relleno_mero",
           "name": {
-            "en": "Grouper",
-            "es": "Mero"
+            "en": "Grouper Stuffed Mofongo",
+            "es": "Relleno Mero"
           },
           "description": {
             "en": "",
@@ -1364,8 +1364,8 @@
         {
           "id": "item_mofongo_relleno_dorado",
           "name": {
-            "en": "Mahi Mahi",
-            "es": "Dorado"
+            "en": "Mahi Mahi Stuffed Mofongo",
+            "es": "Relleno Dorado"
           },
           "description": {
             "en": "",
@@ -1380,8 +1380,8 @@
         {
           "id": "item_mofongo_relleno_mar_y_tierra",
           "name": {
-            "en": "Surf & Turf",
-            "es": "Mar y Tierra"
+            "en": "Surf & Turf Stuffed Mofongo",
+            "es": "Relleno Mar y Tierra"
           },
           "description": {
             "en": "",
