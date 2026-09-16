@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 33,
-  "publishedAt": "2026-09-16T18:07:39.438Z",
+  "catalogVersion": 34,
+  "publishedAt": "2026-09-16T18:14:16.589Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1427,8 +1427,8 @@
         {
           "id": "item_asopao_camarones",
           "name": {
-            "en": "Shrimp",
-            "es": "Camarones"
+            "en": "Asopao Shrimp",
+            "es": "Asopao Camarones"
           },
           "description": {
             "en": "",
