@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 27,
-  "publishedAt": "2026-08-04T03:37:38.699Z",
+  "catalogVersion": 28,
+  "publishedAt": "2026-09-16T16:46:14.967Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1437,8 +1437,8 @@
         {
           "id": "item_asopao_pollo",
           "name": {
-            "en": "Chicken",
-            "es": "Pollo"
+            "en": "Chicken Asopao",
+            "es": "Asopao  de Pollo"
           },
           "description": {
             "en": "",
