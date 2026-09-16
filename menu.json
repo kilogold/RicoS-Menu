@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 32,
-  "publishedAt": "2026-09-16T18:00:45.241Z",
+  "catalogVersion": 33,
+  "publishedAt": "2026-09-16T18:07:39.438Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -783,7 +783,7 @@
           "id": "item_tuna_tuna",
           "name": {
             "en": "Tuna-Tuna",
-            "es": "Tuna-Tuna"
+            "es": "Tuna Sandwich"
           },
           "description": {
             "en": "Tuna, onion, salad, mayo and American cheese on criollo bread.",
