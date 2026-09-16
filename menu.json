@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 42,
-  "publishedAt": "2026-09-16T19:19:37.651Z",
+  "catalogVersion": 43,
+  "publishedAt": "2026-09-16T19:20:09.422Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1491,7 +1491,7 @@
           "id": "item_filete_de_mero",
           "name": {
             "en": "Grouper Filet",
-            "es": "Filete Mero"
+            "es": "Filete de Mero"
           },
           "description": {
             "en": "",
