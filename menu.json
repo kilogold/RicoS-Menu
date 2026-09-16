@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 35,
-  "publishedAt": "2026-09-16T18:14:55.424Z",
+  "catalogVersion": 36,
+  "publishedAt": "2026-09-16T18:15:31.548Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1443,8 +1443,8 @@
         {
           "id": "item_asopao_mero",
           "name": {
-            "en": "Grouper",
-            "es": "Mero"
+            "en": "Grouper Asopao",
+            "es": "Asopao Mero"
           },
           "description": {
             "en": "",
