@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 29,
-  "publishedAt": "2026-09-16T17:06:45.042Z",
+  "catalogVersion": 30,
+  "publishedAt": "2026-09-16T17:12:52.874Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -660,22 +660,6 @@
           "municipalTaxRate": 0.01
         },
         {
-          "id": "item_blt",
-          "name": {
-            "en": "BLT",
-            "es": "BLT"
-          },
-          "description": {
-            "en": "Bacon, lettuce and tomato on criollo bread.",
-            "es": "Bacon, lechuga y tomate en pan criollo."
-          },
-          "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
           "id": "item_el_mananero",
           "name": {
             "en": "El Mañanero",
@@ -718,22 +702,6 @@
             "es": "Pernil, virginia ham, pepinillo, queso suizo y mostaza en pan criollo."
           },
           "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_triple_honey_sensation",
-          "name": {
-            "en": "Triple Honey Sensation",
-            "es": "Triple Honey Sensation"
-          },
-          "description": {
-            "en": "Turkey, bacon, Virginia ham, honey mustard, salad and Swiss cheese on criollo bread.",
-            "es": "Turkey, bacon, virginia ham, honey mustard, ensalada y queso suizo en pan criollo."
-          },
-          "priceCents": 1099,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -798,38 +766,6 @@
             "es": "Caderas de pollo salteadas, ensalada, mayonesa y queso suizo en pan criollo."
           },
           "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_media_noche",
-          "name": {
-            "en": "Media Noche",
-            "es": "Media Noche"
-          },
-          "description": {
-            "en": "Virginia ham, pork shoulder, pickle, mustard and Swiss cheese on sweet bread.",
-            "es": "Virginia ham, pernil, pepinillo, mostaza y queso suizo en pan dulce."
-          },
-          "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_bistec_sandwich",
-          "name": {
-            "en": "Bistec Sandwich",
-            "es": "Bistec Sandwich"
-          },
-          "description": {
-            "en": "Tender sliced steak with onions, salad and mayo.",
-            "es": "Tierno corte de bistec encebollado, ensalada y mayonesa."
-          },
-          "priceCents": 899,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
