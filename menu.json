@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 28,
-  "publishedAt": "2026-09-16T16:46:14.967Z",
+  "catalogVersion": 29,
+  "publishedAt": "2026-09-16T17:06:45.042Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -880,22 +880,6 @@
           "description": {
             "en": "Grilled chicken breast, bacon, lettuce, tomato, onions, honey mustard, and American cheese on a brioche bun.",
             "es": "Pechuga a la parrilla, bacon, lechuga, tomate, cebollas, honey mustard y queso americano en brioche bun."
-          },
-          "priceCents": 1399,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_danger_burger",
-          "name": {
-            "en": "Danger Burger",
-            "es": "Danger Burger"
-          },
-          "description": {
-            "en": "Half-pound beef, lettuce, tomato, onions, pickles, jalapeños, American cheese, and our danger sauce on a brioche bun.",
-            "es": "1/2 Libra de carne de res, lechuga, tomate, cebollas, pepinillos, jalapeños, queso americano y nuestra \"danger sauce\" en brioche bun."
           },
           "priceCents": 1399,
           "station": "B",
