@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 36,
-  "publishedAt": "2026-09-16T18:15:31.548Z",
+  "catalogVersion": 37,
+  "publishedAt": "2026-09-16T18:16:45.435Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1459,8 +1459,8 @@
         {
           "id": "item_asopao_dorado",
           "name": {
-            "en": "Mahi Mahi",
-            "es": "Dorado"
+            "en": "Mahi Mahi Asopao",
+            "es": "Asopao Dorado"
           },
           "description": {
             "en": "",
