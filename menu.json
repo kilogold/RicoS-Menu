@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 31,
-  "publishedAt": "2026-09-16T17:27:46.201Z",
+  "catalogVersion": 32,
+  "publishedAt": "2026-09-16T18:00:45.241Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -619,13 +619,6 @@
           "es": "Hazlo combo: escoge papas fritas o sorullos y refresco (+$3.99)."
         }
       ],
-      "modifierGroupRefs": [
-        "mod_sandwich_bread",
-        "mod_tortilla_type",
-        "mod_sandwich_format",
-        "mod_combo_side",
-        "mod_combo_drink"
-      ],
       "items": [
         {
           "id": "item_turkey_sandwich",
@@ -641,7 +634,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_pastrami",
@@ -657,7 +657,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_el_mananero",
@@ -673,7 +680,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_monterrey",
@@ -689,7 +703,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_cubano",
@@ -705,7 +726,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_croque_monsieur",
@@ -721,7 +749,12 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_el_aguadillano",
@@ -737,7 +770,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_tuna_tuna",
@@ -753,7 +793,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         },
         {
           "id": "item_rustic_chicken",
@@ -769,7 +816,14 @@
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
+          "municipalTaxRate": 0.01,
+          "modifierGroupRefs": [
+            "mod_sandwich_bread",
+            "mod_tortilla_type",
+            "mod_sandwich_format",
+            "mod_combo_side",
+            "mod_combo_drink"
+          ]
         }
       ]
     },
