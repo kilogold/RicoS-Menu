@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 30,
-  "publishedAt": "2026-09-16T17:12:52.874Z",
+  "catalogVersion": 31,
+  "publishedAt": "2026-09-16T17:27:46.201Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -714,8 +714,8 @@
             "es": "Croque Monsieur"
           },
           "description": {
-            "en": "Turkey, Virginia ham, lettuce and tomato on artisan bread topped with broiled Swiss cheese.",
-            "es": "Turkey, virginia ham, lechuga y tomate en pan artesanal cubierto de queso suizo gratinado."
+            "en": "Turkey, Virginia ham, lettuce, tomato and mayonnaise on artisan bread topped with broiled Swiss cheese. ",
+            "es": "Pavo, Virginia ham, lechuga, tomate y mayonesa en pan artesanal cubierto de queso suizo gratinado."
           },
           "priceCents": 1099,
           "station": "B",
