@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 45,
-  "publishedAt": "2026-09-24T15:47:40.063Z",
+  "catalogVersion": 46,
+  "publishedAt": "2026-09-24T15:48:21.247Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -194,7 +194,7 @@
             "en": "Soft french toast with coconut flakes and fruit compote.",
             "es": "Suaves tostadas francesas con hojuelas de coco y compota de frutas."
           },
-          "priceCents": 1199,
+          "priceCents": 1299,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -213,7 +213,7 @@
             "en": "Soft french toast in vanilla-coconut batter.",
             "es": "Suaves tostadas francesas en batido de vainilla y coco."
           },
-          "priceCents": 1099,
+          "priceCents": 1199,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
