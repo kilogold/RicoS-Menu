@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 44,
-  "publishedAt": "2026-09-24T15:46:32.572Z",
+  "catalogVersion": 45,
+  "publishedAt": "2026-09-24T15:47:40.063Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -115,7 +115,7 @@
             "en": "Nutella pancakes or waffles served with fruit compote.",
             "es": "Pancakes o waffles de Nutella acompanados de compota de frutas."
           },
-          "priceCents": 1199,
+          "priceCents": 1299,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
