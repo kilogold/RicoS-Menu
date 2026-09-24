@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 43,
-  "publishedAt": "2026-09-16T19:20:09.422Z",
+  "catalogVersion": 44,
+  "publishedAt": "2026-09-24T15:46:32.572Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -373,7 +373,7 @@
             "en": "(2) fried or scrambled eggs; choose bacon, sausage, or ham with local toast.",
             "es": "(2) huevos fritos o revueltos; escoge bacon, sausage o jamon con tostadas criollas."
           },
-          "priceCents": 499,
+          "priceCents": 599,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
