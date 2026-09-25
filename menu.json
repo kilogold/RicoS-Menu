@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 62,
-  "publishedAt": "2026-09-25T14:43:42.699Z",
+  "catalogVersion": 63,
+  "publishedAt": "2026-09-25T14:44:27.433Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1045,22 +1045,6 @@
       },
       "notes": [],
       "items": [
-        {
-          "id": "item_kids_chicken_fries",
-          "name": {
-            "en": "Chicken & Fries",
-            "es": "Pollo con Papas"
-          },
-          "description": {
-            "en": "",
-            "es": ""
-          },
-          "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
         {
           "id": "item_kids_quesadillas",
           "name": {
