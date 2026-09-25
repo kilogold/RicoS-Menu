@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 57,
-  "publishedAt": "2026-09-25T14:33:34.254Z",
+  "catalogVersion": 58,
+  "publishedAt": "2026-09-25T14:33:56.233Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -913,7 +913,7 @@
             "en": "A dozen (12) crispy sorullitos.",
             "es": "Una docena (12) de ricos sorullitos."
           },
-          "priceCents": 499,
+          "priceCents": 799,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
