@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 66,
-  "publishedAt": "2026-09-25T16:07:15.593Z",
+  "catalogVersion": 67,
+  "publishedAt": "2026-09-25T16:08:39.968Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1176,9 +1176,9 @@
           },
           "description": {
             "en": "Stuffed with mofongo wrapped in bacon with mushroom sauce.",
-            "es": "Rellena de mofongo envuelta en bacon con salsa de setas."
+            "es": "Rellena de mofongo, envuelta en bacon con salsa de setas."
           },
-          "priceCents": 1699,
+          "priceCents": 1999,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
