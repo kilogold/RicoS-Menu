@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 60,
-  "publishedAt": "2026-09-25T14:35:52.839Z",
+  "catalogVersion": 61,
+  "publishedAt": "2026-09-25T14:40:53.563Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -987,7 +987,7 @@
             "en": "Chicken breast, shredded cheese, plantain croutons, romaine lettuce, carrot, and cherry tomatoes.",
             "es": "Pechuga de pollo, queso rallado, crutones de plátano, lechuga romana, zanahoria y cherry tomato."
           },
-          "priceCents": 1499,
+          "priceCents": 1699,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
