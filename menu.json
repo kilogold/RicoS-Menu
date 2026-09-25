@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 50,
-  "publishedAt": "2026-09-25T14:21:41.962Z",
+  "catalogVersion": 51,
+  "publishedAt": "2026-09-25T14:23:42.896Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -722,7 +722,7 @@
             "en": "Pork shoulder, Virginia ham, pickle, Swiss cheese and mustard on criollo bread.",
             "es": "Pernil, virginia ham, pepinillo, queso suizo y mostaza en pan criollo."
           },
-          "priceCents": 799,
+          "priceCents": 899,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
