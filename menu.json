@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 49,
-  "publishedAt": "2026-09-25T14:19:30.292Z",
+  "catalogVersion": 50,
+  "publishedAt": "2026-09-25T14:21:41.962Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -696,10 +696,10 @@
             "es": "Monterrey"
           },
           "description": {
-            "en": "Turkey, Virginia ham, salad and Swiss cheese on criollo bread.",
-            "es": "Turkey, virginia ham, ensalada y queso suizo en pan criollo."
+            "en": "Turkey, Virginia ham, salad, mayo and Swiss cheese on criollo bread.",
+            "es": "Turkey, virginia ham, ensalada, mayonesa y queso suizo en pan criollo."
           },
-          "priceCents": 799,
+          "priceCents": 899,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
