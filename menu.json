@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 82,
-  "publishedAt": "2026-09-25T16:44:55.259Z",
+  "catalogVersion": 83,
+  "publishedAt": "2026-09-25T16:45:43.495Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -110,8 +110,8 @@
             "es": "Granola French Toast"
           },
           "description": {
-            "en": "Delicious french toast with crunchy granola and fruit compote.",
-            "es": "Deliciosas tostadas francesas con granola crujiente acompanadas de compota de frutas."
+            "en": "Delicious french toast with crunchy granola.",
+            "es": "Deliciosas tostadas francesas con granola crujiente."
           },
           "priceCents": 1299,
           "station": "B",
