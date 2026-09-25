@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 78,
-  "publishedAt": "2026-09-25T16:37:59.864Z",
+  "catalogVersion": 79,
+  "publishedAt": "2026-09-25T16:42:00.582Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1537,7 +1537,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 299,
+          "priceCents": 350,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1553,7 +1553,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 399,
+          "priceCents": 450,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1579,7 +1579,7 @@
             "en": "8 oz.",
             "es": "8 oz."
           },
-          "priceCents": 375,
+          "priceCents": 399,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1598,7 +1598,7 @@
             "en": "8 oz.",
             "es": "8 oz."
           },
-          "priceCents": 375,
+          "priceCents": 399,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1617,7 +1617,7 @@
             "en": "8 oz.",
             "es": "8 oz."
           },
-          "priceCents": 375,
+          "priceCents": 399,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1636,7 +1636,7 @@
             "en": "12 oz.",
             "es": "12 oz."
           },
-          "priceCents": 450,
+          "priceCents": 499,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1710,7 +1710,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 375,
+          "priceCents": 450,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1726,7 +1726,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 375,
+          "priceCents": 450,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1742,7 +1742,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 375,
+          "priceCents": 450,
           "station": "A",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
