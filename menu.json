@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 85,
-  "publishedAt": "2026-09-25T16:49:00.093Z",
+  "catalogVersion": 86,
+  "publishedAt": "2026-09-25T16:50:25.906Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -220,8 +220,8 @@
             "es": "Big Mouth Omelette"
           },
           "description": {
-            "en": "Combination of bacon, sausage, deluxe ham, onion, peppers, mixed cheese, and pico de gallo.",
-            "es": "Combinacion de bacon, sausage, deluxe ham, cebolla, pimientos, queso mixto y pico de gallo."
+            "en": "Combination of bacon, sausage, deluxe ham, onion, peppers, mixed cheese.",
+            "es": "Combinacion de bacon, sausage, deluxe ham, cebolla, pimientos, queso mixto."
           },
           "priceCents": 1099,
           "station": "B",
@@ -1978,13 +1978,6 @@
           "label": {
             "en": "No mixed cheese",
             "es": "Sin queso mixto"
-          }
-        },
-        {
-          "id": "opt_remove_pico",
-          "label": {
-            "en": "No pico de gallo",
-            "es": "Sin pico de gallo"
           }
         }
       ]
