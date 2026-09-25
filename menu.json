@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 68,
-  "publishedAt": "2026-09-25T16:13:22.669Z",
+  "catalogVersion": 69,
+  "publishedAt": "2026-09-25T16:13:50.343Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1216,7 +1216,7 @@
             "en": "Breaded chicken breast, marinara sauce, and mozzarella.",
             "es": "Pechuga empanada, salsa marinara y queso mozzarella."
           },
-          "priceCents": 1499,
+          "priceCents": 1599,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
