@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 87,
-  "publishedAt": "2026-09-25T16:50:50.857Z",
+  "catalogVersion": 88,
+  "publishedAt": "2026-09-25T16:51:06.620Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1923,13 +1923,6 @@
           "label": {
             "en": "No cheddar",
             "es": "Sin cheddar"
-          }
-        },
-        {
-          "id": "opt_remove_sour_cream",
-          "label": {
-            "en": "No sour cream",
-            "es": "Sin sour cream"
           }
         }
       ]
