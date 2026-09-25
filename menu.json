@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 80,
-  "publishedAt": "2026-09-25T16:42:57.815Z",
+  "catalogVersion": 81,
+  "publishedAt": "2026-09-25T16:44:07.788Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -70,8 +70,8 @@
             "es": "Nutella Sensation"
           },
           "description": {
-            "en": "Nutella pancakes or waffles served with fruit compote.",
-            "es": "Pancakes o waffles de Nutella acompanados de compota de frutas."
+            "en": "Nutella pancakes or waffles.",
+            "es": "Pancakes o waffles de Nutella."
           },
           "priceCents": 1299,
           "station": "B",
