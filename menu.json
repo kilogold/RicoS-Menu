@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 88,
-  "publishedAt": "2026-09-25T16:51:06.620Z",
+  "catalogVersion": 89,
+  "publishedAt": "2026-09-25T16:52:06.034Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -230,25 +230,6 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_remove_big_mouth"
-          ]
-        },
-        {
-          "id": "item_western_omelette",
-          "name": {
-            "en": "Western Omelette",
-            "es": "Western Omelette"
-          },
-          "description": {
-            "en": "Choose ham, bacon, or turkey with Swiss and American cheese, onion, peppers, and tomato.",
-            "es": "Escoge jamon, bacon o pavo con queso suizo y americano, cebolla, pimientos y tomate."
-          },
-          "priceCents": 999,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01,
-          "modifierGroupRefs": [
-            "mod_remove_western"
           ]
         }
       ]
@@ -1957,47 +1938,6 @@
           "label": {
             "en": "No mixed cheese",
             "es": "Sin queso mixto"
-          }
-        }
-      ]
-    },
-    "mod_remove_western": {
-      "id": "mod_remove_western",
-      "title": {
-        "en": "Remove Ingredients",
-        "es": "Remover Ingredientes"
-      },
-      "selectionType": "multiple",
-      "required": false,
-      "minSelections": 0,
-      "maxSelections": 4,
-      "options": [
-        {
-          "id": "opt_remove_tomato",
-          "label": {
-            "en": "No tomato",
-            "es": "Sin tomate"
-          }
-        },
-        {
-          "id": "opt_remove_onion",
-          "label": {
-            "en": "No onion",
-            "es": "Sin cebolla"
-          }
-        },
-        {
-          "id": "opt_remove_peppers",
-          "label": {
-            "en": "No peppers",
-            "es": "Sin pimientos"
-          }
-        },
-        {
-          "id": "opt_remove_cheese",
-          "label": {
-            "en": "No cheese",
-            "es": "Sin queso"
           }
         }
       ]
