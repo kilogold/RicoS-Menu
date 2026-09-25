@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 54,
-  "publishedAt": "2026-09-25T14:26:21.500Z",
+  "catalogVersion": 55,
+  "publishedAt": "2026-09-25T14:31:40.926Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -852,10 +852,10 @@
             "es": "Rico Burger"
           },
           "description": {
-            "en": "Half-pound beef, bacon, mushroom glaze, lettuce, tomato, caramelized onions, and American cheese on a brioche bun.",
-            "es": "1/2 Libra de carne de res, bacon, glaseado de setas, lechuga, tomate, cebollas caramelizadas y queso americano en brioche bun."
+            "en": "Half-pound beef, bacon, lettuce, tomato, caramelized onions, and American cheese on a brioche bun.",
+            "es": "1/2 Libra de carne de res, bacon, lechuga, tomate, cebollas caramelizadas y queso americano en brioche bun."
           },
-          "priceCents": 1399,
+          "priceCents": 1499,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/item_rico_burger-HbUk5tHax6AcuT5D88jXrpcyBaQ5Qy",
           "salesTaxRate": 0.06,
