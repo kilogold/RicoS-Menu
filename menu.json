@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 48,
-  "publishedAt": "2026-09-25T14:18:58.703Z",
+  "catalogVersion": 49,
+  "publishedAt": "2026-09-25T14:19:30.292Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -676,7 +676,7 @@
             "en": "Ham, cheese, egg with mayo and salad on criollo bread.",
             "es": "Jamon, queso, huevo con mayonesa y ensalada en pan criollo."
           },
-          "priceCents": 599,
+          "priceCents": 699,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
