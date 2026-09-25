@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 46,
-  "publishedAt": "2026-09-24T15:48:21.247Z",
+  "catalogVersion": 47,
+  "publishedAt": "2026-09-25T14:17:54.197Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -630,7 +630,7 @@
             "en": "Turkey, salad, mayo and Swiss cheese on criollo bread.",
             "es": "Pavo, ensalada, mayonesa y queso suizo en pan criollo."
           },
-          "priceCents": 799,
+          "priceCents": 899,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
