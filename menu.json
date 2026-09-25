@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 51,
-  "publishedAt": "2026-09-25T14:23:42.896Z",
+  "catalogVersion": 52,
+  "publishedAt": "2026-09-25T14:24:22.567Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -745,7 +745,7 @@
             "en": "Turkey, Virginia ham, lettuce, tomato and mayonnaise on artisan bread topped with broiled Swiss cheese. ",
             "es": "Pavo, Virginia ham, lechuga, tomate y mayonesa en pan artesanal cubierto de queso suizo gratinado."
           },
-          "priceCents": 1099,
+          "priceCents": 1299,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
