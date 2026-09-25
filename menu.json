@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 58,
-  "publishedAt": "2026-09-25T14:33:56.233Z",
+  "catalogVersion": 59,
+  "publishedAt": "2026-09-25T14:35:12.593Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -955,7 +955,7 @@
             "en": "Chicken breast, romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
             "es": "Pechuga de pollo, lechuga romana, crutones, queso parmesano y aderezo caesar."
           },
-          "priceCents": 1499,
+          "priceCents": 1699,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
