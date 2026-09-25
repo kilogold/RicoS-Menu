@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 63,
-  "publishedAt": "2026-09-25T14:44:27.433Z",
+  "catalogVersion": 64,
+  "publishedAt": "2026-09-25T14:44:45.628Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1045,22 +1045,6 @@
       },
       "notes": [],
       "items": [
-        {
-          "id": "item_kids_quesadillas",
-          "name": {
-            "en": "Quesadillas",
-            "es": "Quesadillas"
-          },
-          "description": {
-            "en": "",
-            "es": ""
-          },
-          "priceCents": 799,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
         {
           "id": "item_happy_waffle",
           "name": {
