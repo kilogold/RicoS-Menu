@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 52,
-  "publishedAt": "2026-09-25T14:24:22.567Z",
+  "catalogVersion": 53,
+  "publishedAt": "2026-09-25T14:25:08.551Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -766,7 +766,7 @@
             "en": "Pastrami, pork shoulder, salad, mayo and Swiss cheese on criollo bread.",
             "es": "Pastrami, pernil, ensalada, mayonesa y queso suizo en pan criollo."
           },
-          "priceCents": 899,
+          "priceCents": 999,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
