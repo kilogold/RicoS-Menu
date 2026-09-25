@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 81,
-  "publishedAt": "2026-09-25T16:44:07.788Z",
+  "catalogVersion": 82,
+  "publishedAt": "2026-09-25T16:44:55.259Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -90,8 +90,8 @@
             "es": "Classic Pancakes / Waffles"
           },
           "description": {
-            "en": "Classic pancakes or waffles served with fruit compote.",
-            "es": "Pancakes o waffles clasicos acompanados de compota de frutas."
+            "en": "Classic pancakes or waffles.",
+            "es": "Pancakes o waffles clasicos."
           },
           "priceCents": 999,
           "station": "B",
