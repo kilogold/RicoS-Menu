@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 75,
-  "publishedAt": "2026-09-25T16:26:36.942Z",
+  "catalogVersion": 76,
+  "publishedAt": "2026-09-25T16:31:09.950Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -25,8 +25,7 @@
     ],
     "Healthy": [
       "cat_salads",
-      "cat_veggie",
-      "cat_kids_menu"
+      "cat_veggie"
     ],
     "Criollo": [
       "cat_criollo",
@@ -1038,15 +1037,6 @@
       ]
     },
     {
-      "id": "cat_kids_menu",
-      "title": {
-        "en": "Kids Menu",
-        "es": "Kids Menu"
-      },
-      "notes": [],
-      "items": []
-    },
-    {
       "id": "cat_criollo",
       "title": {
         "en": "Criollo",
@@ -1786,22 +1776,6 @@
           "municipalTaxRate": 0.01
         },
         {
-          "id": "item_sangria",
-          "name": {
-            "en": "Sangria",
-            "es": "Sangria"
-          },
-          "description": {
-            "en": "",
-            "es": ""
-          },
-          "priceCents": 900,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
           "id": "item_mimosa_flavors",
           "name": {
             "en": "Mimosa Flavors",
@@ -1819,22 +1793,6 @@
           "modifierGroupRefs": [
             "mod_mimosa_flavor"
           ]
-        },
-        {
-          "id": "item_copa_vino_tinto",
-          "name": {
-            "en": "Red Wine Copa",
-            "es": "Copa de Vino Tinto"
-          },
-          "description": {
-            "en": "",
-            "es": ""
-          },
-          "priceCents": 800,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
         }
       ]
     },
