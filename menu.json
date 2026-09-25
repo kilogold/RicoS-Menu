@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 84,
-  "publishedAt": "2026-09-25T16:46:34.629Z",
+  "catalogVersion": 85,
+  "publishedAt": "2026-09-25T16:49:00.093Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -182,8 +182,8 @@
             "es": "Fajita Omelette"
           },
           "description": {
-            "en": "Grilled chicken breast strips and skirt steak sauteed with onion, peppers, Monterey Jack, cheddar, sweet chili sauce, sour cream, and pico de gallo.",
-            "es": "Tiras de pechuga de pollo y churrasco a la parrilla salteadas con cebolla, pimiento, queso Monterey Jack, cheddar, salsa de chile dulce, sour cream y pico de gallo."
+            "en": "Grilled chicken breast strips and skirt steak sauteed with onion, peppers, Monterey Jack, cheddar, sweet chili sauce.",
+            "es": "Tiras de pechuga de pollo y churrasco a la parrilla salteadas con cebolla, pimiento, queso Monterey Jack, cheddar, salsa de chile dulce."
           },
           "priceCents": 1299,
           "station": "B",
@@ -201,8 +201,8 @@
             "es": "Rico's Omelette"
           },
           "description": {
-            "en": "Combination of roast pork, Virginia ham, onion, and hash browns topped with Monterey Jack, cheddar, and sour cream.",
-            "es": "Combinacion de pernil, Virginia ham, cebolla y hash browns cubierto de queso Monterey Jack, cheddar y sour cream."
+            "en": "Combination of roast pork, Virginia ham, onion, and hash browns topped with Monterey Jack, cheddar.",
+            "es": "Combinacion de pernil, Virginia ham, cebolla y hash browns cubierto de queso Monterey Jack, cheddar."
           },
           "priceCents": 1099,
           "station": "B",
