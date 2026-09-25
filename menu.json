@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 89,
-  "publishedAt": "2026-09-25T16:52:06.034Z",
+  "catalogVersion": 90,
+  "publishedAt": "2026-09-25T16:53:27.439Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -305,12 +305,12 @@
         {
           "id": "item_ricos_big_breakfast",
           "name": {
-            "en": "Rico's Big Breakfast",
-            "es": "Rico's Big Breakfast"
+            "en": "Rico's Breakfast",
+            "es": "Rico's Breakfast"
           },
           "description": {
-            "en": "(1) pancake or waffle served with two fried or scrambled eggs, bacon, ham, and hash browns.",
-            "es": "(1) pancake o waffle acompanado de dos huevos fritos o revueltos con bacon, jamon y hash browns."
+            "en": "(1) pancake or waffle served with two fried or scrambled eggs, bacon, ham,.",
+            "es": "(1) pancake o waffle acompanado de dos huevos fritos o revueltos con bacon, jamon."
           },
           "priceCents": 1099,
           "station": "B",
