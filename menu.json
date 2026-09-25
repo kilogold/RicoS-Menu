@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 76,
-  "publishedAt": "2026-09-25T16:31:09.950Z",
+  "catalogVersion": 77,
+  "publishedAt": "2026-09-25T16:36:48.800Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -39,8 +39,7 @@
       "cat_jugos",
       "cat_cafe",
       "cat_cervezas",
-      "cat_tropical_drinks",
-      "cat_specials"
+      "cat_tropical_drinks"
     ],
     "Lunch": [
       "cat_lunch_platos"
@@ -1795,152 +1794,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "cat_specials",
-      "title": {
-        "en": "Specials",
-        "es": "Especiales"
-      },
-      "notes": [
-        {
-          "en": "Order it your way.",
-          "es": "Pídelo a tu gusto."
-        }
-      ],
-      "modifierGroupRefs": [
-        "mod_specials_temp"
-      ],
-      "items": [
-        {
-          "id": "item_specials_smores_mocha",
-          "name": {
-            "en": "S'mores Mocha",
-            "es": "S'mores Mocha"
-          },
-          "description": {
-            "en": "chocolate / caramel / white chocolate / vanilla",
-            "es": "chocolate / caramelo / chocolate blanco / vainilla"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_red_velvet_mocha",
-          "name": {
-            "en": "Red Velvet Mocha",
-            "es": "Red Velvet Mocha"
-          },
-          "description": {
-            "en": "white chocolate / cocoa / vanilla",
-            "es": "chocolate blanco / cocoa / vainilla"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_macadamia_madness",
-          "name": {
-            "en": "Macadamia Madness",
-            "es": "Macadamia Madness"
-          },
-          "description": {
-            "en": "white chocolate / macadamia / caramel",
-            "es": "chocolate blanco / macadamia / caramelo"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_la_base",
-          "name": {
-            "en": "La Base",
-            "es": "La Base"
-          },
-          "description": {
-            "en": "chocolate / caramel / vanilla",
-            "es": "chocolate / caramelo / vainilla"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_ciento_siete",
-          "name": {
-            "en": "Ciento Siete",
-            "es": "Ciento Siete"
-          },
-          "description": {
-            "en": "white chocolate / amaretto / vanilla",
-            "es": "chocolate blanco / amaretto / vainilla"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_choco_rico",
-          "name": {
-            "en": "Choco Rico",
-            "es": "Choco Rico"
-          },
-          "description": {
-            "en": "chocolate / hazelnut / almonds",
-            "es": "chocolate / avellana / almendras"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_almond_mocha",
-          "name": {
-            "en": "Almond Mocha",
-            "es": "Almond Mocha"
-          },
-          "description": {
-            "en": "chocolate / caramel / almonds",
-            "es": "chocolate / caramelo / almendras"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_specials_pumpkin_pie",
-          "name": {
-            "en": "Pumpkin Pie",
-            "es": "Pumpkin Pie"
-          },
-          "description": {
-            "en": "pumpkin / spices / vanilla",
-            "es": "calabaza / especias / vainilla"
-          },
-          "priceCents": 599,
-          "station": "A",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        }
-      ]
     }
   ],
   "orderFees": {
@@ -2970,40 +2823,6 @@
           "label": {
             "en": "Passion Fruit (Parcha)",
             "es": "Parcha"
-          }
-        }
-      ]
-    },
-    "mod_specials_temp": {
-      "id": "mod_specials_temp",
-      "title": {
-        "en": "Temperature",
-        "es": "Temperatura"
-      },
-      "selectionType": "single",
-      "required": true,
-      "minSelections": 1,
-      "maxSelections": 1,
-      "options": [
-        {
-          "id": "opt_specials_temp_frio",
-          "label": {
-            "en": "Cold — 16 oz.",
-            "es": "Frío — 16 oz."
-          }
-        },
-        {
-          "id": "opt_specials_temp_frozen",
-          "label": {
-            "en": "Frozen — 16 oz.",
-            "es": "Frozen — 16 oz."
-          }
-        },
-        {
-          "id": "opt_specials_temp_hot",
-          "label": {
-            "en": "Hot — 12 oz.",
-            "es": "Caliente — 12 oz."
           }
         }
       ]
