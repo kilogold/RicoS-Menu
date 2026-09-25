@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 83,
-  "publishedAt": "2026-09-25T16:45:43.495Z",
+  "catalogVersion": 84,
+  "publishedAt": "2026-09-25T16:46:34.629Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -129,8 +129,8 @@
             "es": "Coconut French Toast"
           },
           "description": {
-            "en": "Soft french toast with coconut flakes and fruit compote.",
-            "es": "Suaves tostadas francesas con hojuelas de coco y compota de frutas."
+            "en": "Soft french toast with coconut flakes.",
+            "es": "Suaves tostadas francesas con hojuelas de coco."
           },
           "priceCents": 1299,
           "station": "B",
