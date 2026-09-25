@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 79,
-  "publishedAt": "2026-09-25T16:42:00.582Z",
+  "catalogVersion": 80,
+  "publishedAt": "2026-09-25T16:42:57.815Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -64,46 +64,6 @@
       ],
       "items": [
         {
-          "id": "item_granola_crunch",
-          "name": {
-            "en": "Granola Crunch",
-            "es": "Granola Crunch"
-          },
-          "description": {
-            "en": "Pancakes or waffles filled with crunchy granola and fruit compote.",
-            "es": "Pancakes o waffles rellenos de granola crujiente con compota de frutas."
-          },
-          "priceCents": 1099,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01,
-          "modifierGroupRefs": [
-            "mod_griddle_base",
-            "mod_breakfast_side"
-          ]
-        },
-        {
-          "id": "item_blueberry_sunshine",
-          "name": {
-            "en": "Blueberry Sunshine",
-            "es": "Blueberry Sunshine"
-          },
-          "description": {
-            "en": "Pancakes or waffles filled with fresh blueberries and fruit compote.",
-            "es": "Pancakes o waffles rellenos de blueberries frescas con compota de frutas."
-          },
-          "priceCents": 1099,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01,
-          "modifierGroupRefs": [
-            "mod_griddle_base",
-            "mod_breakfast_side"
-          ]
-        },
-        {
           "id": "item_nutella_sensation",
           "name": {
             "en": "Nutella Sensation",
@@ -120,26 +80,6 @@
           "municipalTaxRate": 0.01,
           "modifierGroupRefs": [
             "mod_nutella_base",
-            "mod_breakfast_side"
-          ]
-        },
-        {
-          "id": "item_red_velvet",
-          "name": {
-            "en": "Red Velvet",
-            "es": "Red Velvet"
-          },
-          "description": {
-            "en": "Delicious pancakes or waffles topped with cream cheese glaze and fruit compote.",
-            "es": "Deliciosos pancakes o waffles coronados con glaseado de queso crema y compota de frutas."
-          },
-          "priceCents": 1199,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01,
-          "modifierGroupRefs": [
-            "mod_griddle_base",
             "mod_breakfast_side"
           ]
         },
@@ -1817,8 +1757,8 @@
     }
   },
   "modifierGroups": {
-    "mod_griddle_base": {
-      "id": "mod_griddle_base",
+    "mod_nutella_base": {
+      "id": "mod_nutella_base",
       "title": {
         "en": "Main Dish",
         "es": "Plato Principal"
@@ -1838,8 +1778,8 @@
         {
           "id": "opt_base_one_waffle",
           "label": {
-            "en": "(1) Waffle",
-            "es": "(1) Waffle"
+            "en": "(1) Nutella Waffle",
+            "es": "(1) Waffle de Nutella"
           }
         }
       ]
@@ -1878,8 +1818,8 @@
         }
       ]
     },
-    "mod_nutella_base": {
-      "id": "mod_nutella_base",
+    "mod_griddle_base": {
+      "id": "mod_griddle_base",
       "title": {
         "en": "Main Dish",
         "es": "Plato Principal"
@@ -1899,8 +1839,8 @@
         {
           "id": "opt_base_one_waffle",
           "label": {
-            "en": "(1) Nutella Waffle",
-            "es": "(1) Waffle de Nutella"
+            "en": "(1) Waffle",
+            "es": "(1) Waffle"
           }
         }
       ]
