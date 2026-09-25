@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 61,
-  "publishedAt": "2026-09-25T14:40:53.563Z",
+  "catalogVersion": 62,
+  "publishedAt": "2026-09-25T14:43:42.699Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1010,26 +1010,10 @@
             "es": "Farm Omelette"
           },
           "description": {
-            "en": "Broccoli, peppers, onion, carrots, cherry tomatoes, mushrooms, and baked potato topped with mozzarella. Includes whole wheat toast.",
-            "es": "Brócoli, pimientos, cebolla, zanahorias, cherry tomato, setas y papa horneada coronado con queso mozzarella. Incluye tostadas integrales."
+            "en": "Broccoli, peppers, onion, carrots, cherry tomatoes, mushrooms with mozzarella. Includes whole toast.",
+            "es": "Brócoli, pimientos, cebolla, zanahorias, cherry tomato, setas  con queso mozzarella. Incluye tostadas criollas"
           },
-          "priceCents": 999,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        },
-        {
-          "id": "item_veggie_wrap",
-          "name": {
-            "en": "Veggie Wrap",
-            "es": "Veggie Wrap"
-          },
-          "description": {
-            "en": "Broccoli, cherry tomatoes, onion, carrots, and peppers with Swiss cheese.",
-            "es": "Brócoli, cherry tomato, cebolla, zanahorias y pimientos con queso suizo."
-          },
-          "priceCents": 799,
+          "priceCents": 1099,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1045,7 +1029,7 @@
             "en": "Broccoli, mushrooms, tomato, onion, carrots, and peppers in criolla sauce.",
             "es": "Brócoli, setas, tomate, cebolla, zanahorias y pimientos en salsa criolla."
           },
-          "priceCents": 999,
+          "priceCents": 1299,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
