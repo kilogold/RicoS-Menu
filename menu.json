@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 59,
-  "publishedAt": "2026-09-25T14:35:12.593Z",
+  "catalogVersion": 60,
+  "publishedAt": "2026-09-25T14:35:52.839Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -971,7 +971,7 @@
             "en": "Chicken breast, bacon, romaine lettuce, cherry tomatoes, almonds, dried cranberries, carrot, and Parmesan cheese.",
             "es": "Pechuga de pollo, bacon, lechuga romana, cherry tomato, almendras, cranberries secas, zanahoria y queso parmesano."
           },
-          "priceCents": 1599,
+          "priceCents": 1799,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
