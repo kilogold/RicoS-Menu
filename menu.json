@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 86,
-  "publishedAt": "2026-09-25T16:50:25.906Z",
+  "catalogVersion": 87,
+  "publishedAt": "2026-09-25T16:50:50.857Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1889,20 +1889,6 @@
           "label": {
             "en": "No sweet chili sauce",
             "es": "Sin salsa de chile dulce"
-          }
-        },
-        {
-          "id": "opt_remove_sour_cream",
-          "label": {
-            "en": "No sour cream",
-            "es": "Sin sour cream"
-          }
-        },
-        {
-          "id": "opt_remove_pico",
-          "label": {
-            "en": "No pico de gallo",
-            "es": "Sin pico de gallo"
           }
         }
       ]
