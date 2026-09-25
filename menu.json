@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 55,
-  "publishedAt": "2026-09-25T14:31:40.926Z",
+  "catalogVersion": 56,
+  "publishedAt": "2026-09-25T14:33:02.422Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -871,7 +871,7 @@
             "en": "Grilled chicken breast, bacon, lettuce, tomato, onions, honey mustard, and American cheese on a brioche bun.",
             "es": "Pechuga a la parrilla, bacon, lechuga, tomate, cebollas, honey mustard y queso americano en brioche bun."
           },
-          "priceCents": 1399,
+          "priceCents": 1499,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
