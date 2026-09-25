@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 64,
-  "publishedAt": "2026-09-25T14:44:45.628Z",
+  "catalogVersion": 65,
+  "publishedAt": "2026-09-25T16:06:42.180Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1044,24 +1044,7 @@
         "es": "Kids Menu"
       },
       "notes": [],
-      "items": [
-        {
-          "id": "item_happy_waffle",
-          "name": {
-            "en": "Happy Waffle",
-            "es": "Happy Waffle"
-          },
-          "description": {
-            "en": "(1) Waffle with scrambled eggs.",
-            "es": "(1) Waffle con huevos revueltos."
-          },
-          "priceCents": 699,
-          "station": "B",
-          "thumbnailPathname": "menu-thumbnails/fallback.webp",
-          "salesTaxRate": 0.06,
-          "municipalTaxRate": 0.01
-        }
-      ]
+      "items": []
     },
     {
       "id": "cat_criollo",
@@ -1089,7 +1072,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 1299,
+          "priceCents": 1399,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1105,7 +1088,7 @@
             "en": "",
             "es": ""
           },
-          "priceCents": 1299,
+          "priceCents": 1399,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
@@ -1153,7 +1136,7 @@
             "en": "Served with cilantro chimichurri.",
             "es": "Acompañado de chimichurri de cilantro."
           },
-          "priceCents": 2000,
+          "priceCents": 2899,
           "station": "B",
           "thumbnailPathname": "menu-thumbnails/fallback.webp",
           "salesTaxRate": 0.06,
