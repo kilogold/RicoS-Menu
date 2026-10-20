@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 93,
-  "publishedAt": "2026-10-20T17:13:59.193Z",
+  "catalogVersion": 94,
+  "publishedAt": "2026-10-20T17:15:12.636Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1178,7 +1178,7 @@
           "id": "item_mofongo_relleno_camarones",
           "name": {
             "en": "Shrimp Stuffed Mofongo",
-            "es": "Relleno Camarones"
+            "es": "Mofongo Relleno Camarones"
           },
           "description": {
             "en": "",
@@ -1194,7 +1194,7 @@
           "id": "item_mofongo_relleno_mero",
           "name": {
             "en": "Grouper Stuffed Mofongo",
-            "es": "Relleno Mero"
+            "es": "Mofongo Relleno Mero"
           },
           "description": {
             "en": "",
