@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 96,
-  "publishedAt": "2026-10-20T17:26:47.767Z",
+  "catalogVersion": 97,
+  "publishedAt": "2026-10-20T17:47:39.500Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -416,7 +416,7 @@
           "id": "item_lunch_bistec_encebollado",
           "name": {
             "en": "Bistec Encebollado",
-            "es": "Bistec Encebollado"
+            "es": "Bistec Encebollado Lunch"
           },
           "description": {
             "en": "With mamposteao.",
@@ -432,7 +432,7 @@
           "id": "item_lunch_paella_carne",
           "name": {
             "en": "Paella de Carne",
-            "es": "Paella de Carne"
+            "es": "Paella de Carne Lunch"
           },
           "description": {
             "en": "With gandules.",
@@ -448,7 +448,7 @@
           "id": "item_lunch_mero_ajillo",
           "name": {
             "en": "Mero al Ajillo",
-            "es": "Mero al Ajillo"
+            "es": "Mero al Ajillo Lunch"
           },
           "description": {
             "en": "With arroz provenzal.",
@@ -464,7 +464,7 @@
           "id": "item_lunch_arroz_pollo",
           "name": {
             "en": "Arroz con Pollo",
-            "es": "Arroz con Pollo"
+            "es": "Arroz con Pollo Lunch"
           },
           "description": {
             "en": "With habichuelas.",
@@ -480,7 +480,7 @@
           "id": "item_lunch_arroz_gandules",
           "name": {
             "en": "Arroz con Gandules",
-            "es": "Arroz con Gandules"
+            "es": "Arroz con Gandules Lunch"
           },
           "description": {
             "en": "With carne frita.",
@@ -496,7 +496,7 @@
           "id": "item_lunch_masitas_pollo",
           "name": {
             "en": "Masitas de Pollo",
-            "es": "Masitas de Pollo"
+            "es": "Masitas de Pollo Lunch"
           },
           "description": {
             "en": "With rice and habichuelas.",
@@ -512,7 +512,7 @@
           "id": "item_lunch_mofongo_relleno_pollo",
           "name": {
             "en": "Mofongo Relleno",
-            "es": "Mofongo Relleno"
+            "es": "Mofongo Relleno Lunch"
           },
           "description": {
             "en": "Stuffed with chicken.",
