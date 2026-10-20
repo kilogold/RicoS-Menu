@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 94,
-  "publishedAt": "2026-10-20T17:15:12.636Z",
+  "catalogVersion": 95,
+  "publishedAt": "2026-10-20T17:15:42.474Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1210,7 +1210,7 @@
           "id": "item_mofongo_relleno_dorado",
           "name": {
             "en": "Mahi Mahi Stuffed Mofongo",
-            "es": "Relleno Dorado"
+            "es": "Mofongo Relleno Dorado"
           },
           "description": {
             "en": "",
@@ -1226,7 +1226,7 @@
           "id": "item_mofongo_relleno_mar_y_tierra",
           "name": {
             "en": "Surf & Turf Stuffed Mofongo",
-            "es": "Relleno Mar y Tierra"
+            "es": "Mofongo Relleno Mar y Tierra"
           },
           "description": {
             "en": "",
