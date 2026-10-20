@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 92,
-  "publishedAt": "2026-10-20T17:12:13.737Z",
+  "catalogVersion": 93,
+  "publishedAt": "2026-10-20T17:13:59.193Z",
   "restaurant": {
     "en": "RicoS",
     "es": "RicoS"
@@ -1162,7 +1162,7 @@
           "id": "item_mofongo_relleno_churrasco",
           "name": {
             "en": "Churrasco Stuffed Mofongo",
-            "es": "Relleno Churrasco"
+            "es": "Mofongo Relleno Churrasco"
           },
           "description": {
             "en": "",
